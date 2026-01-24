@@ -1,0 +1,2304 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  matches.hmm
+# target sequence database:        uniprot_Atha.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       matches  [M=670]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   1.1e-269  896.5   0.0   1.2e-269  896.3   0.0    1.0  1  sp|Q9C8N9|ARFU_ARATH   Putative auxin response factor 21 OS=A
+   6.6e-268  890.6   0.4   8.2e-268  890.3   0.4    1.0  1  sp|Q94JM3|ARFB_ARATH   Auxin response factor 2 OS=Arabidopsis
+   1.8e-267  889.2   7.5     2e-267  889.0   7.5    1.0  1  sp|Q9XED8|ARFI_ARATH   Auxin response factor 9 OS=Arabidopsis
+   3.2e-267  888.3   0.7   3.6e-267  888.1   0.7    1.0  1  sp|Q9LQE8|ARFN_ARATH   Putative auxin response factor 14 OS=A
+   1.6e-264  879.4   0.0   1.8e-264  879.2   0.0    1.0  1  sp|Q9XID4|ARFL_ARATH   Auxin response factor 12 OS=Arabidopsi
+   2.3e-263  875.6   0.0   2.8e-263  875.3   0.0    1.0  1  sp|Q9C8N7|ARFV_ARATH   Auxin response factor 22 OS=Arabidopsi
+   4.6e-263  874.6   0.0   5.1e-263  874.4   0.0    1.0  1  sp|Q9LQE3|ARFO_ARATH   Putative auxin response factor 15 OS=A
+   2.5e-257  855.6   0.1   3.3e-257  855.2   0.1    1.1  1  sp|Q8L7G0|ARFA_ARATH   Auxin response factor 1 OS=Arabidopsis
+   2.9e-256  852.1   0.2   1.3e-255  849.9   0.2    1.8  1  sp|Q9C7I9|ARFT_ARATH   Auxin response factor 20 OS=Arabidopsi
+     3e-253  842.1   7.7   8.8e-204  678.7  13.1    2.0  2  sp|Q9ZTX8|ARFF_ARATH   Auxin response factor 6 OS=Arabidopsis
+   1.4e-251  836.6   2.9   1.2e-250  833.6   2.9    1.8  1  sp|Q9ZPY6|ARFK_ARATH   Auxin response factor 11 OS=Arabidopsi
+   4.1e-248  825.2  38.6   1.2e-197  658.4  32.0    2.9  2  sp|Q8RYC8|ARFS_ARATH   Auxin response factor 19 OS=Arabidopsi
+   9.8e-248  823.9  10.1   1.9e-203  677.6   9.2    3.0  2  sp|P93022|ARFG_ARATH   Auxin response factor 7 OS=Arabidopsis
+     2e-246  819.6   2.2   2.6e-245  815.9   2.2    1.9  1  sp|Q9C5W9|ARFR_ARATH   Auxin response factor 18 OS=Arabidopsi
+   1.1e-242  807.3   1.1   1.2e-242  807.1   1.1    1.0  1  sp|Q9FX25|ARFM_ARATH   Auxin response factor 13 OS=Arabidopsi
+   2.7e-242  806.0   0.1   4.5e-241  801.9   0.1    1.9  1  sp|Q9FGV1|ARFH_ARATH   Auxin response factor 8 OS=Arabidopsis
+   3.8e-238  792.2   0.0   1.7e-237  790.1   0.0    1.7  1  sp|Q9ZTX9|ARFD_ARATH   Auxin response factor 4 OS=Arabidopsis
+   1.2e-235  783.9   1.3   6.7e-234  778.2   1.3    2.0  1  sp|P93024|ARFE_ARATH   Auxin response factor 5 OS=Arabidopsis
+     1e-207  691.7   0.0   1.3e-207  691.4   0.0    1.0  1  sp|Q9SKN5|ARFJ_ARATH   Auxin response factor 10 OS=Arabidopsi
+   1.7e-203  677.7   0.0   1.9e-203  677.6   0.0    1.0  1  sp|Q93YR9|ARFP_ARATH   Auxin response factor 16 OS=Arabidopsi
+   7.2e-186  619.5   0.0   9.2e-186  619.1   0.0    1.0  1  sp|O23661|ARFC_ARATH   Auxin response factor 3 OS=Arabidopsis
+   1.2e-158  529.5   0.0   1.3e-158  529.4   0.0    1.0  1  sp|Q84WU6|ARFQ_ARATH   Auxin response factor 17 OS=Arabidopsi
+   1.7e-105  353.9   0.0   1.9e-105  353.7   0.0    1.0  1  sp|Q9LP07|ARFW_ARATH   Putative auxin response factor 23 OS=A
+    3.4e-30  105.1   0.2    3.9e-30  104.9   0.2    1.0  1  sp|P92530|M940_ARATH   Uncharacterized mitochondrial protein 
+    2.4e-22   79.1   0.1    2.8e-22   78.9   0.1    1.0  1  sp|Q9XFM0|IAA28_ARATH  Auxin-responsive protein IAA28 OS=Arab
+    4.6e-21   74.9   0.1    1.2e-19   70.2   0.1    2.0  2  sp|O82799|NGA1_ARATH   B3 domain-containing transcription fac
+    3.8e-20   71.9   0.1    7.1e-19   67.6   0.1    2.0  2  sp|O82595|NGA4_ARATH   B3 domain-containing transcription fac
+    7.3e-20   70.9   0.0    8.1e-20   70.8   0.0    1.0  1  sp|Q9M1R4|IAA30_ARATH  Auxin-responsive protein IAA30 OS=Arab
+    1.4e-19   69.9   0.9    3.9e-19   68.5   0.4    1.7  2  sp|Q8GYJ2|Y2608_ARATH  B3 domain-containing protein At2g36080
+    1.6e-19   69.7   0.2    4.1e-19   68.4   0.1    1.6  2  sp|Q9M268|NGA2_ARATH   B3 domain-containing transcription fac
+    1.7e-19   69.7   0.2    2.8e-19   69.0   0.2    1.3  1  sp|Q38831|IAA13_ARATH  Auxin-responsive protein IAA13 OS=Arab
+    4.2e-19   68.4   0.0    4.4e-19   68.3   0.0    1.0  1  sp|Q8H174|IAA31_ARATH  Auxin-responsive protein IAA31 OS=Arab
+    4.3e-19   68.4   0.0    4.5e-19   68.3   0.0    1.1  1  sp|O24410|IAA20_ARATH  Auxin-responsive protein IAA20 OS=Arab
+    1.2e-18   66.9   0.0    3.8e-18   65.2   0.0    1.7  2  sp|Q9MAN1|NGA3_ARATH   B3 domain-containing transcription fac
+    1.8e-18   66.3   0.0    2.1e-18   66.1   0.0    1.0  1  sp|P33077|IAA4_ARATH   Auxin-responsive protein IAA4 OS=Arabi
+    1.9e-18   66.2   0.0    2.3e-18   65.9   0.0    1.1  1  sp|Q38830|IAA12_ARATH  Auxin-responsive protein IAA12 OS=Arab
+    4.9e-18   64.9   0.1      9e-18   64.0   0.1    1.4  1  sp|Q9ZWM9|RAV1_ARATH   AP2/ERF and B3 domain-containing trans
+    9.5e-18   63.9   0.0    1.1e-17   63.7   0.0    1.0  1  sp|Q38822|IAA3_ARATH   Auxin-responsive protein IAA3 OS=Arabi
+    9.9e-18   63.9   0.7    5.6e-17   61.4   0.7    1.8  1  sp|Q8LAL2|IAA26_ARATH  Auxin-responsive protein IAA26 OS=Arab
+    1.7e-17   63.1   3.4    5.7e-17   61.3   3.2    1.8  2  sp|Q9FNI3|Y5625_ARATH  B3 domain-containing protein At5g06250
+    1.9e-17   62.9   0.1    2.8e-17   62.4   0.1    1.3  1  sp|Q9LS06|RAVL4_ARATH  AP2/ERF and B3 domain-containing trans
+    5.7e-17   61.3   0.1    1.4e-16   60.1   0.1    1.5  2  sp|P82280|RAV2_ARATH   AP2/ERF and B3 domain-containing trans
+    7.3e-17   61.0   0.0    8.8e-17   60.7   0.0    1.0  1  sp|Q38824|IAA6_ARATH   Auxin-responsive protein IAA6 OS=Arabi
+      8e-17   60.9   0.0    9.3e-17   60.6   0.0    1.0  1  sp|P49677|IAA1_ARATH   Auxin-responsive protein IAA1 OS=Arabi
+    1.1e-16   60.4   0.0    2.7e-16   59.1   0.0    1.5  2  sp|Q9C6M5|RAVL1_ARATH  AP2/ERF and B3 domain-containing trans
+    1.2e-16   60.3   0.1    7.8e-16   57.6   0.1    1.8  1  sp|O24408|IAA18_ARATH  Auxin-responsive protein IAA18 OS=Arab
+    1.4e-16   60.0   0.0    1.7e-16   59.8   0.0    1.0  1  sp|P49678|IAA2_ARATH   Auxin-responsive protein IAA2 OS=Arabi
+    1.8e-16   59.7   0.3    2.9e-16   59.0   0.3    1.4  1  sp|Q8RYD3|Y3158_ARATH  B3 domain-containing protein At3g11580
+    1.8e-16   59.7   0.1    8.2e-16   57.5   0.1    1.7  1  sp|Q38829|IAA11_ARATH  Auxin-responsive protein IAA11 OS=Arab
+    8.1e-16   57.5   0.0    9.8e-16   57.3   0.0    1.0  1  sp|O24409|IAA19_ARATH  Auxin-responsive protein IAA19 OS=Arab
+    1.2e-15   57.0   0.0    1.2e-15   56.9   0.0    1.0  1  sp|P33078|IAA5_ARATH   Auxin-responsive protein IAA5 OS=Arabi
+    3.8e-15   55.3   0.6      2e-13   49.7   0.1    2.0  2  sp|Q93WC4|IAA29_ARATH  Auxin-responsive protein IAA29 OS=Arab
+      4e-15   55.2   0.1    1.1e-06   27.4   0.0    2.0  2  sp|Q9ZSY8|IAA27_ARATH  Auxin-responsive protein IAA27 OS=Arab
+    7.4e-15   54.4   0.0    8.4e-15   54.2   0.0    1.0  1  sp|Q9C5X0|IAA34_ARATH  Auxin-responsive protein IAA34 OS=Arab
+    1.2e-14   53.7   0.0    1.3e-14   53.6   0.0    1.0  1  sp|Q8RYC6|IAA32_ARATH  Auxin-responsive protein IAA32 OS=Arab
+    5.9e-14   51.4   0.3    1.6e-12   46.7   0.3    2.0  1  sp|Q38828|IAA10_ARATH  Auxin-responsive protein IAA10 OS=Arab
+    1.8e-13   49.8   0.1    1.1e-12   47.1   0.1    1.8  1  sp|O24407|IAA16_ARATH  Auxin-responsive protein IAA16 OS=Arab
+    3.3e-13   48.9   0.0    3.6e-13   48.8   0.0    1.0  1  sp|Q9C966|IAA15_ARATH  Auxin-responsive protein IAA15 OS=Arab
+    3.8e-13   48.7   0.6    4.3e-06   25.4   0.1    2.0  2  sp|Q38827|IAA9_ARATH   Auxin-responsive protein IAA9 OS=Arabi
+    1.5e-12   46.7   0.1    1.2e-11   43.8   0.1    1.9  1  sp|Q38832|IAA14_ARATH  Auxin-responsive protein IAA14 OS=Arab
+      2e-12   46.4   0.0    1.2e-05   23.9   0.0    2.1  2  sp|Q38826|IAA8_ARATH   Auxin-responsive protein IAA8 OS=Arabi
+      2e-12   46.3   0.2    1.8e-11   43.2   0.1    1.9  1  sp|Q38825|IAA7_ARATH   Auxin-responsive protein IAA7 OS=Arabi
+    2.1e-12   46.3   0.1    1.5e-11   43.5   0.1    1.9  1  sp|P93830|IAA17_ARATH  Auxin-responsive protein IAA17 OS=Arab
+    9.6e-12   44.1   0.1    3.1e-11   42.4   0.0    1.7  2  sp|Q5CCK4|VAL2_ARATH   B3 domain-containing transcription rep
+    1.9e-11   43.1   0.0    1.5e-10   40.1   0.0    2.0  2  sp|Q8W4L5|VAL1_ARATH   B3 domain-containing transcription rep
+    1.2e-10   40.5   0.3      6e-10   38.1   0.0    2.0  2  sp|Q9C688|RAVL3_ARATH  AP2/ERF and B3 domain-containing trans
+    4.8e-10   38.5   0.2    8.3e-09   34.4   0.0    2.1  2  sp|Q9C6P5|RAVL2_ARATH  AP2/ERF and B3 domain-containing trans
+    4.9e-10   38.4   0.0    5.5e-10   38.3   0.0    1.1  1  sp|Q9FKM7|IAA33_ARATH  Auxin-responsive protein IAA33 OS=Arab
+    0.00048   18.6   1.1      0.021   13.2   0.8    2.8  3  sp|Q9SB80|REM5_ARATH   B3 domain-containing protein REM5 OS=A
+     0.0022   16.4   0.0     0.0045   15.4   0.0    1.4  1  sp|Q9LW31|FUS3_ARATH   B3 domain-containing transcription fac
+     0.0065   14.9   3.1     0.0069   14.8   0.0    2.1  2  sp|Q01593|ABI3_ARATH   B3 domain-containing transcription fac
+  ------ inclusion threshold ------
+      0.019   13.4   0.0      0.072   11.4   0.0    1.8  2  sp|Q8RYD1|REM16_ARATH  B3 domain-containing protein REM16 OS=
+      0.032   12.6   0.2      0.032   12.6   0.2    4.1  5  sp|O81778|REM9_ARATH   B3 domain-containing protein REM9 OS=A
+       0.25    9.7   4.8       0.32    9.3   0.2    2.7  3  sp|Q9FLV7|Y5405_ARATH  B3 domain-containing protein At5g24050
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q9C8N9|ARFU_ARATH  Putative auxin response factor 21 OS=Arabidopsis thaliana OX=3702 GN=ARF21 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  896.3   0.0  5.7e-272  1.2e-269      11     639 ..       1     604 [.       1     606 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 896.3 bits;  conditional E-value: 5.7e-272
+               matches  11 messnsvn...elsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklka 96 
+                           mes+n vn   +ls ++dg+k+++ye+LWk+CAGpl+++Pklge+VyYFpqG+iE v+astr+el+e +pi+dlpskl+Crv++++lk+
+  sp|Q9C8N9|ARFU_ARATH   1 MESGNIVNaqpKLSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGENVYYFPQGNIELVQASTREELNELQPICDLPSKLQCRVIAIHLKV 89 
+                           7788999988999**************************************************************************** PP
+
+               matches  97 dketDEvYAqitLlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhg 185
+                           ++++DE+YA+itL+P+t+q++ +t++     e+++++ v+sF+K+LTaSDts++GGFsVp+++A+e+lPpLd+sq++p+Qe++a Dlh+
+  sp|Q9C8N9|ARFU_ARATH  90 ENNSDEIYAEITLMPDTTQVVIPTQS-----ENRFRPLVNSFTKVLTASDTSAYGGFSVPKKHAIECLPPLDMSQPLPAQEILAIDLHD 173
+                           ***********************997.....699******************************************************* PP
+
+               matches 186 neWkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiF 274
+                           n+W+FrH+yRG+P+RH LttGW++F++sKkLv+GD++vF+rge+geLrvGiRra++qq+n+pss++s d+mr+gv+a+a+ha+++++iF
+  sp|Q9C8N9|ARFU_ARATH 174 NQWRFRHNYRGTPQRHSLTTGWNEFITSKKLVKGDVIVFVRGETGELRVGIRRARHQQGNIPSSIVSIDCMRHGVIASAKHAFDNQCIF 262
+                           ***************************************************************************************** PP
+
+               matches 275 evvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVsp 363
+                           +vvYkP  +ss+F+vs++k+l+av+nkf+vG+Rf+mrfE++d+serry+Gtiigvsd+ s++Wk+S+WrsL+vqWDe+as++rp++Vsp
+  sp|Q9C8N9|ARFU_ARATH 263 IVVYKP--RSSQFIVSYDKFLDAVNNKFNVGSRFTMRFEGDDFSERRYFGTIIGVSDF-SPHWKCSEWRSLEVQWDEFASFSRPNKVSP 348
+                           ******..566***********************************************.****************************** PP
+
+               matches 364 Weieplvsasniskssllsknkrlrevqesgsssskelkessllpslllqgqeisqlsva..sniadsskelsyqdaskskaras.sat 449
+                           Weie+lv+a+n+++ssll knkrlrev+e+gsss      s+llp++l+qgqei+qlsva  +ni     +l+y+d++++   ++ s  
+  sp|Q9C8N9|ARFU_ARATH 349 WEIEHLVPALNVPRSSLL-KNKRLREVNEFGSSS------SHLLPPILTQGQEIGQLSVAspMNI-----SLRYRDTTEA--AMNpSRL 423
+                           ****************99.9***********776......89*****************955554.....5899999222..1121222 PP
+
+               matches 450 steasplsssvqspsksnvn.smvk.keeekkkkktssirlFGvdltsesklkekkeaskekedketelsesdissekskqske..sss 534
+                                 +s++vq+++k n+n +mv+ +ee++++k+ +++rlFGv+l+++ ++k+++++ +++ +k       ++  +k++qs++  s+ 
+  sp|Q9C8N9|ARFU_ARATH 424 -----LMSYPVQPMPKLNYNnQMVTqIEENITTKAGTNFRLFGVTLDTPPMIKDPIKQIGSDISKL------TE-RKKFGQSQTlrSPI 500
+                           .....389*****99999998778879****************************99722222111......11.23778888876799 PP
+
+               matches 535 eaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkik 623
+                           e+qskq+ss+rtctkvq+qg+++gravdlsvl++yd+Li eleklFd++gql+ +r++wki++tds+g ++lvGddPw+eF+kmvkki 
+  sp|Q9C8N9|ARFU_ARATH 501 EIQSKQFSSSRTCTKVQMQGVTIGRAVDLSVLNGYDQLILELEKLFDIKGQLQ-TRNQWKIAFTDSDGYEMLVGDDPWPEFCKMVKKIL 588
+                           *****************************************************.9********************************** PP
+
+               matches 624 ilskeevkkmkkkkkl 639
+                           i+skeevk++k++k+l
+  sp|Q9C8N9|ARFU_ARATH 589 IYSKEEVKNLKSSKSL 604
+                           ***********99876 PP
+
+>> sp|Q94JM3|ARFB_ARATH  Auxin response factor 2 OS=Arabidopsis thaliana OX=3702 GN=ARF2 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  890.3   0.4  3.9e-270  8.2e-268      11     669 ..      38     857 ..      22     859 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 890.3 bits;  conditional E-value: 3.9e-270
+               matches  11 messnsvnelsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklkadke 99 
+                            +s+++ ++++e++ + + +ly+eLW+aCAGplv++P++++rV+YFpqGhiEqveast++++e+++p++dlpskllCrv+nv+lka+++
+  sp|Q94JM3|ARFB_ARATH  38 QKSNSTRSAAAERALDPEAALYRELWHACAGPLVTVPRQDDRVFYFPQGHIEQVEASTNQAAEQQMPLYDLPSKLLCRVINVDLKAEAD 126
+                           333333336788889999*********************************************************************** PP
+
+               matches 100 tDEvYAqitLlPeteqeeektekeldag.eekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgne 187
+                           tDEvYAqitLlPe +q+e++ eke  a+   + + +v+sFcKtLTaSDtsthGGFsV+rr+A+e+lPpLd+s+qpptQelvakDlh ne
+  sp|Q94JM3|ARFB_ARATH 127 TDEVYAQITLLPEANQDENAIEKE--APlPPPPRFQVHSFCKTLTASDTSTHGGFSVLRRHADECLPPLDMSRQPPTQELVAKDLHANE 213
+                           ******************998875..666889********************************************************* PP
+
+               matches 188 WkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiFev 276
+                           W+FrHi+RGqPrRHlL++GWsvFvssK+LvaGD+++Flrge+geLrvG+Rra+rqq+n+pssviss+sm+lgvla+a+ha++t+++F+v
+  sp|Q94JM3|ARFB_ARATH 214 WRFRHIFRGQPRRHLLQSGWSVFVSSKRLVAGDAFIFLRGENGELRVGVRRAMRQQGNVPSSVISSHSMHLGVLATAWHAISTGTMFTV 302
+                           ***************************************************************************************** PP
+
+               matches 277 vYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVspWe 365
+                           +YkPr+s+seF+v++++y+++vkn++s+GmRfkmrfE+e+++e+r++Gti+g++++d++rW++SkWrsL+v+WDe++s+ rp+rVspW+
+  sp|Q94JM3|ARFB_ARATH 303 YYKPRTSPSEFIVPFDQYMESVKNNYSIGMRFKMRFEGEEAPEQRFTGTIVGIEESDPTRWPKSKWRSLKVRWDETSSIPRPDRVSPWK 391
+                           ***************************************************************************************** PP
+
+               matches 366 ieplvsasniskssllsknkrlrevqesgsssskel...........kessllpslllqgqeisqlsva..snia..dsskelsyqdas 439
+                           +ep+++ + +s ++++ ++kr+r++  ++s++s++l             +++ +s++lqgqe+s+l+++  ++++  ++ +++++q+++
+  sp|Q94JM3|ARFB_ARATH 392 VEPALAPPALS-PVPMPRPKRPRSNIAPSSPDSSMLtregttkanmdPLPASGLSRVLQGQEYSTLRTKhtESVEcdAPENSVVWQSSA 479
+                           ******99999.99999**************9877456666777777889999999**********99975454477899999***994 PP
+
+               matches 440 k...................skarassat............................................................ 449
+                           +                   s       +                                                            
+  sp|Q94JM3|ARFB_ARATH 480 DddkvdvvsgsrrygsenwmS-------Sarheptytdllsgfgtnidpshgqripfydhssspsmpakrilsdsegkfdylanqwqmi 561
+                           433444444444444444440.......0444444445555555555555555666666666666666666677777777777777777 PP
+
+               matches 450 ............................................steasplsssvqspsksnvn.................smvkkeee 477
+                                                                              ++++++++ + +                  + ++++ee
+  sp|Q94JM3|ARFB_ARATH 562 hsglslklhespkvpaatdaslqgrcnvkyseypvlnglstenaG-----GNWPIRPRALNYYEevvnaqaqaqareqvtkQPFTIQEE 645
+                           778888888888888888888888888888888888887433330.....455554444433333334444444444333455666999 PP
+
+               matches 478 kkkkktssirlFGvdltsesklkekkea...............skekedketelsesdis..se....kskqske....s.sseaqskq 540
+                           ++k+++ ++rlFG++lt++++ ++++++               s      ++ +  sd+s  s+    +++q ++    + + + ++++
+  sp|Q94JM3|ARFB_ARATH 646 TAKSREGNCRLFGIPLTNNMNGTDSTMSqrnnlndaagltqiaS------PKVQDLSDQSkgSKstndHREQGRPfqtnNpHPKDAQTK 728
+                           9**********************999989999**9996655552......444444444322112223333333355554477889999 PP
+
+               matches 541 ssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkikilskee 629
+                           ++s+r+ctkv+kqg+a+gr+vdls++++y+eL++el++lF+++g+l++p+++w ivytd+e+d++lvGddPw+eF++mv+ki+i++kee
+  sp|Q94JM3|ARFB_ARATH 729 TNSSRSCTKVHKQGIALGRSVDLSKFQNYEELVAELDRLFEFNGELMAPKKDWLIVYTDEENDMMLVGDDPWQEFCCMVRKIFIYTKEE 817
+                           9**************************************************************************************** PP
+
+               matches 630 vkkmkkkkklaleeaeaekekdksskveksseskeissag 669
+                           v+km++ + ++++e+ea  ++ +++k +ks+++++ ssag
+  sp|Q94JM3|ARFB_ARATH 818 VRKMNPGTLSCRSEEEAVVGEGSDAKDAKSASNPSLSSAG 857
+                           ***********************99999999998888875 PP
+
+>> sp|Q9XED8|ARFI_ARATH  Auxin response factor 9 OS=Arabidopsis thaliana OX=3702 GN=ARF9 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  889.0   7.5  9.4e-270    2e-267      25     660 ..       3     637 ..       1     638 [] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 889.0 bits;  conditional E-value: 9.4e-270
+               matches  25 dgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrke.leeeapifdlpskllCrvlnvklkadketDEvYAqitLlPe 112
+                           ++  ++ly+eLWk+CAGplv++P+++erVyYFpqGh+Eq+east++  l++++p+f lp+k+lC+v+nv+l+a+k+tDEvYAqitL+P+
+  sp|Q9XED8|ARFI_ARATH   3 NRGGEYLYDELWKLCAGPLVDVPQAQERVYYFPQGHMEQLEASTQQVdLNTMKPLFVLPPKILCNVMNVSLQAEKDTDEVYAQITLIPV 91 
+                           566789**************************************88515599************************************* PP
+
+               matches 113 teqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRGqPrRH 201
+                            ++++e+++ +  ++ e +++kv+sF+K+LTaSDtsthGGFsV+r++A+e+lPpLd++qq+ptQelva+D+hg++WkF+Hi+RGqPrRH
+  sp|Q9XED8|ARFI_ARATH  92 GTEVDEPMSPD-PSPPELQRPKVHSFSKVLTASDTSTHGGFSVLRKHATECLPPLDMTQQTPTQELVAEDVHGYQWKFKHIFRGQPRRH 179
+                           *******9985.344889*********************************************************************** PP
+
+               matches 202 lLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiFevvYkPrassseFvvs 290
+                           lLttGWs+Fv+sK+LvaGD++vFlrge+geLrvG+Rra+ qqs++pssviss+sm+lgvla+a ha++tk++F+v+YkPr+s  +F++s
+  sp|Q9XED8|ARFI_ARATH 180 LLTTGWSTFVTSKRLVAGDTFVFLRGENGELRVGVRRANLQQSSMPSSVISSHSMHLGVLATARHATQTKTMFIVYYKPRTS--QFIIS 266
+                           *******************************************************************************666..***** PP
+
+               matches 291 lekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVspWeieplvsasniskss 379
+                           l+kyl+a++nkfsvGmRfkmrfE+eds+erry+Gt+igv+d+ s++Wk+SkWr+L+v+WDepas++rp++VspWeiep+v++ n++ks+
+  sp|Q9XED8|ARFI_ARATH 267 LNKYLEAMSNKFSVGMRFKMRFEGEDSPERRYSGTVIGVKDC-SPHWKDSKWRCLEVHWDEPASISRPNKVSPWEIEPFVNSENVPKSV 354
+                           ******************************************.*******************************************888 PP
+
+               matches 380 llsknkrlrevqesgsssskelkessllpslllqgqeisqlsvasniadsskelsyqdaskskaras.satsteasplsssvqspsksn 467
+                           +l knkr+r+v+e+++ + +  ++s+l+ s+l+q +e+ q+ ++s+   ss+++ ++da+ ++a++s + ++      s+sv++ +k +
+  sp|Q9XED8|ARFI_ARATH 355 ML-KNKRPRQVSEVSALDVGI-TASNLWSSVLTQPHEFAQSCITSQW--SSPQQCHRDAN-EDAKKSdWLNN------SYSVSNVAKDS 432
+                           77.9***********999776.79**************999998776..55666667773.33333323332......23333322222 PP
+
+               matches 468 vn..smvkkeeekkkkktssirlFGvdltsesklkekkea...skekedketelsesdisse.....kskqske....ssseaqskqss 542
+                           +   +mv+  e+kk ++t+++rlFG+dl+s+s + +++++   +  + +k+t++s+sd +se     ++k++ e    s++e+qskqss
+  sp|Q9XED8|ARFI_ARATH 433 TLndQMVSPVEQKKPETTANYRLFGIDLMSSSLAVPEEKTapmRPINISKPTMDSHSDPKSEiskvsEEKKQ-EpaegSPKEVQSKQSS 520
+                           22347899999999******************9999888878878888999999999998776655422333.25888899******** PP
+
+               matches 543 strtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkikilskeevk 631
+                           str++tkvq+qg+ vgravdl++lk+y+eLi+++eklFd++g+l+ +r++w+iv+td+egd++lvGddPw+eF++mvk+i+i+skeevk
+  sp|Q9XED8|ARFI_ARATH 521 STRSRTKVQMQGVPVGRAVDLNALKGYNELIDDIEKLFDIKGELR-SRNQWEIVFTDDEGDMMLVGDDPWPEFCNMVKRIFIWSKEEVK 608
+                           *********************************************.8****************************************** PP
+
+               matches 632 kmkkkkklaleeaeaekekdksskvekss 660
+                           km++ ++l +  +e+e++ +++sk++++s
+  sp|Q9XED8|ARFI_ARATH 609 KMTPGNQLRMLLREVETTLTTTSKTDNHS 637
+                           *****************999999998876 PP
+
+>> sp|Q9LQE8|ARFN_ARATH  Putative auxin response factor 14 OS=Arabidopsis thaliana OX=3702 GN=ARF14 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  888.1   0.7  1.7e-269  3.6e-267      11     639 ..       1     603 [.       1     605 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 888.1 bits;  conditional E-value: 1.7e-269
+               matches  11 messnsvn...elsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklka 96 
+                           mes+n+vn   els ++dg+k+++ye+LWk+CAGpl+++Pklge+VyYFpqGhiE veastr+el+e +pi+d+pskl+Crv++++lk+
+  sp|Q9LQE8|ARFN_ARATH   1 MESGNVVNtqpELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVEASTREELNELQPICDFPSKLQCRVIAIQLKV 89 
+                           7889999999999**************************************************************************** PP
+
+               matches  97 dketDEvYAqitLlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhg 185
+                           ++++DE+YA+itL+P+t+q++ +t++     ++++++ v+sF+K+LTaSDts hGGFsVp+++A+e+lPpLd+sq++ptQe++a Dlhg
+  sp|Q9LQE8|ARFN_ARATH  90 ENNSDETYAEITLMPDTTQVVIPTQN-----QNQFRPLVNSFTKVLTASDTSVHGGFSVPKKHAIECLPPLDMSQPLPTQEILAIDLHG 173
+                           ***********************998.....69******************************************************** PP
+
+               matches 186 neWkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiF 274
+                           n+W+FrHiyRG+ +RHlLt GW++F++sKkLv+GD++vF+rge+geLrvGiRra +qq+n+pss++s +smr+g++a+a+ha++++++F
+  sp|Q9LQE8|ARFN_ARATH 174 NQWRFRHIYRGTAQRHLLTIGWNAFTTSKKLVEGDVIVFVRGETGELRVGIRRAGHQQGNIPSSIVSIESMRHGIIASAKHAFDNQCMF 262
+                           ***************************************************************************************** PP
+
+               matches 275 evvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVsp 363
+                           +vvYkP  +ss+F+vs++k+l++v+nkf+vG+Rf+mrfE++d+serr +Gtiigvsd+ s++Wk+S+WrsL+vqWDe+as+ rp++Vsp
+  sp|Q9LQE8|ARFN_ARATH 263 IVVYKP--RSSQFIVSYDKFLDVVNNKFNVGSRFTMRFEGDDFSERRSFGTIIGVSDF-SPHWKCSEWRSLEVQWDEFASFPRPNQVSP 348
+                           ******..566***********************************************.****************************** PP
+
+               matches 364 Weieplvsasniskssllsknkrlrevqesgsssskelkessllpslllqgqeisqlsva..sniadsskelsyqdaskskarassats 450
+                           W+ie+l+++sn+s+ss+l knkr+rev+e+gsss      s+llp++l+qgqei+q+s+a  +ni     +l+y+d +++      +t 
+  sp|Q9LQE8|ARFN_ARATH 349 WDIEHLTPWSNVSRSSFL-KNKRSREVNEIGSSS------SHLLPPTLTQGQEIGQQSMAtpMNI-----SLRYRDITED-----AMTP 420
+                           *************99988.9***********776......89****************9955565.....5899999322.....2222 PP
+
+               matches 451 teasplsssvqspsksnvnsmvk.keeekkkkktssirlFGvdltsesklkekkeaskekedketelsesdissekskqske..sssea 536
+                           ++   +s++vq+++k n+n++v+ +ee++++++ +s+rlFGv+l+++s++k++ e+         e s+ ++ ++k++qs+   s++e+
+  sp|Q9LQE8|ARFN_ARATH 421 SR-LLMSYPVQPMAKLNYNNVVTpIEENITTNAVASFRLFGVSLATPSVIKDPVEQ------IGLEISRLTQ-EKKFGQSQIlrSPTEI 501
+                           12.2389*************99999****************************887......3333333333.2467777776579*** PP
+
+               matches 537 qskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkikil 625
+                           qskq+sstrtctkvq+qg+++gravdlsvl++yd+Li eleklFdl+gql+ +r++w+i++t++e+d++lvG+dPw+eF++mvkki+i+
+  sp|Q9LQE8|ARFN_ARATH 502 QSKQFSSTRTCTKVQMQGVTIGRAVDLSVLNGYDQLILELEKLFDLKGQLQ-ARNQWEIAFTNNEEDKMLVGEDPWPEFCNMVKKIFIY 589
+                           ***************************************************.8************************************ PP
+
+               matches 626 skeevkkmkkkkkl 639
+                           skeevk++k++k+l
+  sp|Q9LQE8|ARFN_ARATH 590 SKEEVKNLKSRKSL 603
+                           *********99876 PP
+
+>> sp|Q9XID4|ARFL_ARATH  Auxin response factor 12 OS=Arabidopsis thaliana OX=3702 GN=ARF12 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  879.2   0.0  8.7e-267  1.8e-264      11     627 ..       1     592 [.       1     593 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 879.2 bits;  conditional E-value: 8.7e-267
+               matches  11 messnsvn...elsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklka 96 
+                           mes+n+vn   els ++dg+k+++ye+LWk+CAGpl+++Pklge+VyYFpqGhiE ve+str+el+e +pi+dlpskl+Crv++++lk+
+  sp|Q9XID4|ARFL_ARATH   1 MESGNVVNaqpELSGIIDGSKSYVYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVETSTREELNELQPICDLPSKLQCRVIAIHLKV 89 
+                           7889999999999**************************************************************************** PP
+
+               matches  97 dketDEvYAqitLlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhg 185
+                           ++++DE+YA+itL+P+t+q++ +t++     e+++++ v+sF+K+LTaSDts+hGGF+Vp+++A+e+lP+Ld+sq++p+Qel+a Dlhg
+  sp|Q9XID4|ARFL_ARATH  90 ENNSDETYAEITLMPDTTQVVIPTQN-----ENQFRPLVNSFTKVLTASDTSAHGGFFVPKKHAIECLPSLDMSQPLPAQELLAIDLHG 173
+                           ***********************998.....699******************************************************* PP
+
+               matches 186 neWkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiF 274
+                           n+W+F+H+yRG+P+RHlLttGW++F++sKkLvaGD++vF+rge+geLrvGiRra++qq+n+pss++s d+mr+gv+a+a+ha++++++F
+  sp|Q9XID4|ARFL_ARATH 174 NQWRFNHNYRGTPQRHLLTTGWNAFTTSKKLVAGDVIVFVRGETGELRVGIRRARHQQGNIPSSIVSIDCMRHGVVASAKHAFDNQCMF 262
+                           ***************************************************************************************** PP
+
+               matches 275 evvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVsp 363
+                           +vvYkP  +ss+F+vs++k+l+av+nkf+vG+Rf+mr+E++d+serr++Gtiigvsd+ s++Wk+S+WrsL+vqWDe++s+  pk+Vsp
+  sp|Q9XID4|ARFL_ARATH 263 TVVYKP--RSSKFIVSYDKFLDAVNNKFNVGSRFTMRLEGDDFSERRCFGTIIGVSDF-SPHWKCSEWRSLEVQWDEFTSFPGPKKVSP 348
+                           ******..566***********************************************.****************************** PP
+
+               matches 364 Weieplvsasniskssllsknkrlrevqesgsssskelkessllpslllqgqeisqlsva..sniadsskelsyqdaskskaras.sat 449
+                           W+ie+l++a n+++s ll knkrlrev+e+gsss      s+llp++l+qgqe++qlsva  +ni     +l+y+da+++ a ++ s+ 
+  sp|Q9XID4|ARFL_ARATH 349 WDIEHLMPAINVPRSFLL-KNKRLREVNEIGSSS------SHLLPPILTQGQENEQLSVAspMNI-----SLRYRDATED-A-MNpSKL 423
+                           *************77766.9***********776......89*****************955554.....5899999322.2.222333 PP
+
+               matches 450 steasplsssvqspsksnvn.smvk.keeekkkkktssirlFGvdltsesklkekkeaskekedketelsesdissekskqske..sss 534
+                                 +s++vq+++k n+n +mv+  ee++++k+ +++rlFGv+l+++ ++k+++e+ +++ +      + ++  +k++ s++  s++
+  sp|Q9XID4|ARFL_ARATH 424 -----LMSYPVQPMPKLNYNnQMVTeMEENITTKTGTNFRLFGVTLDTPPVIKDPIEEIGSEIS------KLTE-GKKFGLSQTlrSPT 500
+                           .....389*****99999998888878****************************997332222......2222.2367777777679* PP
+
+               matches 535 eaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkik 623
+                           e+q+kq+ss+rtctkvq+qg+++gravdlsvl++yd+Li eleklFd++gql+ +r++w+i++tds++d++lvGddPw+eF++mvkki+
+  sp|Q9XID4|ARFL_ARATH 501 EIQNKQFSSSRTCTKVQMQGVTIGRAVDLSVLNGYDQLILELEKLFDIKGQLQ-TRNQWEIAFTDSDEDKMLVGDDPWPEFCNMVKKIF 588
+                           *****************************************************.9********************************** PP
+
+               matches 624 ilsk 627
+                           i+++
+  sp|Q9XID4|ARFL_ARATH 589 IQKR 592
+                           *875 PP
+
+>> sp|Q9C8N7|ARFV_ARATH  Auxin response factor 22 OS=Arabidopsis thaliana OX=3702 GN=ARF22 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  875.3   0.0  1.3e-265  2.8e-263      11     630 ..       1     593 [.       1     597 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 875.3 bits;  conditional E-value: 1.3e-265
+               matches  11 messnsvn...elsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklka 96 
+                           mes+n vn   els ++dg+k+++ye+LWk+CAGpl+++Pklge++yYFpqG+iE veastr+el+e +pi+dlpskl+Crv++++lk+
+  sp|Q9C8N7|ARFV_ARATH   1 MESGNIVNaqpELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGEKIYYFPQGNIELVEASTREELNELKPICDLPSKLQCRVIAIQLKV 89 
+                           7788999999999**************************************************************************** PP
+
+               matches  97 dketDEvYAqitLlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhg 185
+                           ++++DE+YA+itL+P+t+q++ +t++     e+++++ v+sF+K+LTaSDt  +GGF+Vp+++A+e+lPpLd+sq++ptQel+a+Dlhg
+  sp|Q9C8N7|ARFV_ARATH  90 ENNSDETYAEITLMPDTTQVVIPTQN-----ENQFRPLVNSFTKVLTASDT--SGGFFVPKKHAIECLPPLDMSQPLPTQELLATDLHG 171
+                           ***********************998.....699****************9..5*********************************** PP
+
+               matches 186 neWkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiF 274
+                           n+W+F+H+yRG+P+RHlLttGW++F++sKkLvaGD++vF+rge+geLrvGiRra +qq+n+pss+is +smr+gv+a+a+ha++++++F
+  sp|Q9C8N7|ARFV_ARATH 172 NQWRFNHNYRGTPQRHLLTTGWNAFTTSKKLVAGDVIVFVRGETGELRVGIRRAGHQQGNIPSSIISIESMRHGVIASAKHAFDNQCMF 260
+                           ***************************************************************************************** PP
+
+               matches 275 evvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVsp 363
+                           +vvYkP  +ss+F+vs++k+l+av+nkf+vG+Rf+mrfE++d+serry+Gtiigvsd+ s++Wk+S+Wr+L+vqWDe+as++rp++Vsp
+  sp|Q9C8N7|ARFV_ARATH 261 IVVYKP--RSSQFIVSYDKFLDAVNNKFNVGSRFTMRFEGDDFSERRYFGTIIGVSDF-SPHWKCSEWRNLEVQWDEFASFSRPNKVSP 346
+                           ******..566***********************************************.****************************** PP
+
+               matches 364 Weieplvsasniskssllsknkrlrevqesgsssskelkessllpslllqgqeisqlsva..sniadsskelsyqdaskskarassats 450
+                           Weie+l++a+n++++sll knkrlrev+e+gsss      s+llp++l+qgqei+qlsva  +ni     +l+y+d++++     +++ 
+  sp|Q9C8N7|ARFV_ARATH 347 WEIEHLMPALNVPRPSLL-KNKRLREVNEIGSSS------SHLLPPILTQGQEIGQLSVAspMNI-----SLTYRDTTED-----VMNP 418
+                           ****************99.9***********776......89*****************955554.....5899999222.....2222 PP
+
+               matches 451 teasplsssvqspsksnvn.smvk.keeekkkkktssirlFGvdltsesklkekkeaskekedketelsesdissekskqske..ssse 535
+                            +   +s++vq+++k n+n +mv+ +ee++++k+ +++rlFGv+l ++s++k+++e+ +++       s+ ++  +k++qs++  s++e
+  sp|Q9C8N7|ARFV_ARATH 419 -SRLLMSYPVQPMPKLNYNnQMVTqIEENITTKTGTNFRLFGVSLVTPSVIKDPIEEIGSEI------SKLTE-GKKFGQSQTlrSPTE 499
+                           .222389*****99999998778879****************************99722222......22222.3477888887679** PP
+
+               matches 536 aqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkiki 624
+                           +qskq+sstrtctkvq+qg++++ravdlsvl++yd+Li ele+lFdl+gql+ +r++w+i++tds++d++lvGddPw+eF++mvkki i
+  sp|Q9C8N7|ARFV_ARATH 500 IQSKQFSSTRTCTKVQMQGVTIERAVDLSVLNGYDQLILELEELFDLKGQLQ-TRNQWEIAFTDSDDDKMLVGDDPWPEFCNMVKKILI 587
+                           ****************************************************.9*********************************** PP
+
+               matches 625 lskeev 630
+                           +++ ++
+  sp|Q9C8N7|ARFV_ARATH 588 FKRGGQ 593
+                           998665 PP
+
+>> sp|Q9LQE3|ARFO_ARATH  Putative auxin response factor 15 OS=Arabidopsis thaliana OX=3702 GN=ARF15 PE=3 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  874.4   0.0  2.4e-265  5.1e-263      11     627 ..       1     592 [.       1     593 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 874.4 bits;  conditional E-value: 2.4e-265
+               matches  11 messnsvn...elsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklka 96 
+                           me++n+vn   els ++d++k+++ye+LWk+CAGpl+++Pklge+VyYFpqG+iE veastr+el+e +pi+dlpskl+Crv++++lk+
+  sp|Q9LQE3|ARFO_ARATH   1 METGNVVNaqpELSGIIDRSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGNIELVEASTREELNELQPICDLPSKLQCRVIAIHLKV 89 
+                           7788999999999**************************************************************************** PP
+
+               matches  97 dketDEvYAqitLlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhg 185
+                           ++++DE+YA+itL+P+t+q++ +t++     e+++++ v+sF+K+LTaSD+s++G FsVp+++A+e+lPpLd+sq++p+Qel+a Dlhg
+  sp|Q9LQE3|ARFO_ARATH  90 ENNSDETYAKITLMPDTTQVVIPTQN-----ENQFRPLVNSFTKVLTASDISANGVFSVPKKHAIECLPPLDMSQPLPAQELLAIDLHG 173
+                           ***********************998.....699******************************************************* PP
+
+               matches 186 neWkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiF 274
+                           n+W+FrH yRG+P+RHlLttGW++F++sKkLv+GD++vF+rge+geLrvGiRra++qq+n+pss++s d+mr+gv+a+a+ha++++++F
+  sp|Q9LQE3|ARFO_ARATH 174 NQWSFRHSYRGTPQRHLLTTGWNEFTTSKKLVKGDVIVFVRGETGELRVGIRRARHQQGNIPSSIVSIDCMRHGVIASAKHAFDNQCMF 262
+                           ***************************************************************************************** PP
+
+               matches 275 evvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVsp 363
+                           +vvYkP  +ss+F+vs++k+l+av+nkf+vG+Rf+mrfE++d serry+Gtiigvs++ s++Wk+S+WrsL+vqWDe+as+ rp++Vsp
+  sp|Q9LQE3|ARFO_ARATH 263 IVVYKP--RSSQFIVSYDKFLDAVNNKFNVGSRFTMRFEGDDLSERRYFGTIIGVSNF-SPHWKCSDWRSLEVQWDEFASFLRPNKVSP 348
+                           ******..566***********************************************.****************************** PP
+
+               matches 364 Weieplvsasniskssllsknkrlrevqesgsssskelkessllpslllqgqeisqlsva..sniadsskelsyqdaskskaras.sat 449
+                           Weie+l++a+n+++ss+l knkrlrev+e+gsss      s+llp++l+qgqei+qlsva  +ni     +l y++++++   ++ s  
+  sp|Q9LQE3|ARFO_ARATH 349 WEIEHLMPALNVPRSSFL-KNKRLREVNEFGSSS------SHLLPPILTQGQEIGQLSVAspMNI-----SLLYRETTEDA--MNpSRL 423
+                           *************99988.9***********776......89*****************955554.....57889983221..111222 PP
+
+               matches 450 steasplsssvqspsksnvn.smvk.keeekkkkktssirlFGvdltsesklkekkeaskekedketelsesdis..se..kskqske. 531
+                                 +s++vq+++k+n+n +mv+ +ee++++k+ +++rlFGv+l+++ ++k+++e+           + sdis  +e  k++qs++ 
+  sp|Q9LQE3|ARFO_ARATH 424 -----LMSYPVQPMPKRNYNnQMVTqIEENITTKAGTNFRLFGVSLATPPVIKDPIEQ-----------IGSDISklTEgkKFGQSQTl 496
+                           .....389*****99999987778879****************************997...........22222222223377888887 PP
+
+               matches 532 .ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmv 619
+                            s++++qskq+sstrtctkvq+qg+++gravdlsvl++yd+Li eleklFdl+gql+ +r++wki++t s++d++lvGddPw+eF++mv
+  sp|Q9LQE3|ARFO_ARATH 497 rSPTKIQSKQFSSTRTCTKVQMQGVTIGRAVDLSVLNGYDQLILELEKLFDLKGQLQ-TRNQWKIIFTGSDEDEMLVGDDPWPEFCNMV 584
+                           6799*****************************************************.9****************************** PP
+
+               matches 620 kkikilsk 627
+                           k+i i+++
+  sp|Q9LQE3|ARFO_ARATH 585 KRIYIQKR 592
+                           *****875 PP
+
+>> sp|Q8L7G0|ARFA_ARATH  Auxin response factor 1 OS=Arabidopsis thaliana OX=3702 GN=ARF1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  855.2   0.1  1.5e-259  3.3e-257      21     658 ..       9     655 ..       1     664 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 855.2 bits;  conditional E-value: 1.5e-259
+               matches  21 sessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklkadketDEvYAqitL 109
+                            +     +++l++eLW+aCAGplv+lP++gerVyYFp+Gh+Eq+eas+++ le+++p f+lpsk+lC+v+n++ +a++etDEvYAqitL
+  sp|Q8L7G0|ARFA_ARATH   9 GKPGGVLSDALCRELWHACAGPLVTLPREGERVYYFPEGHMEQLEASMHQGLEQQMPSFNLPSKILCKVINIQRRAEPETDEVYAQITL 97 
+                           5566677899******************************************************************************* PP
+
+               matches 110 lPeteqeeektekeldag.eekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRGq 197
+                           lPe +q+e  t+   da+ +e+ek +v+sFcKtLTaSDtsthGGFsV+rr+A+++lPpLd+sqqpp+Qelva+Dlh++eW+FrHi+RGq
+  sp|Q8L7G0|ARFA_ARATH  98 LPELDQSEP-TSP--DAPvQEPEKCTVHSFCKTLTASDTSTHGGFSVLRRHADDCLPPLDMSQQPPWQELVATDLHNSEWHFRHIFRGQ 183
+                           ****97666.665..466699******************************************************************** PP
+
+               matches 198 PrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiFevvYkPrassse 286
+                           PrRHlLttGWsvFvssKkLvaGD+++Flrge++eLrvG+Rr++rqq+n+pssviss+sm++gvla+aaha++t++iF+v+YkPr+s+se
+  sp|Q8L7G0|ARFA_ARATH 184 PRRHLLTTGWSVFVSSKKLVAGDAFIFLRGENEELRVGVRRHMRQQTNIPSSVISSHSMHIGVLATAAHAITTGTIFSVFYKPRTSRSE 272
+                           ***************************************************************************************** PP
+
+               matches 287 FvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVspWeieplvsasni 375
+                           F+vs+++yl+a ++k+svGmRfkmrfE+e+++e+r++Gti+gv++ +s+ W++S+WrsL+vqWDep+s+ rp+rVspWe+eplv++s+ 
+  sp|Q8L7G0|ARFA_ARATH 273 FIVSVNRYLEAKTQKLSVGMRFKMRFEGEEAPEKRFSGTIVGVQENKSSVWHDSEWRSLKVQWDEPSSVFRPERVSPWELEPLVANSTP 361
+                           **********************************************************************************9997776 PP
+
+               matches 376 skssll..sknkrlrevqesgsssskelkessllpslllqgqeisqlsvasniadsskelsyqdaskskarassatsteasplsssvqs 462
+                           s s+++  ++nkr+r++  ++  +   + +  ++p  + ++   + +sv      ++k++++ +    ++  ++        + +++++
+  sp|Q8L7G0|ARFA_ARATH 362 S-SQPQppQRNKRPRPPGLPSPAT--GP-SGPVTPDGVWKSPADTPSSVPLF-SPPAKAATFGHG--GNKSFGVSI----GSAFWPTNA 439
+                           6.44444699*******9999544..33.33355555553333334444433.245555555555..233333212....224566666 PP
+
+               matches 463 psksnvn.smvk.keeekkkkktssirlFGvdltsesklkekkea..................skekedketelsesdissekskqske 531
+                            s+++ + s ++ +++ekk+++ + +rlFG++l ++ +++e+ +a                  ++ +++++ + ++sdi s    + ++
+  sp|Q8L7G0|ARFA_ARATH 440 DSAAESFaSAFNnESTEKKQTNGNVCRLFGFELVENVNVDECFSAasvsgavavdqpvpsnefDSGQQSEPLNINQSDIPSG---SGDP 525
+                           5554444344444777888888999**************9999989999877777777665553333334555555555322...2222 PP
+
+               matches 532 ...ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvk 617
+                              s  + q++qs++ r+ctkv++qgsavgra+dl++ ++y++L+k+le++Fd++g+l ++++kw++vytd+e+d+++vGddPw+eF+ 
+  sp|Q8L7G0|ARFA_ARATH 526 eksSLRSPQESQSRQIRSCTKVHMQGSAVGRAIDLTRSECYEDLFKKLEEMFDIKGELLESTKKWQVVYTDDEDDMMMVGDDPWNEFCG 614
+                           333455679999***************************************************************************** PP
+
+               matches 618 mvkkikilskeevkkmkkkkklaleeaeaekekdksskvek 658
+                           mv+ki+i+++eevkk+++k+kla++++++ k++++++ +++
+  sp|Q8L7G0|ARFA_ARATH 615 MVRKIFIYTPEEVKKLSPKNKLAVNARMQLKADAEENGNTE 655
+                           *************************9999887766554433 PP
+
+>> sp|Q9C7I9|ARFT_ARATH  Auxin response factor 20 OS=Arabidopsis thaliana OX=3702 GN=ARF20 PE=2 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  849.9   0.2  6.3e-258  1.3e-255      11     639 ..       1     588 [.       1     590 [] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 849.9 bits;  conditional E-value: 6.3e-258
+               matches  11 messnsvn...elsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklka 96 
+                           me++n+vn   els ++dg+k+++ye+LWk+CAGpl+++Pklge+VyYFpqG+iE v astr+el+e +pi+dlpskl+Crv++++lk+
+  sp|Q9C7I9|ARFT_ARATH   1 METGNVVNaqpELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGENVYYFPQGNIELVDASTREELNELQPICDLPSKLQCRVIAIHLKV 89 
+                           7788999999999**************************************************************************** PP
+
+               matches  97 dketDEvYAqitLlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhg 185
+                           ++++DE+YA+itL+P+t+q++ +t++     e+++++ v+sF+K+LTaSDts++GGF+Vp+++A+e+lPpL    ++p+Qel+akDlhg
+  sp|Q9C7I9|ARFT_ARATH  90 ENNSDETYAEITLMPDTTQVVIPTQS-----ENQFRPLVNSFTKVLTASDTSAYGGFFVPKKHAIECLPPL----PLPAQELLAKDLHG 169
+                           ***********************997.....699*************************************....9************* PP
+
+               matches 186 neWkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiF 274
+                           n+W+FrH yRG+P+RH LttGW++F++sKkLv+GD++vF+rge+geLrvGiRra++qq+n+pss++s d+mr+gv+a+a+ha+++++iF
+  sp|Q9C7I9|ARFT_ARATH 170 NQWRFRHSYRGTPQRHSLTTGWNEFTTSKKLVKGDVIVFVRGETGELRVGIRRARHQQGNIPSSIVSIDCMRHGVIASAKHALDNQCIF 258
+                           ***************************************************************************************** PP
+
+               matches 275 evvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVsp 363
+                           +vvYkP ++ss+F+vs++k+l+a++nkf+vG+Rf+mrfE++d+serry+Gtiigv+d+ s++Wk+S+WrsL+vqWDe+as++rp++Vsp
+  sp|Q9C7I9|ARFT_ARATH 259 IVVYKPSIRSSQFIVSYDKFLDAMNNKFIVGSRFTMRFEGDDFSERRYFGTIIGVNDF-SPHWKCSEWRSLEVQWDEFASFSRPNKVSP 346
+                           **********************************************************.****************************** PP
+
+               matches 364 Weieplvsasniskssllsknkrlrevqesgsssskelkessllpslllqgqeisqlsva..sniadsskelsyqdaskskaras.sat 449
+                           Weie+l+sa+n+++ssll knkrlrev+e+g++                     +qlsva  +n     ++l+y+d++++    + s  
+  sp|Q9C7I9|ARFT_ARATH 347 WEIEHLMSALNVPRSSLL-KNKRLREVNEFGQEI--------------------GQLSVAspMN-----TSLRYRDTTEDAM--NpSRL 407
+                           ****************99.9*********99443....................2222221133.....2467888822211..11222 PP
+
+               matches 450 steasplsssvqspsksnvn.smvk.keeekkkkktssirlFGvdltsesklkekkeaskekedketelsesdis..se..kskqske. 531
+                                 +s++vq+++k n+n +mv+ +ee++++k+ +++rlFGv+l+ + ++k+++e+           + sdis  +e  k++qs++ 
+  sp|Q9C7I9|ARFT_ARATH 408 -----LMSYPVQPMPKLNYNnQMVTqIEENITTKAVTNFRLFGVSLAIPLVIKDPIEE-----------IGSDISklTEgkKFGQSQTl 480
+                           .....2899****99999998778879****************************997...........22222222223377888887 PP
+
+               matches 532 .ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmv 619
+                            s+ e+qskq++strtctkvq+qg+++gravdlsvl++yd+Li eleklFdl+gql+ +r++wki++tds+g ++lvGddPw+eF+kmv
+  sp|Q9C7I9|ARFT_ARATH 481 rSPIEIQSKQFGSTRTCTKVQMQGVTIGRAVDLSVLNGYDQLILELEKLFDLKGQLQ-TRNQWKIAFTDSDGYEMLVGDDPWPEFCKMV 568
+                           679******************************************************.9****************************** PP
+
+               matches 620 kkikilskeevkkmkkkkkl 639
+                           kki i+skeevk++k++k+l
+  sp|Q9C7I9|ARFT_ARATH 569 KKILIYSKEEVKNLKSSKSL 588
+                           ***************99876 PP
+
+>> sp|Q9ZTX8|ARFF_ARATH  Auxin response factor 6 OS=Arabidopsis thaliana OX=3702 GN=ARF6 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  678.7  13.1  4.1e-206  8.8e-204      13     521 ..       4     571 ..       1     613 [. 0.75
+   2 !  161.6   0.1   1.3e-49   2.7e-47     382     662 ..     554     913 ..     543     921 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 678.7 bits;  conditional E-value: 4.1e-206
+               matches  13 ssnsvnelsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkele.eeapifdlpskllCrvlnvklkadket 100
+                           ss+++n  +++++gek+ l++eLW+aCAGplvslP++g+rV+YFpqGh+Eqv+ast+ke++ +++++++l+++l+C+++nv+++ad et
+  sp|Q9ZTX8|ARFF_ARATH   4 SSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTNKEVDaHIPNYPSLHPQLICQLHNVTMHADVET 92 
+                           6778888899***************************************************99************************** PP
+
+               matches 101 DEvYAqitLlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWk 189
+                           DEvYAq+tL+P++ qe+++    ++ g+ ++++++++FcKtLTaSDtsthGGFsVprraAe+v+PpLdysqqpp+Qel+a+Dlh+neWk
+  sp|Q9ZTX8|ARFF_ARATH  93 DEVYAQMTLQPLNAQEQKDPYLPAELGV-PSRQPTNYFCKTLTASDTSTHGGFSVPRRAAEKVFPPLDYSQQPPAQELMARDLHDNEWK 180
+                           ******************9999888877.99********************************************************** PP
+
+               matches 190 FrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiFevvY 278
+                           FrHi+RGqP+RHlLttGWsvFvs+K+LvaGDsv+F++++k++L++GiRra+r+q+ +pssv+ssdsm+lg+la+aahaaat+s F+++Y
+  sp|Q9ZTX8|ARFF_ARATH 181 FRHIFRGQPKRHLLTTGWSVFVSAKRLVAGDSVLFIWNDKNQLLLGIRRANRPQTVMPSSVLSSDSMHLGLLAAAAHAAATNSRFTIFY 269
+                           ***************************************************************************************** PP
+
+               matches 279 kPrassseFvvslekylkavkn.kfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVspWei 366
+                           +Pras+seFv++l+ky+kav++ ++svGmRf+m fEte+ss+rrymGti+g++dld++rW nS+Wrs++v WDe+++ +r+ rVs+Wei
+  sp|Q9ZTX8|ARFF_ARATH 270 NPRASPSEFVIPLAKYVKAVYHtRVSVGMRFRMLFETEESSVRRYMGTITGICDLDPTRWANSHWRSVKVGWDESTAGERQPRVSLWEI 358
+                           *********************999***************************************************************** PP
+
+               matches 367 eplvsasniskssllsknkrlrevqesgsssskel.....kessllpslllqgqeisqlsva..s...niadsskelsyqdask..... 440
+                           epl++ +  +++ +l + kr++++  ++++  ke      ++s l+  + lq+ +++ + v+  +      d+s  l +q+ ++     
+  sp|Q9ZTX8|ARFF_ARATH 359 EPLTTFPMYPSPFPL-RLKRPWPPGLPSFHGLKEDdmgmsMSSPLMWDRGLQSLNFQGMGVNpwMqprL--DTSGLLGMQNDVYqamaa 444
+                           *****7777755555.9***********99877733344445555556666777777777775433330..334444444442212222 PP
+
+               matches 441 ............................................skarassat........steasplsssvqs.psksnvnsmvkkee 476
+                                                                       s       +        ++++++ls+++q+  s+++ ++ +++++
+  sp|Q9ZTX8|ARFF_ARATH 445 aalqdmrgidpakaaasllqfqnspgfsmqspslvqpqmlqqqlS-------QqqqqlsqqQQQQQQLSQQQQQqLSQQQQQQLSQQQQ 526
+                           222222223333333333333222233323333233322222221.......0222221111111122222222122222223333555 PP
+
+               matches 477 ekkkkktssirlFGvdltsesklkekkeaskekedketelsesdi 521
+                           ++ ++++++    Gv+ t++ +++ + +++++ +++++++ + + 
+  sp|Q9ZTX8|ARFF_ARATH 527 QQLSQQQQQQAYLGVPETHQPQSQAQSQSNNHLSQQQQQVVDNHN 571
+                           566666666667788777777766665553333322222222222 PP
+
+  == domain 2  score: 161.6 bits;  conditional E-value: 1.3e-49
+               matches 382 sknkrlrevqesgsssskel.kessllpslllqgqeisqlsva..sniadsskelsyqdaskskara.....ssat............. 449
+                           + n +l ++q++ + + +++ ++s+ + s ++q    sq +++  +++++ ++++s++d++  +++                       
+  sp|Q9ZTX8|ARFF_ARATH 554 QSNNHLSQQQQQVVDN-HNPsASSAAVVSAMSQFGSASQPNTSplQSMTSLCHQQSFSDTNGGNNPIsplhtL--Lsnfsqdessqllh 639
+                           2333444443333333.33323344444444444444444443455656777777888885555555333330..03333344444444 PP
+
+               matches 450 ...............................steasplsssvqspsksnvn.............................smvkkeeek 478
+                                                          +                  n                               +++e+e 
+  sp|Q9ZTX8|ARFF_ARATH 640 ltrtnsamtssgwpskrpavdssfqhsgagnN------------------NtqsvleqlgqshtsnvppnavslppfpggRECSIEQEG 710
+                           44443333333333333333322222222210..................022333333333333333444445555555333347788 PP
+
+               matches 479 kkkktssirlFGvdltsesklkekkea........skekedketelsesdisse.........kskqske....ssseaqskqssstrt 546
+                           + +  +s+ lFGv+++s+s l+++ ++        +++++  +  +++s+++++         +s++ +e    +sse+  +++ +++t
+  sp|Q9ZTX8|ARFF_ARATH 711 SASDPHSHLLFGVNIDSSSLLMPNGMSnlrsigieGGDST--TLPFTSSNFNNDfsgnlamttPSSCIDEsgflQSSENLGSENPQSNT 797
+                           888889******************9999999986633333..445555555544556677777888888889865889999999***** PP
+
+               matches 547 ctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledp.rskwkivytdsegdillvGddPweeFvkmvkkikilskeevkkmk 634
+                           ++kv+k+g ++gr++d+s+++sy+eL++el+++F+legqledp rs+w++v++d+e+d+ll+GddPw+eFv+ v++ikils++ev++m 
+  sp|Q9ZTX8|ARFF_ARATH 798 FVKVYKSG-SFGRSLDISKFSSYHELRSELARMFGLEGQLEDPvRSGWQLVFVDRENDVLLLGDDPWPEFVSSVWCIKILSPQEVQQMG 885
+                           ********.******************************************************************************** PP
+
+               matches 635 kkkklaleeaeaekekdksskveksses 662
+                           k++  +l++a+++++ dk +++ ++++ 
+  sp|Q9ZTX8|ARFF_ARATH 886 KRGLELLNSAPSSNNVDKLPSNGNCDDF 913
+                           *********************9999876 PP
+
+>> sp|Q9ZPY6|ARFK_ARATH  Auxin response factor 11 OS=Arabidopsis thaliana OX=3702 GN=ARF11 PE=2 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  833.6   2.9  5.5e-253  1.2e-250      25     651 ..      33     616 ..      24     621 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 833.6 bits;  conditional E-value: 5.5e-253
+               matches  25 dgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkele.eeapifdlpskllCrvlnvklkadketDEvYAqitLlPe 112
+                            ++++ely+eLWkaCAGplv++P+ gerV+YFpqGh+Eq+ ast++ +  +e+p+f+lp+k+lCrvl+v+lka++etDEvYAqitL+Pe
+  sp|Q9ZPY6|ARFK_ARATH  33 GSNDDELYTELWKACAGPLVEVPRYGERVFYFPQGHMEQLVASTNQGVVdQEIPVFNLPPKILCRVLSVTLKAEHETDEVYAQITLQPE 121
+                           67899*****************************************9877*************************************** PP
+
+               matches 113 teqeeektekeldag.eekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRGqPrR 200
+                           ++q+e  t+   d + +e+ k++v+sF+K+LTaSDtsthGGFsV+r++A+e+lP+Ld++q++ptQelva+Dlhg+eW+F+Hi+RGqPrR
+  sp|Q9ZPY6|ARFK_ARATH 122 EDQSEP-TSL--DPPlVEPAKPTVDSFVKILTASDTSTHGGFSVLRKHATECLPSLDMTQPTPTQELVARDLHGYEWRFKHIFRGQPRR 207
+                           *97666.554..5777************************************************************************* PP
+
+               matches 201 HlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiFevvYkPrassseFvv 289
+                           HlLttGWs+Fv+sK+LvaGD++vFlrge+g+LrvG+Rr ++qqs++p+sviss+smrlgvla+a+ha++t++iF v+YkPr+s  +F++
+  sp|Q9ZPY6|ARFK_ARATH 208 HLLTTGWSTFVTSKRLVAGDAFVFLRGETGDLRVGVRRLAKQQSTMPASVISSQSMRLGVLATASHAVTTTTIFVVFYKPRIS--QFII 294
+                           ********************************************************************************887..**** PP
+
+               matches 290 slekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVspWeieplvsasnisks 378
+                           s++ky+ a+kn fs+GmR++mrfE+e+s+er+++Gtiig  dl s++W++SkWrsLq+qWDep+s+qrp++VspWeiep++++  ++++
+  sp|Q9ZPY6|ARFK_ARATH 295 SVNKYMMAMKNGFSLGMRYRMRFEGEESPERIFTGTIIGSGDL-SSQWPASKWRSLQIQWDEPSSIQRPNKVSPWEIEPFSPSALTPTP 382
+                           *******************************************.**************************************9999999 PP
+
+               matches 379 sll.sknkrlrevqesgsssskelkessllpslllqgqeisqlsvasniadsskelsyqdaskskarassatsteasplsssvqspsks 466
+                           +++ sk+kr+r+++e++ s        s+++s+++q++e+       n   +s +l +qd++         t       ++    +s++
+  sp|Q9ZPY6|ARFK_ARATH 383 TQQqSKSKRSRPISEITGSP-----VASSFLSSFSQSHES-------N---PSVKLLFQDPA---------T-------ER----NSNK 436
+                           888899*********99886.....356677777777776.......3...55668999991.........1.......11....1222 PP
+
+               matches 467 nvnsmvkkeeekkkkktssirlFGvdltsesklkekkeaskekedketelsesdissekskqske..ssseaqskqssstrtctkvqkq 553
+                           +v+s   + + ++ + tss+rlFG+dlts+  +++  +      dk+  + +s+is +++k++++  s+s +++kq++str+++kvq+q
+  sp|Q9ZPY6|ARFK_ARATH 437 SVFSSGLQCKITEAPVTSSCRLFGFDLTSKPASATIPH------DKQLISVDSNISDSTTKCQDPnsSNSPKEQKQQTSTRSRIKVQMQ 519
+                           233323356677889999*************9666654......5777788888887788888887547778999999*********** PP
+
+               matches 554 gsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkikilskeevkkmkkkkklale 642
+                           g+avgravdl+ l+sydeLikelek+F++eg+l+ p++kw iv+td+egd +lvGddPw+eF+km+kk++i+ ++evkkm++k+ l  +
+  sp|Q9ZPY6|ARFK_ARATH 520 GTAVGRAVDLTLLRSYDELIKELEKMFEIEGELS-PKDKWAIVFTDDEGDRMLVGDDPWNEFCKMAKKLFIYPSDEVKKMRSKSLLGDK 607
+                           **********************************.************************************************999888 PP
+
+               matches 643 eaeaekekd 651
+                            + ++ e+d
+  sp|Q9ZPY6|ARFK_ARATH 608 GTIVNLESD 616
+                           776665555 PP
+
+>> sp|Q8RYC8|ARFS_ARATH  Auxin response factor 19 OS=Arabidopsis thaliana OX=3702 GN=ARF19 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  658.4  32.0  5.7e-200  1.2e-197      20     554 ..       9     574 ..       1     663 [. 0.68
+   2 !  146.6  23.6   4.2e-45   8.9e-43     394     656 ..     638    1069 ..     542    1083 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 658.4 bits;  conditional E-value: 5.7e-200
+               matches  20 lsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklkadketDEvYAqit 108
+                           l++s++gekk ++++LW+aCAGplvslP++g+ V+YFpqGh+Eqv+as++k+++ ++++++lpskl+C +++v+l+ad+etDEvYAq+t
+  sp|Q8RYC8|ARFS_ARATH   9 LPSSNEGEKKPINSQLWHACAGPLVSLPPVGSLVVYFPQGHSEQVAASMQKQTDFIPNYPNLPSKLICLLHSVTLHADTETDEVYAQMT 97 
+                           4677899********************************************************************************** PP
+
+               matches 109 LlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRGq 197
+                           L+P++++++e+   ++d+g + +++++e+FcKtLTaSDtsthGGFsVprraAe+++PpLd+s+qpp+Qe+vakDlh+++W+FrHiyRGq
+  sp|Q8RYC8|ARFS_ARATH  98 LQPVNKYDREALL-ASDMGLKLNRQPTEFFCKTLTASDTSTHGGFSVPRRAAEKIFPPLDFSMQPPAQEIVAKDLHDTTWTFRHIYRGQ 185
+                           ******9999765.589************************************************************************ PP
+
+               matches 198 PrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiFevvYkPrassse 286
+                           P+RHlLttGWsvFvs+K+L+aGDsv+F+r+ek++L++GiRra+rq+ +l+ssvissdsm++g+la+aaha+a++s+F+++++Pras+se
+  sp|Q8RYC8|ARFS_ARATH 186 PKRHLLTTGWSVFVSTKRLFAGDSVLFVRDEKSQLMLGIRRANRQTPTLSSSVISSDSMHIGILAAAAHANANSSPFTIFFNPRASPSE 274
+                           ***************************************************************************************** PP
+
+               matches 287 FvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVspWeieplvsasni 375
+                           Fvv+l+ky ka+++++s+GmRf+m+fEted+++rrymGt++g+sdld+vrWk+S+Wr+Lqv WDe+++ +rp+rVs+Weiep+++ ++i
+  sp|Q8RYC8|ARFS_ARATH 275 FVVPLAKYNKALYAQVSLGMRFRMMFETEDCGVRRYMGTVTGISDLDPVRWKGSQWRNLQVGWDESTAGDRPSRVSIWEIEPVITPFYI 363
+                           ***************************************************************************************** PP
+
+               matches 376 skssllsknkrlrevqesgsssskel....................kessllpslll.....qgqeisqlsvas............... 424
+                           + ++++   +r+++++++g+++++                      ++ss++p+l+l     ++q++      s               
+  sp|Q8RYC8|ARFS_ARATH 364 C-PPPF---FRPKYPRQPGMPDDELDmenafkrampwmgedfgmkdAQSSMFPGLSLvqwmsMQQNNPL----Sgsatpqlpsalssfn 444
+                           *.5555...456666666666543321123333333444444444444444444444333222222221....1222234455555555 PP
+
+               matches 425 ......niadsskelsyqdask.......................skarassatsteasplsssvqspsksnvnsmvk.keeekkkkkt 483
+                                 + +d+sk l++q+++                                                      mvk +++++++++ 
+  sp|Q8RYC8|ARFS_ARATH 445 lpnnfaS-NDPSKLLNFQSPNLssansqfnkpntvnhisqqmqaqP----------------------------AMVKsQQQQQQQQQ- 503
+                           5543211.14555555555522112222222222222222111110............................11111111111111. PP
+
+               matches 484 ssirlFGvdltsesklkekkea..................skekedketelsesdissekskqskessseaqskqssstrtctkvqkqg 554
+                            +++   ++l+++++l+ ++++                  s ++ +++t +s+s+ +                 q+s   t  k   q 
+  sp|Q8RYC8|ARFS_ARATH 504 -QHQHQQQQLQQQQQLQMSQQQvqqqgiynngtiavanqvSCQSPNQPTGFSQSQLQ-----------------QQSMLPTGAKMTHQN 574
+                           .22222223333333222222211111111111111111111111111111111111.................111111111111111 PP
+
+  == domain 2  score: 146.6 bits;  conditional E-value: 4.2e-45
+               matches  394 gsssskelkessllpslllqgqeisqlsvasniadsskelsyqdask........................................ 440 
+                            +++s ++                                       +                                        
+  sp|Q8RYC8|ARFS_ARATH  638 SKPSPSQ---------------------------------------Qlqlqllqklqqqqqqqsippvssslqpqlsalqqtqshql 685 
+                            1111111.......................................01111111111111111111111111111111111111122 PP
+
+               matches  441 .......skarassat....................................................................... 449 
+                                   +       +                                                                       
+  sp|Q8RYC8|ARFS_ARATH  686 qqllssqN-------Qqplahgnnsfpastfmqppqiqvspqqqgqmsnknlvaagrshsghtdgeapscstspsanntghdnvspt 765 
+                            22222220.......022222222233333333444444444444444555555666666666666666666666666666666666 PP
+
+               matches  450 ................................steasplsssvqspsksnvn............smvkk.................. 474 
+                                                                               +            +   k                  
+  sp|Q8RYC8|ARFS_ARATH  766 nflsrnqqqgqaasvsasdsvferasnpvqelY------------------TktesrisqgmmnM---Ksagehfrfksavtdqidv 831 
+                            665555555544444444444433333332220..................02222233333220...1233444444455555666 PP
+
+               matches  475 ...........eeekkkkktssirlFGvdltsesklkekkea..........................skekedketelsesdisse 524 
+                                          +++++t  +  FG+d +++s++ +++ a                          +++ +d etels+++iss+
+  sp|Q8RYC8|ARFS_ARATH  832 stagttycpdvVGPVQQQQTFPLPSFGFDGDCQSHHPRNNLAfpgnleavtsdplysqkdfqnlvpnyGNTPRDIETELSSAAISSQ 918 
+                            66777788887888999******************88888779*****************************************988 PP
+
+               matches  525 .........kskqske..........ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledp.rs 591 
+                                     k ++s+e          ++   + +q++++rt+tkvqk+g +vgr++d++++++ydeL+++l+++F++egqledp +s
+  sp|Q8RYC8|ARFS_ARATH  919 sfgipsipfKPGCSNEvggindsgimNGGGLWPNQTQRMRTYTKVQKRG-SVGRSIDVTRYSGYDELRHDLARMFGIEGQLEDPlTS 1004
+                            899999*99999999999999999955899*******************.************************************* PP
+
+               matches  592 kwkivytdsegdillvGddPweeFvkmvkkikilskeevkkmkkkkklaleeaeaekekdksskv 656 
+                            +wk+vytd+e+dillvGddPweeFv++v++ikils+ ev++m+ +++la+  ++++  ++++s +
+  sp|Q8RYC8|ARFS_ARATH 1005 DWKLVYTDHENDILLVGDDPWEEFVNCVQNIKILSSVEVQQMSLDGDLAAIPTTNQACSETDSGN 1069
+                            **********************************************9998866655555544433 PP
+
+>> sp|P93022|ARFG_ARATH  Auxin response factor 7 OS=Arabidopsis thaliana OX=3702 GN=ARF7 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  677.6   9.2  8.8e-206  1.9e-203      18     545 ..       7     584 ..       1     587 [. 0.75
+   2 !  154.6   0.0   1.7e-47   3.5e-45     385     642 ..     755    1134 ..     726    1161 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 677.6 bits;  conditional E-value: 8.8e-206
+               matches  18 n.elsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklkadketDEvYA 105
+                           n  +++ ++ge++++++eLW+aCAGpl+slP++g+ V+YFpqGh+Eqv+as++k+++ ++++++lpskl+C+++nv+l+ad+etDEvYA
+  sp|P93022|ARFG_ARATH   7 NgVSPNPVEGERRNINSELWHACAGPLISLPPAGSLVVYFPQGHSEQVAASMQKQTDFIPSYPNLPSKLICMLHNVTLNADPETDEVYA 95 
+                           33568899********************************************************************************* PP
+
+               matches 106 qitLlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiy 194
+                           q+tL+P++++++++   ++d+g + +++++e+FcKtLTaSDtsthGGFsVprraAe+++P+Ld+s+qpp+QelvakD+h+n+W+FrHiy
+  sp|P93022|ARFG_ARATH  96 QMTLQPVNKYDRDALL-ASDMGLKLNRQPNEFFCKTLTASDTSTHGGFSVPRRAAEKIFPALDFSMQPPCQELVAKDIHDNTWTFRHIY 183
+                           *********9999665.589********************************************************************* PP
+
+               matches 195 RGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiFevvYkPras 283
+                           RGqP+RHlLttGWsvFvs+K+L+aGDsv+F+r+ k +L++GiRra+rqq +l+ssvissdsm++gvla+aaha+a++s+F+++Y+Pra+
+  sp|P93022|ARFG_ARATH 184 RGQPKRHLLTTGWSVFVSTKRLFAGDSVLFIRDGKAQLLLGIRRANRQQPALSSSVISSDSMHIGVLAAAAHANANNSPFTIFYNPRAA 272
+                           ***************************************************************************************** PP
+
+               matches 284 sseFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVspWeieplvsa 372
+                           ++eFvv+l+ky+ka+++++s+GmRf+m fEte++++rrymGt++g+sdld+vrWknS+Wr+Lq+ WDe+a+ +rp+rVs+W+iep+++ 
+  sp|P93022|ARFG_ARATH 273 PAEFVVPLAKYTKAMYAQVSLGMRFRMIFETEECGVRRYMGTVTGISDLDPVRWKNSQWRNLQIGWDESAAGDRPSRVSVWDIEPVLTP 361
+                           ***************************************************************************************** PP
+
+               matches 373 sniskssllsknkrlrevqesgsssske......l..............kessllpslll.....qgqeisqlsvas............ 424
+                           ++i+ ++++   +r+r   ++g++++++                      +s+++p+l+l     ++q+++ql +a             
+  sp|P93022|ARFG_ARATH 362 FYIC-PPPF---FRPRFSGQPGMPDDETdmesalKrampwldnslemkdPSSTIFPGLSLvqwmnMQQQNGQLPSAAaqpgffpsmlsp 446
+                           ****.6666...7***********97664444440334444444455543344444443333333555555555552345566666666 PP
+
+               matches 425 .........nia.dsskelsyqda....skskarassat.....stea.s.plsssvqspsksnvn........smvkk.....eeekk 479
+                                      + d+sk ls+q++    s         +     ++++ + p+s+  q+p++ + +        s   +     +++++
+  sp|P93022|ARFG_ARATH 447 taalhnnlgG-TdDPSKLLSFQTPhggiS---------SsnlqfNKQNqQaPMSQLPQPPTTLSQQqqlqqllhS---SlnhqqQQSQS 522
+                           5555543331.035556666666522221.........0222222222122455555554444444233333331...03221122233 PP
+
+               matches 480 kkktssirlFGvdltsesklkekkeaskekedketelsesdissekskqskessseaqskqssstr 545
+                           ++++++ +l    l+++++l++++++++++++++++++  +++++++ q+++++  +q++q+++ r
+  sp|P93022|ARFG_ARATH 523 QQQQQQQQL----LQQQQQLQSQQHSNNNQSQSQQQQQLLQQQQQQQLQQQHQQPLQQQTQQQQLR 584
+                           333333333....33333333333332222223333323333322222223323334444444444 PP
+
+  == domain 2  score: 154.6 bits;  conditional E-value: 1.7e-47
+               matches  385 krlrevqesgsssskelkessllpslllqgqeisqlsvasniadsskelsyqdask......................skarassat 449 
+                            +rl+++q++++ s      +s lp+  lq+q+ +ql + s               +                              +
+  sp|P93022|ARFG_ARATH  755 QRLQQQQQQQFLS-----PQSQLPHHQLQSQQLQQLPTLS---------------QghqfpssctnnglstlqppqmlV-------S 814 
+                            2222222222111.....1222222222333333222221...............011111111122222222222220.......0 PP
+
+               matches  450 ......................................................................................s 450 
+                                                                                                                  +
+  sp|P93022|ARFG_ARATH  815 rpqekqnppvgggvkaysgitdggdapssstspstnncqisssgflnrsqsgpailipdaaidmsgnlvqdlysksdmrlkqelvgQ 901 
+                            222333333333333344444444444444444455555555555666666666666666666666665555544433332222211 PP
+
+               matches  451 teasplsssvqspsksnvnsmvkk....................eeekkkkktssirlFGvdltsesklkekkea............ 505 
+                                       ++s         k                      e++++++  + +FG+d +s+++l   ++             
+  sp|P93022|ARFG_ARATH  902 -----------QKS---------KasltdhqleasasgtsygldGGENNRQQNFLAPTFGLDGDSRNSLLGGANVdngfvpdtllsr 968 
+                            ...........111.........0111122222223334444547778899999**************999988899********** PP
+
+               matches  506 ...............skekedketelsesdisse..........kskqske.........ssseaqskqssstrtctkvqkqgsavg 558 
+                                           ++ ++d  te+s+s+++++          +     +         ++   +  q++++rt+tkvqk+g +vg
+  sp|P93022|ARFG_ARATH  969 gydsqkdlqnmlsnyGGVTNDIGTEMSTSAVRTQsfgvpnvpaiS-----NdlavndagvLGGGLWPAQTQRMRTYTKVQKRG-SVG 1049
+                            ***************999999**********99967776654431.....13566678865999*******************.*** PP
+
+               matches  559 ravdlsvlksydeLikeleklFdlegqledp.rskwkivytdsegdillvGddPweeFvkmvkkikilskeevkkmkkkkklale 642 
+                            r++d++++++ydeL+++l+++F++egqledp +s+wk+vy+d+e+dillvGddPweeFv++v++ikils++ev++m+ ++++a  
+  sp|P93022|ARFG_ARATH 1050 RSIDVNRYRGYDELRHDLARMFGIEGQLEDPqTSDWKLVYVDHENDILLVGDDPWEEFVNCVQSIKILSSAEVQQMSLDGNFAGV 1134
+                            *******************************99********************************************99998766 PP
+
+>> sp|Q9C5W9|ARFR_ARATH  Auxin response factor 18 OS=Arabidopsis thaliana OX=3702 GN=ARF18 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  815.9   2.2  1.2e-247  2.6e-245      21     652 ..      12     595 ..       2     601 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 815.9 bits;  conditional E-value: 1.2e-247
+               matches  21 sessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkele.eeapifdlpskllCrvlnvklkadketDEvYAqit 108
+                           s+ss++ +++ly+eLWk+CAGplv++P+++erV+YFpqGh+Eq+ ast++ ++ ee+p+fdlp+k+lCrvl+v+lka++etDEvYAqit
+  sp|Q9C5W9|ARFR_ARATH  12 SSSSRSYQDQLYTELWKVCAGPLVEVPRAQERVFYFPQGHMEQLVASTNQGINsEEIPVFDLPPKILCRVLDVTLKAEHETDEVYAQIT 100
+                           46778999*********************************************99********************************** PP
+
+               matches 109 LlPeteqeeektekeldag.eekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRG 196
+                           L+Pe++q+e  t+   d + + ++k++ +sF+K+LTaSDtsthGGFsV+r++A+e+lP+Ld++q +ptQelv++Dlhg eW+F+Hi+RG
+  sp|Q9C5W9|ARFR_ARATH 101 LQPEEDQSEP-TSL--DPPiVGPTKQEFHSFVKILTASDTSTHGGFSVLRKHATECLPSLDMTQATPTQELVTRDLHGFEWRFKHIFRG 186
+                           *****97666.554..57779******************************************************************** PP
+
+               matches 197 qPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiFevvYkPrasss 285
+                           qPrRHlLttGWs+FvssK+LvaGD++vFlrge+g+LrvG+Rr +r+qs++p+sviss+sm+lgvla+a+ha++t++iF v+YkPr+s  
+  sp|Q9C5W9|ARFR_ARATH 187 QPRRHLLTTGWSTFVSSKRLVAGDAFVFLRGENGDLRVGVRRLARHQSTMPTSVISSQSMHLGVLATASHAVRTTTIFVVFYKPRIS-- 273
+                           ************************************************************************************887.. PP
+
+               matches 286 eFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVspWeieplvsasn 374
+                           +F+v ++ky++a+k+ fs+G+Rf+mrfE+e+s+er+++Gti+g  dl s++W++SkWrsLqvqWDep+++qrp++VspWeiep++++s+
+  sp|Q9C5W9|ARFR_ARATH 274 QFIVGVNKYMEAIKHGFSLGTRFRMRFEGEESPERIFTGTIVGSGDL-SSQWPASKWRSLQVQWDEPTTVQRPDKVSPWEIEPFLATSP 361
+                           ***********************************************.***************************************** PP
+
+               matches 375 iskssll..sknkrlrevqesgsssskelkessllpslllqgqeisqlsvasniadsskelsyqdaskskarassatsteasplsssvq 461
+                           is+++++  sk+kr+r++++s ++      ++ +++ +l q+q++       n     +   +qd+          +      l++ + 
+  sp|Q9C5W9|ARFR_ARATH 362 ISTPAQQpqSKCKRSRPIEPSVKTP-----APPSFLYSLPQSQDSI------NA----SLKLFQDP----------S------LERISG 419
+                           *99887777999***9997776554.....4556666777777773......32....34577899..........2......223344 PP
+
+               matches 462 spsksnvnsmvkkeeekkkkktssirlFGvdltsesklkekkeaskekedketelsesdissekskqske.s.sseaqskqssstrtct 548
+                            +s++n ++     e++  ++++s+rlFG+dlts+s +     +     dk+ +++       ++k++++ + +s++++k+++++r++t
+  sp|Q9C5W9|ARFR_ARATH 420 GYSSNNSFK----PETPPPPTNCSYRLFGFDLTSNSPAPI--PQ-----DKQPMDTCG-----AAKCQEPiTpTSMSEQKKQQTSRSRT 492
+                           556665554....667889999*************99333..32.....223333222.....3456666532445677788888**** PP
+
+               matches 549 kvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkikilskeevkkmkkkk 637
+                           kvq+qg+avgravdl+ lksydeLi+ele++F+++gql  +r+kw +v+td+egd++l+GddPw+eF+km+kki+i+s++evkkm++k 
+  sp|Q9C5W9|ARFR_ARATH 493 KVQMQGIAVGRAVDLTLLKSYDELIDELEEMFEIQGQLL-ARDKWIVVFTDDEGDMMLAGDDPWNEFCKMAKKIFIYSSDEVKKMTTKL 580
+                           ***************************************.8************************************************ PP
+
+               matches 638 klaleeaeaekekdk 652
+                           k++++ +++e ++++
+  sp|Q9C5W9|ARFR_ARATH 581 KISSSLENEEYGNES 595
+                           **9999988887765 PP
+
+>> sp|Q9FX25|ARFM_ARATH  Auxin response factor 13 OS=Arabidopsis thaliana OX=3702 GN=ARF13 PE=2 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  807.1   1.1  5.5e-245  1.2e-242      11     656 ..       1     618 [.       1     621 [] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 807.1 bits;  conditional E-value: 5.5e-245
+               matches  11 messnsvn.elsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklkadk 98 
+                           me++ ++n + + s+d +k+++ye+LW++CAGpl+ lPk ge+VyYFpqGhiE +e+str+el+++ pifdlpskl Crv++++ k+dk
+  sp|Q9FX25|ARFM_ARATH   1 MENNGEMNaQPELSVDITKTYMYEKLWNICAGPLCVLPKPGEKVYYFPQGHIELIENSTRDELDHIRPIFDLPSKLRCRVVAIDRKVDK 89 
+                           5666667766677899************************************************************************* PP
+
+               matches  99 etDEvYAqitLlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgne 187
+                           +tDEvYAqi+L+P+t+++++++++     ++++++ v +F+K+LTaSD+s +GG+++p+++A+e++PpLd+sq+ +tQ+lvakDl+g+e
+  sp|Q9FX25|ARFM_ARATH  90 NTDEVYAQISLMPDTTEVMTHNTT-----MDTRRPIVYFFSKILTASDVSLSGGLIIPKQYAIECFPPLDMSQPISTQNLVAKDLYGQE 173
+                           *****************9997665.....799********************************************************* PP
+
+               matches 188 WkFrHiyRGqPrRHlLtt..GWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiF 274
+                           W+F+H++RG+P+RH++t+  GWsvF ++K+L+ GD++v+lrge+geLr+GiRrak+qq+++pssvis+++m++gv+a++++a++tk++F
+  sp|Q9FX25|ARFM_ARATH 174 WSFKHVFRGTPQRHMFTSggGWSVFATTKRLIVGDIFVLLRGENGELRFGIRRAKHQQGHIPSSVISANCMQHGVIASVVNAFKTKCMF 262
+                           *****************9778******************************************************************** PP
+
+               matches 275 evvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVsp 363
+                           +vvYkP  sss+Fv+s++k+++a++n+++vG+Rf+m+fE++d+se+ry Gtiigv+d+ s++Wk+S+WrsL+vqWDe + + rp++Vsp
+  sp|Q9FX25|ARFM_ARATH 263 NVVYKP--SSSQFVISYDKFVDAMNNNYIVGSRFRMQFEGKDFSEKRYDGTIIGVNDM-SPHWKDSEWRSLKVQWDELSPFLRPNQVSP 348
+                           ******..99************************************************.****************************** PP
+
+               matches 364 Weieplvsasniskssllsknkrlrevqesgsssskelkessllpslllqgqeisqlsvasniadsskelsyqdaskskarassatste 452
+                           W+ie+l+++s+is+ssl+ k+k++ + +e+g++       s+l+     ++qei+q+s++s i  s++e+sy +a ++ ++  s  +  
+  sp|Q9FX25|ARFM_ARATH 349 WDIEHLIPSSDISQSSLK-KKKHWLQLNEIGATL------SNLW-----TCQEIGQRSMNSPI--SVPEFSYPNAIED-SKFLSGLL-- 420
+                           *************99977.99999*****99665......4444.....6899*999999887..7888999998322.22222222.. PP
+
+               matches 453 asplsssvqspsksnvn..smvk.keeekkkkktssirlFGvdltsesklkekkeaskekedketelsesdissekskqske..sssea 536
+                              l++s  + +++n+n  +m++ ++e++++++t+s+ lFGvdlt+ sk+k++++   e      + ++s  + +k++q+++  s++e+
+  sp|Q9FX25|ARFM_ARATH 421 ---LNHSLLAIPNENYNsdQMIQpRKEDITTEATTSCLLFGVDLTKVSKSKDSICPI-E------SCKKSLPQDKKFDQTQPlrSPKEV 499
+                           ...4455555555555555889989****************************9971.1......2223333345788888876799** PP
+
+               matches 537 qskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkikil 625
+                           qs++++ tr+++kv++qg+a++ravdl+++++y++Li++le+lFdl+++l+ +r++w+iv+t++eg+++lvGddPw+eF++m+k+i+i+
+  sp|Q9FX25|ARFM_ARATH 500 QSTEFNFTRSRIKVHMQGVAISRAVDLTAMHGYNQLIQKLEELFDLKDELR-TRNQWEIVFTNNEGAEMLVGDDPWPEFCNMAKRIFIC 587
+                           ***************************************************.9************************************ PP
+
+               matches 626 skeevkkmkkkkklaleeaeaekekdksskv 656
+                           skee+kkmk k+k+++ e++a +++d  ++v
+  sp|Q9FX25|ARFM_ARATH 588 SKEEIKKMKLKNKFFQPESKALTSSDVPPNV 618
+                           *****************99999988876655 PP
+
+>> sp|Q9FGV1|ARFH_ARATH  Auxin response factor 8 OS=Arabidopsis thaliana OX=3702 GN=ARF8 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  801.9   0.1  2.1e-243  4.5e-241      21     640 ..       9     800 ..       1     810 [. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 801.9 bits;  conditional E-value: 2.1e-243
+               matches  21 sessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkele.eeapifdlpskllCrvlnvklkadketDEvYAqit 108
+                            ++ ++ +k+l++eLW+aCAGplvslP++g+rV+YFpqGh+Eqv+a+t+ke++ +++++++lp++l+C+++nv+++ad etDEvYAq+t
+  sp|Q9FGV1|ARFH_ARATH   9 GQQGHEGEKCLNSELWHACAGPLVSLPSSGSRVVYFPQGHSEQVAATTNKEVDgHIPNYPSLPPQLICQLHNVTMHADVETDEVYAQMT 97 
+                           56778899********************************************************************************* PP
+
+               matches 109 LlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRGq 197
+                           L+P+t +e+++t   ++ g  ++k++ ++FcKtLTaSDtsthGGFsVprraAe+v+PpLdy+ qpp+Qel+a+Dlh+ eWkFrHi+RGq
+  sp|Q9FGV1|ARFH_ARATH  98 LQPLTPEEQKETFVPIELGI-PSKQPSNYFCKTLTASDTSTHGGFSVPRRAAEKVFPPLDYTLQPPAQELIARDLHDVEWKFRHIFRGQ 185
+                           *************9999998.89****************************************************************** PP
+
+               matches 198 PrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiFevvYkPrassse 286
+                           P+RHlLttGWsvFvs+K+LvaGDsv+F+r+ek++L++GiR+a+r+q+ +pssv+ssdsm++g+la+aaha at+s+F+v+++Pras+se
+  sp|Q9FGV1|ARFH_ARATH 186 PKRHLLTTGWSVFVSAKRLVAGDSVIFIRNEKNQLFLGIRHATRPQTIVPSSVLSSDSMHIGLLAAAAHASATNSCFTVFFHPRASQSE 274
+                           ***************************************************************************************** PP
+
+               matches 287 Fvvslekylkavkn.kfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVspWeieplvsasn 374
+                           Fv++l+ky+kav + ++svGmRf+m fEte+ss+rrymGti+g+sdldsvrW+nS+Wrs++v WDe+++ +r+ rVs+Weiepl++  +
+  sp|Q9FGV1|ARFH_ARATH 275 FVIQLSKYIKAVFHtRISVGMRFRMLFETEESSVRRYMGTITGISDLDSVRWPNSHWRSVKVGWDESTAGERQPRVSLWEIEPLTTF-P 362
+                           ************9989*********************************************************************95.5 PP
+
+               matches 375 iskssll.sknkrlrevqesgsssske........l.........kessllpslll.....qgqeisqlsvas...............n 425
+                           ++ +sl+  + kr++++ +s+ ++ +         l           + ++ps+ l     q+ + sq+ +++                
+  sp|Q9FGV1|ARFH_ARATH 363 MY-PSLFpLRLKRPWHAGTSSLPDGRGdlgsgltwLrggggeqqgLLPLNYPSVGLfpwmqQRLDLSQMGTDNnqqyqamlaaglqniG 450
+                           55.4555579***********99965566666655055566666644444444444444334445555554431222222333333330 PP
+
+               matches 426 iadsskelsyqdask.............................................skarassat.................... 449
+                                                                                       +       +                    
+  sp|Q9FGV1|ARFH_ARATH 451 --------------GgdplrqqfvqlqephhqylqqsashnsdlmlqqqqqqqasrhlmhA-------Qtqimsenlpqqnmrqevsnq 518
+                           ..............13333333333333444444444444455555443333333333330.......033333444444444444444 PP
+
+               matches 450 .........................................................................steasplsssvqspsk 465
+                                                                                                    +               
+  sp|Q9FGV1|ARFH_ARATH 519 pagqqqqlqqpdqnaylnafkmqnghlqqwqqqsempspsfmksdftdssnkfattaspasgdgnllnfsitgQ--------------- 592
+                           44444455555555556666555565555555444444444444444444444444444444433333333220............... PP
+
+               matches 466 snvn..........................smvkk....eeekkkkktssirlFGvdltsesklkekkea....skekedketelsesd 520
+                              +                          +        +   +  + ++ +lFGvd +s   l ++       s+++e+++++l++s 
+  sp|Q9FGV1|ARFH_ARATH 593 ---SvlpeqlttegwspkasntfseplslpQ---AypgkSLALEPGNPQNPSLFGVDPDSGLFLPSTVPRfassSGDAEASPMSLTDSG 675
+                           ...0222222222222222222245555553...04444556666777799*******99988766665567779999999******** PP
+
+               matches 521 issekskqske.....ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledp.rskwkivytdsegd 603
+                           ++++  +++++     ++   q ++s++t++++kv+k+g +vgr++d+s+++sy+eL++el k+F +eg ledp rs+w++v++d+e+d
+  sp|Q9FGV1|ARFH_ARATH 676 FQNSLYSCMQDtthelLHGAGQINSSNQTKNFVKVYKSG-SVGRSLDISRFSSYHELREELGKMFAIEGLLEDPlRSGWQLVFVDKEND 763
+                           *9886666666566654777788999999**********.************************************************* PP
+
+               matches 604 illvGddPweeFvkmvkkikilskeevkkmkkkkkla 640
+                           ill+GddPwe+Fv+ v+ ikils+e+v++m ++++ +
+  sp|Q9FGV1|ARFH_ARATH 764 ILLLGDDPWESFVNNVWYIKILSPEDVHQMGDHGEGS 800
+                           ******************************9998766 PP
+
+>> sp|Q9ZTX9|ARFD_ARATH  Auxin response factor 4 OS=Arabidopsis thaliana OX=3702 GN=ARF4 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  790.1   0.0    8e-240  1.7e-237      15     667 ..      44     787 ..      26     788 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 790.1 bits;  conditional E-value: 8e-240
+               matches  15 nsvn....elsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklkadke 99 
+                           +  +    ++s+ss+g+ +++y+eLW+aCAGpl++lPk+g+ V+YFpqGh+Eq ++++ +    e+p fdl+++++Crv+nv+l a+k+
+  sp|Q9ZTX9|ARFD_ARATH  44 S--CssgsSSSSSSTGSASSIYSELWHACAGPLTCLPKKGNVVVYFPQGHLEQDAMVSYS-SPLEIPKFDLNPQIVCRVVNVQLLANKD 129
+                           2..123557888999***************************************999855.578899********************** PP
+
+               matches 100 tDEvYAqitLlPeteqeeektekeld..........ageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQel 178
+                           tDEvY+q+tLlP++e ++ + e + +          +g+++ k+++++FcKtLTaSDtsthGGFsVprraAe++++pLdy+qq+p+Qel
+  sp|Q9ZTX9|ARFD_ARATH 130 TDEVYTQVTLLPLQEFSMLNGEGK-EvkelggeeerNGSSSVKRTPHMFCKTLTASDTSTHGGFSVPRRAAEDCFAPLDYKQQRPSQEL 217
+                           ****************99988876.2346889999777999************************************************ PP
+
+               matches 179 vakDlhgneWkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaaha 267
+                           +akDlhg eWkFrHiyRGqPrRHlLttGWs Fvs+K+Lv+GD+v+Flr+e geLr+GiRra+r+++ lp s+i++ + + ++l+ +a+a
+  sp|Q9ZTX9|ARFD_ARATH 218 IAKDLHGVEWKFRHIYRGQPRRHLLTTGWSIFVSQKNLVSGDAVLFLRDEGGELRLGIRRAARPRNGLPDSIIEK-NSCSNILSLVANA 305
+                           *********************************************************************887765.5678********* PP
+
+               matches 268 aatksiFevvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslq 356
+                           ++tks+F+v+Y+Pra+++eFv+++eky++++++++++G+Rf+mrfE++ds+err++G+++gv+dld++rW+nSkWr+L v+WDe+ + +
+  sp|Q9ZTX9|ARFD_ARATH 306 VSTKSMFHVFYSPRATHAEFVIPYEKYITSIRSPVCIGTRFRMRFEMDDSPERRCAGVVTGVCDLDPYRWPNSKWRCLLVRWDESFVSD 394
+                           ***************************************************************************************** PP
+
+               matches 357 rpkrVspWeieplvsasniskssllsknkrlrevqesgsssskel.........kessllpslllqgqeisqlsva.s..nia.dsske 432
+                           +++rVspWei+p+vs +++s +s + ++kr+++    +++  +++         +e+s++ps +lqgqe+  +++  +  +++ +++ +
+  sp|Q9ZTX9|ARFD_ARATH 395 HQERVSPWEIDPSVSLPHLSIQS-SPRPKRPWAGLLDTTPP-GNPitkrggfldFEESVRPSKVLQGQENIGSASPsQgfDVMnRRILD 481
+                           ********************777.669*******9999998.55457888888899**************9998885233222477888 PP
+
+               matches 433 lsyqdask...............skarassat.......................................................st 451
+                           +++q++++                                                                                 
+  sp|Q9ZTX9|ARFD_ARATH 482 FAMQSHANpvlvssrvkdrfgefV-------DatgvnpacsgvmdldrfprvlqgqeicslksfpqfagfspaaapnpfayqankssY- 562
+                           898988444444444333333330.......144444444445555555555555555555555555555444443333333222220. PP
+
+               matches 452 easplsssvqspsksnvn..............smvkk...eeekkkkktssirlFGvdltsesklkekkea..............skek 509
+                                            +              +   +     ++++   s++  FG +  +    +e                  +k+k
+  sp|Q9ZTX9|ARFD_ARATH 563 -----------------YplalhgirsthvpyQ---NpynAGNQSSGPPSRAINFGEETRKFDAQNEGGLPnnvtadlpfkidmmGKQK 631
+                           .................1233333333333321...02212333333334445566555554444443333333444444443323333 PP
+
+               matches 510 edketelsesdissekskqskessseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivyt 598
+                            ++ ++  +s    + ++ s ++++ a++ qsss+r ctkv+kqgs+vgra+dls+l++yd+L++ele+lF++eg l+dp+++w+i+yt
+  sp|Q9ZTX9|ARFD_ARATH 632 GSELNMNASSGC--KLFGFSLPVETPASKPQSSSKRICTKVHKQGSQVGRAIDLSRLNGYDDLLMELERLFNMEGLLRDPEKGWRILYT 718
+                           322222222222..3666666688899************************************************************** PP
+
+               matches 599 dsegdillvGddPweeFvkmvkkikilskeevkkmkkkkklaleeaeaekekdksskveksseskeiss 667
+                           dse+d+++vGddPw++F+++v+ki++++keev++ ++++k++le+a+ ++e++kss+v++ ++s++i++
+  sp|Q9ZTX9|ARFD_ARATH 719 DSENDMMVVGDDPWHDFCNVVWKIHLYTKEEVENANDDNKSCLEQAALMMEASKSSSVSQPDSSPTITR 787
+                           **********************************************************99999988776 PP
+
+>> sp|P93024|ARFE_ARATH  Auxin response factor 5 OS=Arabidopsis thaliana OX=3702 GN=ARF5 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  778.2   1.3  3.2e-236  6.7e-234      16     650 ..      36     898 ..      12     902 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 778.2 bits;  conditional E-value: 3.2e-236
+               matches  16 svnelsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkele.eeapifdlpskllCrvlnvklkadketDEv 103
+                           +++ l+++s ++k  +++eLW+aCAGplv+lP++g+ VyYF+qGh+Eqv+ str++++ + +++++lps+l+C+v+nv+l+adk++DE+
+  sp|P93024|ARFE_ARATH  36 EMKLLKDQSGTRKPVINSELWHACAGPLVCLPQVGSLVYYFSQGHSEQVAVSTRRSATtQVPNYPNLPSQLMCQVHNVTLHADKDSDEI 124
+                           333678899999******************************************99998999*************************** PP
+
+               matches 104 YAqitLlPeteqeeektekeldag.eekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFr 191
+                           YAq++L+P++++++       d g  + +k+++e+FcKtLTaSDtsthGGFsVprraAe+++PpLdys+qpptQelv++Dlh+n+W+Fr
+  sp|P93024|ARFE_ARATH 125 YAQMSLQPVHSERDVFPV--PDFGmLRGSKHPTEFFCKTLTASDTSTHGGFSVPRRAAEKLFPPLDYSAQPPTQELVVRDLHENTWTFR 211
+                           ***********8887555..467768899************************************************************ PP
+
+               matches 192 HiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaahaaatksiFevvYkP 280
+                           HiyRGqP+RHlLttGWs Fv sK+L aGDsv+F+r+ek++L+vG+Rra+rqq++lpssv+s+dsm++gvla+aaha+a++++F ++Y+P
+  sp|P93024|ARFE_ARATH 212 HIYRGQPKRHLLTTGWSLFVGSKRLRAGDSVLFIRDEKSQLMVGVRRANRQQTALPSSVLSADSMHIGVLAAAAHATANRTPFLIFYNP 300
+                           ***************************************************************************************** PP
+
+               matches 281 rassseFvvslekylkavkn.kfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslqrpkrVspWeiep 368
+                           ra+++eFv++l+ky+ka++  ++svGmRf m+fEteds++rrymGti+g+sdld+ rW++SkWr+Lqv+WDep ++++p+rVspW+ie+
+  sp|P93024|ARFE_ARATH 301 RACPAEFVIPLAKYRKAICGsQLSVGMRFGMMFETEDSGKRRYMGTIVGISDLDPLRWPGSKWRNLQVEWDEPGCNDKPTRVSPWDIET 389
+                           ******************988******************************************************************** PP
+
+               matches 369 lvsasniskssllsknkrlrevqesgsssske.....l...........kessllpslllqgqeisqlsva..sniadsskelsyqdas 439
+                             s +  +  sl+s  kr+ +++ +  +++       +           +  +++ps+++++     ++++  +n + +s  + +q+  
+  sp|P93024|ARFE_ARATH 390 PESLFIFP--SLTSGLKRQLHPSYFAGETEWGslikrPlirvpdsangiMPYASFPSMASEQLMK--MMMRphNNQNVPSFMSEMQQ-- 472
+                           *9966555..88889******99888766433555550555566666655566666666522222..22222122211222222222.. PP
+
+               matches 440 k....................................................skarassat........................... 449
+                           +                                                            +                           
+  sp|P93024|ARFE_ARATH 473 NivmgnggllgdmkmqqplmmnqksemvqpqnkltvnpsasntsgqeqnlsqsM-------Sapakpenstlsgcssgrvqhgleqsme 554
+                           122344555555555555555555555555555555555555555444444440.......0444444444555555555555555555 PP
+
+               matches 450 ......................................................................................... 449
+                                                                                                                    
+  sp|P93024|ARFE_ARATH 555 qasqvttstvcneekvnqllqkpgasspvqadqcldithqiyqpqsdpingfsfletdeltsqvssfqslagsykqpfilssqdssavv 643
+                           66666666666777777777777777777777777777777777778888888888888888888888888888888888888888888 PP
+
+               matches 450 ..........................................steasplsssvqspsksnvn.......................smvk 473
+                                                                     s              +s+++                       +   
+  sp|P93024|ARFE_ARATH 644 lpdstnsplfhdvwdtqlnglkfdqfsplmqqdlyasqnicmS--------------NSTTSnildpplsntvlddfcaikdtdfQ--- 715
+                           8888888888888888887777777766555444432222110..............11111222333333334544433322221... PP
+
+               matches 474 keeekkkkktssirlFGvdltsesklkekkea........skekedketelsesdissekskqske..s.sseaqskqssstrtctkvq 551
+                            ++       ++   F +d++s+ ++++ + +           +++  t +s+s+++   +++s +  s +s++q+ ++ + rt+tkvq
+  sp|P93024|ARFE_ARATH 716 -NHPSGCLVGNNNTSFAQDVQSQITSASFADSqafsrqdfP--DNSGGTGTSSSNVD--FDDCSLRqnSkGSSWQKIATPRVRTYTKVQ 799
+                           .2222222333334444444444333333222444433221..22233444444444..333333333448899*************** PP
+
+               matches 552 kqgsavgravdlsvlksydeLikeleklFdlegqledp.rskwkivytdsegdillvGddPweeFvkmvkkikilskeevkkmkkkkkl 639
+                           k+g +vgr++d++++k+y+eL + +e++F+leg l++p +s+wk+vy+d e+d+llvGddPweeFv +v++i+ils++ev++m++++++
+  sp|P93024|ARFE_ARATH 800 KTG-SVGRSIDVTSFKDYEELKSAIECMFGLEGLLTHPqSSGWKLVYVDYESDVLLVGDDPWEEFVGCVRCIRILSPTEVQQMSEEGMK 887
+                           ***.**********************************889***********************************************9 PP
+
+               matches 640 aleeaeaekek 650
+                           +l++a  ++ k
+  sp|P93024|ARFE_ARATH 888 LLNSAGINDLK 898
+                           99988776655 PP
+
+>> sp|Q9SKN5|ARFJ_ARATH  Auxin response factor 10 OS=Arabidopsis thaliana OX=3702 GN=ARF10 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  691.4   0.0    6e-210  1.3e-207      26     653 ..       2     683 ..       1     691 [. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 691.4 bits;  conditional E-value: 6e-210
+               matches  26 gekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklkadketDEvYAqitLlPete 114
+                           +++k+l+++LW+aCAG++v++P+l+++V+YF+qGh+E+++a        +++++++p+ +lCrv++vk+ ad+etDEv+A+itLlP+  
+  sp|Q9SKN5|ARFJ_ARATH   2 EQEKSLDPQLWHACAGSMVQIPSLNSTVFYFAQGHTEHAHAPP------DFHAPRVPPLILCRVVSVKFLADAETDEVFAKITLLPLPG 84 
+                           6899**************************************8......999************************************* PP
+
+               matches 115 qeeekteke.ld......ageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRG 196
+                           ++ + ++++ l+      +g+ + kek++sF+KtLT+SD++++GGFsVpr++Ae+++P+Ldys++pp+Q+++akD+hg++WkFrHiyRG
+  sp|Q9SKN5|ARFJ_ARATH  85 NDLDLENDAvLGltppssDGNGNGKEKPASFAKTLTQSDANNGGGFSVPRYCAETIFPRLDYSAEPPVQTVIAKDIHGETWKFRHIYRG 173
+                           9999888775558899988899******************************************************************* PP
+
+               matches 197 qPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssv............issd................... 254
+                           +PrRHlLttGWs+Fv++KkL+aGDs+vFlr+e+g+L+vGiRrakr     ++ +               d                   
+  sp|Q9SKN5|ARFJ_ARATH 174 TPRRHLLTTGWSTFVNQKKLIAGDSIVFLRSESGDLCVGIRRAKRGGLGSNAGSdnpypgfsgflrD--Desttttsklmmmkrngnnd 260
+                           *********************************************9877776666688888887550..25555556666666677777 PP
+
+               matches 255 .......smrlgvlaeaahaaatksiFevvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsse.rrymGtiigvsdldsv 335
+                                  ++r++++aea+++aa++++FevvY+Pras++eF+v+++++++a+++++++GmRfkm+fEtedss+ +++mGt+++v+ +d++
+  sp|Q9SKN5|ARFJ_ARATH 261 gnaaatgRVRVEAVAEAVARAACGQAFEVVYYPRASTPEFCVKAADVRSAMRIRWCSGMRFKMAFETEDSSRiSWFMGTVSAVQVADPI 349
+                           8888888********************************************************************************** PP
+
+               matches 336 rWknSkWrsLqvqWDepaslqrpkrVspWeieplvsasniskssllsknkrlrevqesgsssskelkessllpslllqgqeisqlsva. 423
+                           rW+nS+Wr Lqv+WDep++lq++krVspW +e ++++++i+ s+++   k++r++q+++++ +++ k +++ p+++++g   s    + 
+  sp|Q9SKN5|ARFJ_ARATH 350 RWPNSPWRLLQVAWDEPDLLQNVKRVSPWLVELVSNMPTIHLSPFS-PRKKIRIPQPFEFPFHGT-KFPIFSPGFANNGGGESMCYLSn 436
+                           *****************************************77766.68************9887.78888888888443332222221 PP
+
+               matches 424 .snia......dsskelsyqdaskskara.............ssat.................steasplsssv.qspsksnvn..... 469
+                            +n a      +++ ++                         s  +                 +++++  ++++ +s++++n++     
+  sp|Q9SKN5|ARFJ_ARATH 437 dNNNApagiqgARQAQQL----------FgspspsllsdlnlS--SytgnnklhspamflssfNPRHH--HYQArDSENSNNIScsltm 511
+                           222111111111111122..........122222222222220..02233333333333322222222..1222122223333356888 PP
+
+               matches 470 ...smvk.keeekkkkktssirlFGvdltsesklkekkeaskekedketelsesdissekskqskessseaqskqssstrtctkvqkqg 554
+                               mv+ k++++ + kt+++ lFG+++ +e++++++k+  +e+          ++ +e+++   + + +++ + ++ ++ ++kv++++
+  sp|Q9SKN5|ARFJ_ARATH 512 gnpAMVQdKKKSVGSVKTHQFVLFGQPILTEQQVMNRKRFLEEEA---------EA-EEEKGLVAR-GLTWNYSLQGLETGHCKVFMES 589
+                           99966777999**********************999988722222.........11.122333333.6678999*************** PP
+
+               matches 555 savgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkikilskeevkkmkkkkklalee 643
+                           ++vgr++dlsv+ sy+eL+++l+++F++e++++     +++vy+d++g i+ +Gd+P+++F+k++k+++i ++ + ++++k++ + ++ 
+  sp|Q9SKN5|ARFJ_ARATH 590 EDVGRTLDLSVIGSYQELYRKLAEMFHIEERSDL---LTHVVYRDANGVIKRIGDEPFSDFMKATKRLTIKMDIGGDNVRKTWITGIR- 674
+                           ******************************9995...9*******************************************9998877. PP
+
+               matches 644 aeaekekdks 653
+                            + e++ d+s
+  sp|Q9SKN5|ARFJ_ARATH 675 -TGENGIDAS 683
+                           .444444444 PP
+
+>> sp|Q93YR9|ARFP_ARATH  Auxin response factor 16 OS=Arabidopsis thaliana OX=3702 GN=ARF16 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  677.6   0.0    9e-206  1.9e-203      18     633 ..       3     668 ..       1     670 [] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 677.6 bits;  conditional E-value: 9e-206
+               matches  18 nelsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklkadketDEvYAq 106
+                           n ++ ++ g++k l+++LW+aCAG++v++P+++++V+YFpqGh+E++ +++      ++  + +p+++lCrvl++k++ad+e+DEv+A+
+  sp|Q93YR9|ARFP_ARATH   3 NVMNPMKGGTEKGLDPQLWHACAGGMVRMPPMNSKVFYFPQGHAENAYDCV------DFGNLPIPPMVLCRVLAIKYMADAESDEVFAK 85 
+                           567789999*****************************************9......8999**************************** PP
+
+               matches 107 itLlPeteqeeektekeld...ageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrH 192
+                           ++L+P++++e+ ++e+  +   +g e+++ek+ sF+KtLT+SD++++GGFsVpr++Ae+++P+Ldy+++pp+Q+++akD+hg+ WkFrH
+  sp|Q93YR9|ARFP_ARATH  86 LRLIPLKDDEYVDHEYGDGedsNGFESNSEKTPSFAKTLTQSDANNGGGFSVPRYCAETIFPRLDYNAEPPVQTILAKDVHGDVWKFRH 174
+                           **********999998622555669**************************************************************** PP
+
+               matches 193 iyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssv................issd........... 254
+                           iyRG+PrRHlLttGWs+Fv++KkLvaGDs+vF+r e+g+L+vGiRrakr     + ++                +++d           
+  sp|Q93YR9|ARFP_ARATH 175 IYRGTPRRHLLTTGWSNFVNQKKLVAGDSIVFMRAENGDLCVGIRRAKRGGIGNGPEYsagwnpiggscgysslLREDesnslrrsncs 263
+                           ****************************************************9999998899999988888888444466667777777 PP
+
+               matches 255 ......smrlgvlaeaahaaatksiFevvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsse.rrymGtiigvsdldsvr 336
+                                 +++++ + eaa+ a ++++FevvY+Pras+seF+v++ + ++a+++++++GmRfkm+fEtedss+ +++mGt+++v+ +d++r
+  sp|Q93YR9|ARFP_ARATH 264 ladrkgKVTAESVIEAATLAISGRPFEVVYYPRASTSEFCVKALDARAAMRIPWCSGMRFKMAFETEDSSRiSWFMGTVSAVNVSDPIR 352
+                           777888*********************************************************************************** PP
+
+               matches 337 WknSkWrsLqvqWDepaslqrpkrVspWeieplvsasniskssllsknkrlrevqesgsssskelkessllpslllqgqeisqlsva.s 424
+                           W+nS+Wr Lqv+WDep++lq++krV+pW +e ++++++i+ +s++   k++r +q++++++  +     ++ps  l +  +s ls+   
+  sp|Q93YR9|ARFP_ARATH 353 WPNSPWRLLQVAWDEPDLLQNVKRVNPWLVELVSNVHPIPLTSFSPPRKKMRLPQHPDYNNLINSIPVPSFPSNPLIR--SSPLSSVlD 439
+                           *********************************************889***********9976643333444444422..222222223 PP
+
+               matches 425 niadsskelsyqda.skskarassat...................steasplsssv...........qspsksnvn.smvkkeeekkkk 481
+                           n+    + +  q a +++++ ++  +                   +         +           ++++k  ++ +m ++  +++k+
+  sp|Q93YR9|ARFP_ARATH 440 NV----P-VGLQGArHNAHQYYGLSSsdlhhyylnrpppppppssL---------QlspslglrnidTKNEKGFCFlTMGTTPCNDTKS 514
+                           43....2.11122201122222222212223333333333333221.........0111222221113344555556555666788888 PP
+
+               matches 482 ktssirlFGvdltsesklkekkeaskekedketelsesdisse......kskqske.s.sseaqskqssstrtctkvqkqgsavgravd 562
+                           k+s+i lFG+ +  e++l+ek ++++ +   e+++++s  s++      ++++s+e s  s++++++s+ ++ ++kv++++++vgr++d
+  sp|Q93YR9|ARFP_ARATH 515 KKSHIVLFGKLILPEEQLSEKGSTDTANI--EKTQISSGGSNQngvagrEFSSSDEgSpCSKKVHDASGLETGHCKVFMESDDVGRTLD 601
+                           89***************999999844444..3333444444334567776666666755678899************************ PP
+
+               matches 563 lsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkikilskeevkkm 633
+                           lsvl sy+eL ++l+++F++++  +     ++++y+d++g+i+++G++P++eF+k++++++il++++++++
+  sp|Q93YR9|ARFP_ARATH 602 LSVLGSYEELSRKLSDMFGIKKSEM----LSSVLYRDASGAIKYAGNEPFSEFLKTARRLTILTEQGSESV 668
+                           *********************9544....89**********************************998875 PP
+
+>> sp|O23661|ARFC_ARATH  Auxin response factor 3 OS=Arabidopsis thaliana OX=3702 GN=ARF3 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  619.1   0.0  4.3e-188  9.2e-186      11     514 ..      29     581 ..       8     602 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 619.1 bits;  conditional E-value: 4.3e-188
+               matches  11 me.ssnsvn.elsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklkad 97 
+                           ++ +s+s++  +  ss+++   ++ eLW+aCAGpl+slPk+g+ V+YFpqGh+Eq+ +++       a+i+ lp++++Cr+l+vkl+a+
+  sp|O23661|ARFC_ARATH  29 VSpTSSSSAsVSVVSSNSAGGGVCLELWHACAGPLISLPKRGSLVLYFPQGHLEQAPDFS-------AAIYGLPPHVFCRILDVKLHAE 110
+                           332233333366778899999************************************995.......89******************** PP
+
+               matches  98 ketDEvYAqitLlPeteqeeekteke.ld......ag.eekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQel 178
+                           ++tDEvYAq++LlPe+e+ e+k ++  +d      ++ + k+++++++FcKtLTaSDtsthGGFsVprraAe+++PpLdysq++p+Qel
+  sp|O23661|ARFC_ARATH 111 TTTDEVYAQVSLLPESEDIERKVREGiIDvdggeeDYeVLKRSNTPHMFCKTLTASDTSTHGGFSVPRRAAEDCFPPLDYSQPRPSQEL 199
+                           ******************9999887665577998855588999********************************************** PP
+
+               matches 179 vakDlhgneWkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissdsmrlgvlaeaaha 267
+                           +a+Dlhg eW+FrHiyRGqPrRHlLttGWs+Fv++KkLv+GD+v+Flrg++g+Lr+G+Rra++ +++++ s+ ++++m+++ ++e+aha
+  sp|O23661|ARFC_ARATH 200 LARDLHGLEWRFRHIYRGQPRRHLLTTGWSAFVNKKKLVSGDAVLFLRGDDGKLRLGVRRASQIEGTAALSAQYNQNMNHNNFSEVAHA 288
+                           ***************************************************************************************** PP
+
+               matches 268 aatksiFevvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsserrymGtiigvsdldsvrWknSkWrsLqvqWDepaslq 356
+                           ++t+s+F++ Y+P+as+s+F++++ k+lk+v+++f++GmRfk r+E+ed+serr  G+i+g+sdld++rW++SkWr+L v+WD++ ++ 
+  sp|O23661|ARFC_ARATH 289 ISTHSVFSISYNPKASWSNFIIPAPKFLKVVDYPFCIGMRFKARVESEDASERRSPGIISGISDLDPIRWPGSKWRCLLVRWDDIVANG 377
+                           ***************************************************************************************** PP
+
+               matches 357 rpkrVspWeieplvsasniskssllsknkrlrevqesgsssskel.........kessllpslllqgqeisqlsva..sniadsskels 434
+                           +++rVspWeiep+ s+sn  + + ++ +kr+r+  +sg+++   +         +e+sl+++++lqgqei   +++  s+  + ++  +
+  sp|O23661|ARFC_ARATH 378 HQQRVSPWEIEPSGSISNSGSFV-TTGPKRSRIGFSSGKPDI--PvsegiratdFEESLRFQRVLQGQEIFPGFINtcSDGGAGARRGR 463
+                           ******************99555.569********9998874..34577788889999***************9996543334444555 PP
+
+               matches 435 yqdask.....................skarassat.....................steasplsssvqspsksnvnsmvk.keeekkk 480
+                           ++ + +                             t                     st+  p s s++++s+  +ns++  ++ e+++
+  sp|O23661|ARFC_ARATH 464 FKGT-EfgdsygfhkvlqgqetvpaysI-------TdhrqqhglsqrniwcgpfqnfSTRILPPSVSSSPSSVLLTNSNSPnGRLEDHH 544
+                           5555.11222233333333322222220.......13333333333344444544333333233455555555555555555899999* PP
+
+               matches 481 kktssirlFGvdltsesklkekkea........skekedket 514
+                             + ++rlFG++lt+e+++  +++a              k  
+  sp|O23661|ARFC_ARATH 545 GGSGRCRLFGFPLTDETTAVASATAvpcvegnsM-----KGA 581
+                           *****************99888777666543220.....222 PP
+
+>> sp|Q84WU6|ARFQ_ARATH  Auxin response factor 17 OS=Arabidopsis thaliana OX=3702 GN=ARF17 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  529.4   0.0  6.3e-161  1.3e-158      20     531 ..       5     574 ..       1     585 [] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 529.4 bits;  conditional E-value: 6.3e-161
+               matches  20 lsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklkadketDEvYAqit 108
+                           ++++ d +++e+++++W+aCAG+ v++P l++rVyYFpqGh+E+++            +++ +s + C +++++l ad+ tDEv+A+++
+  sp|Q84WU6|ARFQ_ARATH   5 SATAGDINHREVDPTIWRACAGASVQIPVLHSRVYYFPQGHVEHCCPLL-------STLPSSTSPVPCIITSIQLLADPVTDEVFAHLI 86 
+                           56778999***************************************97.......6799***************************** PP
+
+               matches 109 LlPeteqeeekteke.ld..ageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiy 194
+                           L+P+t+q+ ++t+++ ++  +g+ ++++kv++F+K+LT SD++++GGFsVpr +A++v+P L+++ +pp+Q+l+++D+hg+ W+FrHiy
+  sp|Q84WU6|ARFQ_ARATH  87 LQPMTQQQFTPTNYSrFGrfDGDVDDNNKVTTFAKILTPSDANNGGGFSVPRFCADSVFPLLNFQIDPPVQKLYVTDIHGAVWDFRHIY 175
+                           *************98766878899***************************************************************** PP
+
+               matches 195 RGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiRrakrqqsnlpssvissd............................. 254
+                           RG+PrRHlLttGWs+Fv+sKkL+aGDsvvF+r++++e+++G+Rr+  ++s+ +ss+   d                             
+  sp|Q84WU6|ARFQ_ARATH 176 RGTPRRHLLTTGWSKFVNSKKLIAGDSVVFMRKSADEMFIGVRRTPISSSDGGSSYYGGDeyngyysqssvakeddgspkktfrrsgng 264
+                           ********************************************************555455555555566666789999999999999 PP
+
+               matches 255 smrlgvlaeaahaaatksiFevvYkPrassseFvvslekylkavknkfsvGmRfkmrfEtedsse.rrymGtiigvsdldsvrWknSkW 342
+                           +++++++++a+++a+++ +Fevv++P a +seFvv++e++ +++++ ++ G+R+km++Etedss+ ++++G+++++++  +  W++S+W
+  sp|Q84WU6|ARFQ_ARATH 265 KLTAEAVTDAINRASQGLPFEVVFYPAAGWSEFVVRAEDVESSMSMYWTPGTRVKMAMETEDSSRiTWFQGIVSSTYQE-TGPWRGSPW 352
+                           ****************************************************************************965.********* PP
+
+               matches 343 rsLqvqWDepaslqrpkrVspWeieplvsasniskssllsknkrlrevqesgsssskelkessllpslllqgqeisqlsvasniadssk 431
+                           ++Lq++WDep++lq++krV+pW++e++++a++++++ +    krl+++q+ g + s++ + ++l+p++ l +      s ++      +
+  sp|Q84WU6|ARFQ_ARATH 353 KQLQITWDEPEILQNVKRVNPWQVEIAAHATQLHTPFPP--AKRLKYPQPGGGFLSGD-DGEILYPQSGLSSAAAPDPSPSMF-----S 433
+                           **********************************66554..7**********999888.89999*999994444322222221.....1 PP
+
+               matches 432 elsyqdaskskara...ssat.............................stea.splsssvqs..psksnvn....smvkkeeekkkk 481
+                            +++    +  + +   +  +                             ste+ +  s ++++  p+++++n    + + +++ + +k
+  sp|Q84WU6|ARFQ_ARATH 434 YSTFPAGMQGAR-QydfG--SfnptgfiggnppqlftnnflsplpdlgkvSTEMmNFGSPPSDNlsPNSNTTNlssgNDLVGNRGPLSK 519
+                           122222212111.12221..133444444555555555666666666655333322122233332133333334454434469999*** PP
+
+               matches 482 ktssirlFGvdltsesklkekkea........skekedketelsesdissekskqske 531
+                           k +si+lFG+ +t e+++++   +        ske++d+et+ls s++  +     k+
+  sp|Q84WU6|ARFQ_ARATH 520 KVNSIQLFGKIITVEEHSESGPAEsglceedgSKESSDNETQLSLSHAPPSV---PKH 574
+                           *****************98887777888888888888888888888875442...222 PP
+
+>> sp|Q9LP07|ARFW_ARATH  Putative auxin response factor 23 OS=Arabidopsis thaliana OX=3702 GN=ARF23 PE=5 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  353.7   0.0    9e-108  1.9e-105      11     237 ..       1     222 []       1     222 [] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 353.7 bits;  conditional E-value: 9e-108
+               matches  11 messnsvn...elsessdgekkelyeeLWkaCAGplvslPklgerVyYFpqGhiEqveastrkeleeeapifdlpskllCrvlnvklka 96 
+                           mes+n+vn   els ++dg+k+++ye+LWk+CAGpl+++Pklge+VyYFpqGhiE veastr+el+e +p +dlpskl+Crv++++lk+
+  sp|Q9LP07|ARFW_ARATH   1 MESGNVVNvqsELSGIIDGSKSYMYEQLWKLCAGPLCDIPKLGEKVYYFPQGHIELVEASTREELNELQPNCDLPSKLQCRVIAIHLKV 89 
+                           67888888888999*************************************************************************** PP
+
+               matches  97 dketDEvYAqitLlPeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhg 185
+                           ++++DE+Y +itL+P+t+q++ +te+     e+++++ v+sF+K+LTaSDts++G FsVp ++A+e+lPpLd+sq+ p+Qel+a Dlhg
+  sp|Q9LP07|ARFW_ARATH  90 ENNSDETYVEITLMPDTTQVVIPTEN-----ENQFRPIVNSFTKVLTASDTSAQGEFSVPCKHAIECLPPLDMSQPIPAQELIAIDLHG 173
+                           ***********************998.....699******************************************************* PP
+
+               matches 186 neWkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlrgekgeLrvGiR 237
+                           n+W+F+H yR  Pr    ttGW++F++sKkLv GD++vF rge+geLrvGiR
+  sp|Q9LP07|ARFW_ARATH 174 NQWRFKHSYR-VPRGD--TTGWNAFTTSKKLVVGDVIVFARGETGELRVGIR 222
+                           **********.69876..9********************************9 PP
+
+>> sp|P92530|M940_ARATH  Uncharacterized mitochondrial protein AtMg00940 OS=Arabidopsis thaliana OX=3702 GN=AtMg00940 PE
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.9   0.2   1.8e-32   3.9e-30     225     345 ..       1     151 [.       1     154 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 104.9 bits;  conditional E-value: 1.8e-32
+               matches 225 lrgekgeLrvGiRrakrqqsnlpssvissd..............................smrlgvlaeaahaaatksiFevvYkPras 283
+                           +r++++e+++G+Rra  +++  ++s    d                              ++++++++ea+++aa++ +FevvY+P a 
+  sp|P92530|M940_ARATH   1 MRKSADEMFIGVRRAPISSNVGGTSFYGGDeycsyyqsnggvakeddgsakkgfrrtgkgKLTAEAVSEAINRAAQGLPFEVVYYPTAG 89 
+                           79************************5544555555555666666788888899999999***************************** PP
+
+               matches 284 sseFvvslekylkavknkfsvGmRfkmrfEtedsse.rrymGtiigvsdldsvrWknSkWrsL 345
+                           +s+Fvv++e++ +++ + ++ G+R+km++Etedss+ ++++G++  +++  +  W++S+W s 
+  sp|P92530|M940_ARATH  90 WSDFVVKAEDVEASMAIFWTPGTRVKMAMETEDSSRiTWFQGIVFYTYQE-TGPWRGSPWNSF 151
+                           *********************************************99955.*********986 PP
+
+>> sp|Q9XFM0|IAA28_ARATH  Auxin-responsive protein IAA28 OS=Arabidopsis thaliana OX=3702 GN=IAA28 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.9   0.1   1.3e-24   2.8e-22     502     633 ..      27     167 ..       9     174 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 78.9 bits;  conditional E-value: 1.3e-24
+                matches 502 kkeaskekedketelsesdisse.............kskqske.....ssseaqskqs.sstrtctkvqkqgsavgravdlsvlksyd 570
+                            +k++    +++++++  s+ + e                   +     +++e+++k+s +++  ++k++++g+ +gr v+ls++++y+
+  sp|Q9XFM0|IAA28_ARATH  27 SKQK----SSTKETSFLSNNRVEvapvvgwppvrssR-----RnltaqLKEEMKKKESdEEKELYVKINMEGVPIGRKVNLSAYNNYQ 105
+                            2222....22222222233322234556676543322.....12344345555555540555679*********************** PP
+
+                matches 571 eLikeleklFdlegqledprskwkivytdsegdillvGddPweeFvkmvkkikilskeevkkm 633
+                            +L + +++lF  ++  +  + ++++vy d+egd++lvGd Pwe Fv++vk++++l+++   ++
+  sp|Q9XFM0|IAA28_ARATH 106 QLSHAVDQLFSKKDSWD-LNRQYTLVYEDTEGDKVLVGDVPWEMFVSTVKRLHVLKTSHAFSL 167
+                            ***********999888.699*********************************998776555 PP
+
+>> sp|O82799|NGA1_ARATH  B3 domain-containing transcription factor NGA1 OS=Arabidopsis thaliana OX=3702 GN=NGA1 PE=1 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.2   0.1   5.4e-22   1.2e-19     111     226 ..       9     122 ..       2     145 .. 0.86
+   2 ?    3.0   0.0      0.12        26     457     508 ..     209     262 ..     133     304 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 70.2 bits;  conditional E-value: 5.4e-22
+               matches 111 PeteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRGqPr 199
+                            ++++ee k   + ++g ++     ++F K+ T SD+ +   + +p+++Ae  +P Ld s +     l  +Dl g+ W+Fr  y    +
+  sp|O82799|NGA1_ARATH   9 RDEDEEEAKPL-AEEEGAREVADREHMFDKVVTPSDVGKLNRLVIPKQHAERFFP-LDSSSNEKGLLLNFEDLTGKSWRFRYSYWNSSQ 95 
+                           34444433333.246779999999****************************997.9***9999999********************** PP
+
+               matches 200 RHlLttGWsvFvssKkLvaGDsvvFlr 226
+                             ++t GWs Fv  KkL aGD+v F r
+  sp|O82799|NGA1_ARATH  96 SYVMTKGWSRFVKDKKLDAGDIVSFQR 122
+                           ***********************9987 PP
+
+  == domain 2  score: 3.0 bits;  conditional E-value: 0.12
+               matches 457 sssvqspsksnvn..........smvk..keeekkkkktssirlFGvdltsesklkekkeaske 508
+                                                  + ++   ++e   ++ +++rlFGvd+++ ++ +++ +++++
+  sp|O82799|NGA1_ARATH 209 AAV---------AdplviesvpvM-MHgrANQELVGTAGKRLRLFGVDMECGESGMTNSTEEES 262
+                           222.........133333334433.332357777888999**********99987777665222 PP
+
+>> sp|O82595|NGA4_ARATH  B3 domain-containing transcription factor NGA4 OS=Arabidopsis thaliana OX=3702 GN=NGA4 PE=1 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.6   0.1   3.3e-21   7.1e-19     126     227 ..      24     122 ..       5     126 .. 0.85
+   2 ?    2.4   0.0      0.19        40     476     506 ..     251     287 ..     151     330 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 67.6 bits;  conditional E-value: 3.3e-21
+               matches 126 ageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRGqPrRHlLttGWsvFvssK 214
+                           ++  ++++  ++F K+LT SD+ +   + +p+++Ae+ +P  d ++      l  +D  g+ W+Fr  y    +  ++t GWs Fv +K
+  sp|O82595|NGA4_ARATH  24 NYFYSSERREHMFDKVLTPSDVGKLNRLVIPKQHAENFFPLEDNQNG-T--VLDFQDKNGKMWRFRYSYWNSSQSYVMTKGWSRFVKEK 109
+                           4567788899*****************************97665444.3..3667999******************************* PP
+
+               matches 215 kLvaGDsvvFlrg 227
+                           kL+aGD+v F rg
+  sp|O82595|NGA4_ARATH 110 KLFAGDTVSFYRG 122
+                           **********997 PP
+
+  == domain 2  score: 2.4 bits;  conditional E-value: 0.19
+               matches 476 eekkkkktssirlFGvdltsesklkekkea......s 506
+                             ++ ++t+++rlFGvd++++s++ ++  +      s
+  sp|O82595|NGA4_ARATH 251 APPQPSTTKKLRLFGVDVEESSSSGDTRGEmgvagyS 287
+                           5567788999********9999977665444443330 PP
+
+>> sp|Q9M1R4|IAA30_ARATH  Auxin-responsive protein IAA30 OS=Arabidopsis thaliana OX=3702 GN=IAA30 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.8   0.0   3.8e-22   8.1e-20     487     625 ..      19     167 ..       3     171 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 70.8 bits;  conditional E-value: 3.8e-22
+                matches 487 rlFGvdltsesklkekkeaskekedketelsesdisse..kskqske...ssseaqskqssstrtctkvqkqgsavgravdlsvlksy 569
+                            + FGv+  +  +l++  + + +  +++ +  +   + e    +  +e   +++e q++ +s    ++kv+++g+ +gr +dl +l++y
+  sp|Q9M1R4|IAA30_ARATH  19 NPFGVSSSNTRNLSTDLRLGLSFGSSSGQYYNGGDNHEydGVGAAEEmmiMEEEEQNECNSVGSFYVKVNMEGVPIGRKIDLLSLNGY 106
+                            456666666666665555533222222222222222222222222224434666777777777889********************** PP
+
+                matches 570 deLikeleklFdl.....egqledprskwkivytdsegdillvGddPweeFvkmvkkikil 625
+                            ++Li+ l+ +F+      e++ + ++++  + y d+egd ++vGd Pwe F++ v+++ki 
+  sp|Q9M1R4|IAA30_ARATH 107 HDLITTLDYMFNAsilwaEEEDMCSEKSHVLTYADKEGDWMMVGDVPWEMFLSSVRRLKIS 167
+                            ***********952233244444456777788***************************96 PP
+
+>> sp|Q8GYJ2|Y2608_ARATH  B3 domain-containing protein At2g36080 OS=Arabidopsis thaliana OX=3702 GN=ARF31 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.5   0.4   1.9e-21   3.9e-19     112     248 ..      18     152 ..      10     176 .. 0.81
+   2 ?    0.9   0.0      0.54   1.2e+02     466     505 ..     162     202 ..     146     229 .. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 68.5 bits;  conditional E-value: 1.9e-21
+                matches 112 eteqeeektekeldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelv..akDlhgneWkFrHiyRGq 197
+                            +++q++++++      ++  +ek + F K LT SD+ +   + +p+++Ae  +P     ++     l+   +D  g+ W+Fr  y   
+  sp|Q8GYJ2|Y2608_ARATH  18 QQQQQQQQHQ------NDVVEEKEALFEKPLTPSDVGKLNRLVIPKQHAERYFPLAAAAADAVEKGLLlcFEDEEGKPWRFRYSYWNS 99 
+                            4444444333......456678889*****************************998888888777652269**************** PP
+
+                matches 198 PrRHlLttGWsvFvssKkLvaGDsvvFlr..gekgeLrvGiRrakrqqsnlps 248
+                             +  +Lt GWs +v +K+L aGD+v+F r  ++ g +++G Rr   ++s+  s
+  sp|Q8GYJ2|Y2608_ARATH 100 SQSYVLTKGWSRYVKEKHLDAGDVVLFHRhrSDGGRFFIGWRRRGDSSSSSDS 152
+                            ***************************862268899*******8877666554 PP
+
+  == domain 2  score: 0.9 bits;  conditional E-value: 0.54
+                matches 466 snvn.smvkkeeekkkkktssirlFGvdltsesklkekkea 505
+                             +++ +   +  e ++ +++++rlFGv+++++  ++ ++ +
+  sp|Q8GYJ2|Y2608_ARATH 162 LQYYpHAGAQAVESQRGNSKTLRLFGVNMECQLDSDWSEPS 202
+                            3333322224556677778899******9998775554443 PP
+
+>> sp|Q9M268|NGA2_ARATH  B3 domain-containing transcription factor NGA2 OS=Arabidopsis thaliana OX=3702 GN=NGA2 PE=2 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.4   0.1   1.9e-21   4.1e-19     124     240 ..      10     129 ..       1     142 [. 0.83
+   2 ?   -1.1   0.0       2.1   4.4e+02     469     496 ..     192     225 ..     130     250 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 68.4 bits;  conditional E-value: 1.9e-21
+               matches 124 ldageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelva..kDlhgneWkFrHiyRGqPrRHlLttGWsvF 210
+                           + ++ +++ e  ++F K+ T SD+ +   + +p+++Ae  +P  + +++ +   l+   +D  gn W+Fr  y    +  ++t GWs F
+  sp|Q9M268|NGA2_ARATH  10 I-EEASSSMEREHMFDKVVTPSDVGKLNRLVIPKQHAERYFPLDNSTTNDSNKGLLLnfEDRSGNSWRFRYSYWNSSQSYVMTKGWSRF 97 
+                           2.2355778889*****************************9777777777777775338***************************** PP
+
+               matches 211 vssKkLvaGDsvvFlrge..kgeLrvGiRrak 240
+                           v  KkL aGD+v F r++  k++L +  Rr  
+  sp|Q9M268|NGA2_ARATH  98 VKDKKLDAGDIVSFQRDScnKDKLYIDWRRRP 129
+                           ****************9633778888888865 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 2.1
+               matches 469 n......smvkkeeekkkkktssirlFGvdltse 496
+                                  ++  +  +++++ ++++rlFGvd+++ 
+  sp|Q9M268|NGA2_ARATH 192 EsvpvmmQRRAQVASMASRGEKRLRLFGVDMECG 225
+                           0334321222246667778889999999998765 PP
+
+>> sp|Q38831|IAA13_ARATH  Auxin-responsive protein IAA13 OS=Arabidopsis thaliana OX=3702 GN=IAA13 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.0   0.2   1.3e-21   2.8e-19     512     642 ..      92     240 ..      57     246 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 69.0 bits;  conditional E-value: 1.3e-21
+                matches 512 ketelsesdisse...kskqskessseaqsk.qssstrtctkvqkqgsavgravdlsvlksydeLikeleklF........dlegqle 587
+                             +++ ++s+ ++e   k+k++++ ++++++k + + +  ++kv+++g+a+gr vdl++ +sy++L + le++F        +l  q +
+  sp|Q38831|IAA13_ARATH  92 VNNQATKSAREEEeagKKKVKDDEPKDVTKKvNGKVQVGFIKVNMDGVAIGRKVDLNAHSSYENLAQTLEDMFfrtnpgtvGLTSQFT 179
+                            333333343332234444555554444444414455669*********************************9777776665666655 PP
+
+                matches 588 dp.r.....skwkivytdsegdillvGddPweeFvkmvkkikilskeevkkmkkkkklale 642
+                            +p r     s+  + y d+egd +lvGd Pw  F++ vk++++++++e + +  +++  +e
+  sp|Q38831|IAA13_ARATH 180 KPlRlldgsSEFVLTYEDKEGDWMLVGDVPWRMFINSVKRLRVMKTSEANGLAARNQEPNE 240
+                            543222222788899*********************************9999888876655 PP
+
+>> sp|Q8H174|IAA31_ARATH  Auxin-responsive protein IAA31 OS=Arabidopsis thaliana OX=3702 GN=IAA31 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.3   0.0   2.1e-21   4.4e-19     532     628 ..      59     156 ..       2     158 .] 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 68.3 bits;  conditional E-value: 2.1e-21
+                matches 532 ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledp.rskwkivytdsegdillvGddPweeFvkm 618
+                            ++ +   ++   t  ++kv+++g+ +gr +dl v+++y+ L+++l+++Fd      +  r++  + y d++gd ++vGd Pw+ F+++
+  sp|Q8H174|IAA31_ARATH  59 LKGRRLLRRGDDTSLFVKVYMEGVPIGRKLDLCVFSGYESLLENLSHMFDTSIICGNRdRKHHVLTYEDKDGDWMMVGDIPWDMFLET 146
+                            4444444555667789**********************************8766655448899999********************** PP
+
+                matches 619 vkkikilske 628
+                            v+++ki+ +e
+  sp|Q8H174|IAA31_ARATH 147 VRRLKITRPE 156
+                            ******9876 PP
+
+>> sp|O24410|IAA20_ARATH  Auxin-responsive protein IAA20 OS=Arabidopsis thaliana OX=3702 GN=IAA20 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.3   0.0   2.1e-21   4.5e-19     533     626 ..      72     170 ..       6     173 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 68.3 bits;  conditional E-value: 2.1e-21
+                matches 533 sseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdl....egqledp.rskwkivytdsegdillvGddPweeF 615
+                            ++e +++ +s    ++kv+++g+ +gr +dl +l++y++Li+ l+ +F+      ++ ++  +++  + y d+egd ++vGd Pwe F
+  sp|O24410|IAA20_ARATH  72 EEEEENECNSVGSFYVKVNMEGVPIGRKIDLMSLNGYRDLIRTLDFMFNAsilwAEEEDMCnEKSHVLTYADKEGDWMMVGDVPWEMF 159
+                            445555556666789*********************************952233233333425566678******************* PP
+
+                matches 616 vkmvkkikils 626
+                            +++v+++ki  
+  sp|O24410|IAA20_ARATH 160 LSTVRRLKISR 170
+                            ********975 PP
+
+>> sp|Q9MAN1|NGA3_ARATH  B3 domain-containing transcription factor NGA3 OS=Arabidopsis thaliana OX=3702 GN=NGA3 PE=2 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.2   0.0   1.8e-20   3.8e-18     128     227 ..      46     144 ..       2     161 .. 0.86
+   2 ?   -1.1   0.0       2.2   4.6e+02     481     506 ..     279     315 ..     264     352 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 65.2 bits;  conditional E-value: 1.8e-20
+               matches 128 eekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRGqPrRHlLttGWsvFvssKkL 216
+                           + +  ek ++F K+ T SD+ +   + +p+++Ae  +P Ld s+++    l  +D  g+ W+Fr  y    +  ++t GWs Fv +KkL
+  sp|Q9MAN1|NGA3_ARATH  46 MIPPPEKEHMFDKVVTPSDVGKLNRLVIPKQHAERYFP-LDSSNNQNGTLLNFQDRNGKMWRFRYSYWNSSQSYVMTKGWSRFVKEKKL 133
+                           45566899*****************************7.9*****99999*************************************** PP
+
+               matches 217 vaGDsvvFlrg 227
+                            aGD+v F rg
+  sp|Q9MAN1|NGA3_ARATH 134 DAGDIVSFQRG 144
+                           ********997 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 2.2
+               matches 481 kktssirlFGvdltsesklkekkea...........s 506
+                           ++ +++rlFGv++++ +  ++++e+           s
+  sp|Q9MAN1|NGA3_ARATH 279 TAGKRLRLFGVNMECGNDYNQQEESwlvprgeigasS 315
+                           567889********99998888777777765544321 PP
+
+>> sp|P33077|IAA4_ARATH  Auxin-responsive protein IAA4 OS=Arabidopsis thaliana OX=3702 GN=IAA4 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.1   0.0     1e-20   2.1e-18     494     632 ..      25     180 ..       8     184 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 66.1 bits;  conditional E-value: 1e-20
+               matches 494 tsesklkekkea.......skekedketelsesdisse.....kskqske.....ssseaqskqssstrtctkvqkqgsavgravdlsv 565
+                           t+e+++  k ++       +ke e++ ++ + s  +++     +           ++ ++++++s+ + +++kv ++g    r +dl+ 
+  sp|P33077|IAA4_ARATH  25 TEETVSCGKSNKrvlpeatEKEIESTGKTETASPPKAQivgwpP-----VrsyrkNNVQTKKSESEGQGNYVKVSMDGAPYLRKIDLTM 108
+                           44444444333323332221111222222222222222455442.....033322455666777777789******************* PP
+
+               matches 566 lksydeLikeleklFdle.gq.ledp.rskwkiv..ytdsegdillvGddPweeFvkmvkkikilskeevkk 632
+                           +k+y eL+k le++F++  g+  e+   +++  v  y d++gd +lvGd Pwe Fv+  k+++i++ +evk 
+  sp|P33077|IAA4_ARATH 109 YKQYPELMKSLENMFKFSvGEyFEREgYKGSDFVptYEDKDGDWMLVGDVPWEMFVSSCKRLRIMKGSEVKG 180
+                           ***************986333133333555556555*********************************985 PP
+
+>> sp|Q38830|IAA12_ARATH  Auxin-responsive protein IAA12 OS=Arabidopsis thaliana OX=3702 GN=IAA12 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.9   0.0   1.1e-20   2.3e-18     524     642 ..      97     232 ..      40     238 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 65.9 bits;  conditional E-value: 1.1e-20
+                matches 524 e........kskqskessseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklF.dleg..........qledprsk 592
+                            e        k++  k++s +++ k ++    ++kv+++g+ +gr vd+++ +sy++L + le++F ++ g          +l d +s+
+  sp|Q38830|IAA12_ARATH  97 EgdgekkvvKNDELKDVSMKVNPKVQGL--GFVKVNMDGVGIGRKVDMRAHSSYENLAQTLEEMFfGMTGttcrekvkplRLLDGSSD 182
+                            1122211223333333455556555555..9********************************9657877333222222234556789 PP
+
+                matches 593 wkivytdsegdillvGddPweeFvkmvkkikilskeevkkmkkkkklale 642
+                              + y d+egd +lvGd Pw  F++ vk+++i+ ++e + + ++ + ++ 
+  sp|Q38830|IAA12_ARATH 183 FVLTYEDKEGDWMLVGDVPWRMFINSVKRLRIMGTSEASGLAPRRQEQKD 232
+                            99**********************************99998887776655 PP
+
+>> sp|Q9ZWM9|RAV1_ARATH  AP2/ERF and B3 domain-containing transcription factor RAV1 OS=Arabidopsis thaliana OX=3702 GN=R
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.0   0.1   4.2e-20     9e-18     128     235 ..     178     287 ..     159     319 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 64.0 bits;  conditional E-value: 4.2e-20
+               matches 128 eekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRGqPrRHlLttGWsvFvssKkL 216
+                           ++ +++  + F K  T SD+ +   + +p+++Ae+ +P    +       l  +D+ g+ W+Fr  y    +  +Lt GWs Fv +K+L
+  sp|Q9ZWM9|RAV1_ARATH 178 TTGFRSAEALFEKAVTPSDVGKLNRLVIPKHHAEKHFPLPSSNVSVKGVLLNFEDVNGKVWRFRYSYWNSSQSYVLTKGWSRFVKEKNL 266
+                           5567888999****************************8877766666677789*********************************** PP
+
+               matches 217 vaGDsvvFlrge..kgeLrvG 235
+                            aGD+v F r++  +++L +G
+  sp|Q9ZWM9|RAV1_ARATH 267 RAGDVVSFSRSNgqDQQLYIG 287
+                           **********76115566666 PP
+
+>> sp|Q38822|IAA3_ARATH  Auxin-responsive protein IAA3 OS=Arabidopsis thaliana OX=3702 GN=IAA3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.7   0.0   5.2e-20   1.1e-17     507     631 ..      39     183 ..       7     187 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 63.7 bits;  conditional E-value: 5.2e-20
+               matches 507 kekedketelsesdisse..............kskqske......ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLike 575
+                             ++d+e+e ++s+ ++e                    +       +s++++++ + +  ++kv ++g    r +dls +k+y eL+k 
+  sp|Q38822|IAA3_ARATH  39 VLSTDTEKEIESSSRKTEtspprkaqivgwppV-----RsyrknnIQSKKNESEHEGQGIYVKVSMDGAPYLRKIDLSCYKGYSELLKA 122
+                           233333333333333333334443345555442.....0332333355666677777789***************************** PP
+
+               matches 576 leklFdle.gq.ledp.rskwkiv..ytdsegdillvGddPweeFvkmvkkikilskeevk 631
+                           le +F++  g+  e+   +++  v  y d++gd +l+Gd Pwe F+++ k+++i++ +e k
+  sp|Q38822|IAA3_ARATH 123 LEVMFKFSvGEyFERDgYKGSDFVptYEDKDGDWMLIGDVPWEMFICTCKRLRIMKGSEAK 183
+                           *****986333133223555566555*****************************999987 PP
+
+>> sp|Q8LAL2|IAA26_ARATH  Auxin-responsive protein IAA26 OS=Arabidopsis thaliana OX=3702 GN=IAA26 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.4   0.7   2.6e-19   5.6e-17     470     633 ..      63     256 ..      16     268 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 61.4 bits;  conditional E-value: 2.6e-19
+                matches 470 smvkkeeekkkkktssirlFGvdltsesklkekkea..................skekedketelsesdissekskqskessseaqsk 539
+                             ++kke+e+k+ +  + + F  + ++ s   +   +                  s +k+ ++t++s+   +s++ +q ++s+   ++ 
+  sp|Q8LAL2|IAA26_ARATH  63 RNIKKETEDKSFHCFNGNHFSPSNKTTS--VP---HisqkrtapgpvvgwppvrSFRKNLASTSSSKLGNESSHGGQINKSDDGEKQV 145
+                            2223333333333333333332222222..22...12335567888888887653333333444433333344666666666677778 PP
+
+                matches 540 qssstrtctkvqkqgsavgravdlsvlksydeLikeleklF........dle.gq........ledprskwkivytdsegdillvGdd 610
+                            +++++  ++k++++g+ +gr vdl++++sy++L   ++klF        d+  gq        l d + + ++ y d+egd++lvGd 
+  sp|Q8LAL2|IAA26_ARATH 146 ETKKEGMFVKINMDGVPIGRKVDLNAYNSYEQLSFVVDKLFrgllaaqrDISdGQgeekpiigLLDGKGEFTLTYEDNEGDKMLVGDV 233
+                            8888899**********************************5555444433312211222222334688999**************** PP
+
+                matches 611 PweeFvkmvkkikilskeevkkm 633
+                            Pw+ Fv+ vk++++++++e+++ 
+  sp|Q8LAL2|IAA26_ARATH 234 PWQMFVSSVKRLRVIKSSEISSA 256
+                            *****************998765 PP
+
+>> sp|Q9FNI3|Y5625_ARATH  B3 domain-containing protein At5g06250 OS=Arabidopsis thaliana OX=3702 GN=At5g06250 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.3   3.2   2.7e-19   5.7e-17     111     250 ..      16     169 ..      10     223 .. 0.71
+   2 ?    1.4   0.0      0.36        77     455     502 ..     188     245 ..     163     260 .. 0.56
+
+  Alignments for each domain:
+  == domain 1  score: 61.3 bits;  conditional E-value: 2.7e-19
+                matches 111 Peteqeeektekeld....ageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPp...L......dysqqpptQelvakDlhg 185
+                             +++q++++t ++ +    a+  ++  k + F K LT SD+ +   + +p+++Ae+ +P    L      d s       l  +D  g
+  sp|Q9FNI3|Y5625_ARATH  16 WQQQQHRHTTDTS-EttttATWLHDDLKESLFEKSLTPSDVGKLNRLVIPKQHAEKYFPLnavLvssaaaDTSSSEKGMLLSFEDESG 102
+                            5555544444433.33333445677788899***************************95333322111133333333447789**** PP
+
+                matches 186 neWkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvFlr..gekgeLrvGiRrakrqqsnlpssv 250
+                            + W+Fr  y    +  +Lt GWs Fv  K+L  GD+v F r  +++  L++G Rr  + +s+  +  
+  sp|Q9FNI3|Y5625_ARATH 103 KSWRFRYSYWNSSQSYVLTKGWSRFVKDKQLDPGDVVFFQRhrSDSRRLFIGWRRRGQGSSSSVAAT 169
+                            ***************************************862257778*****99776654433222 PP
+
+  == domain 2  score: 1.4 bits;  conditional E-value: 0.36
+                matches 455 plsssvqspsksnvn..........smvkkeeekkkkktssirlFGvdltsesklkek 502
+                             +s+ +++ps+s+++          ++ ++ ++    ++ ++rlFGv+l++++  ++ 
+  sp|Q9FNI3|Y5625_ARATH 188 ATSNYSNPPSHSEYShygaavataaETHSTPSSSVVGSSRTVRLFGVNLECQMDENDG 245
+                            244555666666666667666554421222334444556789*******999875555 PP
+
+>> sp|Q9LS06|RAVL4_ARATH  AP2/ERF and B3 domain-containing transcription factor ARF14 OS=Arabidopsis thaliana OX=3702 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.4   0.1   1.3e-19   2.8e-17     130     231 ..     175     278 ..     147     320 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 62.4 bits;  conditional E-value: 1.3e-19
+                matches 130 kekekvesFcKtLTaSDtsthGGFsVprraAeevlP.pLdysqqpptQelv..akDlhgneWkFrHiyRGqPrRHlLttGWsvFvssK 214
+                             +k+    F Kt T SD+ +   + +p++ Ae+ +P pL  +++ ++  ++   +D+ g+ W+Fr  y    +  +Lt GWs Fv +K
+  sp|Q9LS06|RAVL4_ARATH 175 GFKTAELLFEKTVTPSDVGKLNRLVIPKHQAEKHFPlPL-GNNNVSVKGMLlnFEDVNGKVWRFRYSYWNSSQSYVLTKGWSRFVKEK 261
+                            56777779****************************555.455566665441258********************************* PP
+
+                matches 215 kLvaGDsvvFlrgekge 231
+                            +L aGD + F r+++++
+  sp|Q9LS06|RAVL4_ARATH 262 RLCAGDLISFKRSNDQD 278
+                            ***********987765 PP
+
+>> sp|P82280|RAV2_ARATH  AP2/ERF and B3 domain-containing transcription repressor RAV2 OS=Arabidopsis thaliana OX=3702 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.1   0.1   6.6e-19   1.4e-16     126     227 ..     176     278 ..     158     287 .. 0.83
+   2 ?   -2.1   0.0       4.4   9.3e+02     480     505 ..     298     323 ..     282     346 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 60.1 bits;  conditional E-value: 6.6e-19
+               matches 126 ageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelva.kDlhgneWkFrHiyRGqPrRHlLttGWsvFvss 213
+                           ++++  k+    F K  T SD+ +   + +p+++Ae+ +P    s       l+  +D+ g+ W+Fr  y    +  +Lt GWs Fv +
+  sp|P82280|RAV2_ARATH 176 QNDKVLKTREVLFEKAVTPSDVGKLNRLVIPKQHAEKHFPLPSPSPAVTKGVLINfEDVNGKVWRFRYSYWNSSQSYVLTKGWSRFVKE 264
+                           334555677789***************************976655555555555348******************************** PP
+
+               matches 214 KkLvaGDsvvFlrg 227
+                           K+L aGD+v F r+
+  sp|P82280|RAV2_ARATH 265 KNLRAGDVVTFERS 278
+                           ***********886 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 4.4
+               matches 480 kkktssirlFGvdltsesklkekkea 505
+                           ++ +  +rlFGvd+ + +++k++   
+  sp|P82280|RAV2_ARATH 298 NPVQVVVRLFGVDIFNVTTVKPNDVV 323
+                           55567899******999998887654 PP
+
+>> sp|Q38824|IAA6_ARATH  Auxin-responsive protein IAA6 OS=Arabidopsis thaliana OX=3702 GN=IAA6 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.7   0.0   4.2e-19   8.8e-17     486     630 ..      25     181 ..      16     188 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 60.7 bits;  conditional E-value: 4.2e-19
+               matches 486 irlFGvdltsesklkekkeaskekedketelsesdisse....kskqske.......s.sseaqskqssstrtctkvqkqgsavgravd 562
+                           i++ G + +++ +l++ +++s+ ++++e+++ +s ++++    ks+           s   +++++++s+   ++kv ++g+   r +d
+  sp|Q38824|IAA6_ARATH  25 ISVCGSSKKKKRVLSDMMTSSALDTENENSVVSSVEDESlpvvKSQ---AvgwppvcSyRRKKNNEEASKAIGYVKVSMDGVPYMRKID 110
+                           5566777777777777776655555555555555554335443222...234467774466778888888899**************** PP
+
+               matches 563 lsvlksydeLikeleklFdlegq..ledp.rskwkivytdsegdillvGddPweeFvkmvkkikilskeev 630
+                           l + +sy +L++ le+lF+  g    ++  + ++ i+y d++ d +lvGd Pw+ F +  k+++i+++++ 
+  sp|Q38824|IAA6_ARATH 111 LGSSNSYINLVTVLENLFGCLGIgvAKEGkKCEYIIIYEDKDRDWMLVGDVPWQMFKESCKRLRIVKRSDA 181
+                           ******************98764112333366789*******************************99876 PP
+
+>> sp|P49677|IAA1_ARATH  Auxin-responsive protein IAA1 OS=Arabidopsis thaliana OX=3702 GN=IAA1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.6   0.0   4.4e-19   9.3e-17     495     629 ..      22     163 ..       5     167 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 60.6 bits;  conditional E-value: 4.4e-19
+               matches 495 sesklkekkeaskekedketelsesdisse....kskqske....ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLike 575
+                           +e++  e  +    +++++++ ++s+++s     k++           ++ +++++++ +++kv ++g    r +dl+ +k+y eL+k 
+  sp|P49677|IAA1_ARATH  22 QEEQQLELSCV---RSNNKRKNNDSTEESApppaKTQ---IvgwpPVRSNRKNNNNKNVSYVKVSMDGAPYLRKIDLKMYKNYPELLKA 104
+                           44443333332...23333333344443333222333...24445234456666777789***************************** PP
+
+               matches 576 leklFdle.gqledp..rskwkiv..ytdsegdillvGddPweeFvkmvkkikilskee 629
+                           le++F++  g+ ++    +++  v  y d++gd +lvGd Pw+ F +  +k++i++ +e
+  sp|P49677|IAA1_ARATH 105 LENMFKFTvGEYSERegYKGSGFVptYEDKDGDWMLVGDVPWDMFSSSCQKLRIMKGSE 163
+                           *****986344443212344444444****************************99877 PP
+
+>> sp|Q9C6M5|RAVL1_ARATH  AP2/ERF and B3 domain-containing transcription repressor TEM1 OS=Arabidopsis thaliana OX=3702 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.1   0.0   1.3e-18   2.7e-16     134     227 ..     191     291 ..     177     307 .. 0.86
+   2 ?   -2.5   0.0       5.6   1.2e+03     481     505 ..     308     332 ..     297     353 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 59.1 bits;  conditional E-value: 1.3e-18
+                matches 134 kvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysq.....qpptQelva..kDlhgneWkFrHiyRGqPrRHlLttGWsvFvssK 214
+                                F Kt T SD+ +   + +p+++Ae+ +P   +++     + pt  ++   +D  g+ W+Fr  y    +  +Lt GWs Fv +K
+  sp|Q9C6M5|RAVL1_ARATH 191 REVLFEKTVTPSDVGKLNRLVIPKQHAEKHFPLPAMTTamgmnPSPTKGVLInlEDRTGKVWRFRYSYWNSSQSYVLTKGWSRFVKEK 278
+                            5568****************************98887522222678888876337********************************* PP
+
+                matches 215 kLvaGDsvvFlrg 227
+                            +L aGD+v F r+
+  sp|Q9C6M5|RAVL1_ARATH 279 NLRAGDVVCFERS 291
+                            **********886 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 5.6
+                matches 481 kktssirlFGvdltsesklkekkea 505
+                            + ++ +rlFGv++ + s+ k++  a
+  sp|Q9C6M5|RAVL1_ARATH 308 PVQTVVRLFGVNIFNVSNEKPNDVA 332
+                            5567899*****9999987766554 PP
+
+>> sp|O24408|IAA18_ARATH  Auxin-responsive protein IAA18 OS=Arabidopsis thaliana OX=3702 GN=IAA18 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.6   0.1   3.7e-18   7.8e-16     477     634 ..      63     255 ..      16     266 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 57.6 bits;  conditional E-value: 3.7e-18
+                matches 477 ekkkkktssirlFGvdltsesklkekkea....................skekedketelsesdisse....kskqskessseaqskq 540
+                            +k+ k +s ++l G+    +s+ +++++                     s+++++  + +++s+        ++k+       ++++ 
+  sp|O24408|IAA18_ARATH  63 KKEPKDKSILSLAGKYFSPSSTKTTSHKRtapgpvvgwppvrsfrknlaSGSSSKLGNDSTTSN---GvtlkNQKCDAA---AKTTEP 144
+                            3334444455666666655555444443356777787777776554333222222222222222...122213333333...223333 PP
+
+                matches 541 ssstrtctkvqkqgsavgravdlsvlksydeLikeleklFd............legq.....ledprskwkivytdsegdillvGddP 611
+                            +++   ++k+++ g+ +gr vdls+ +sy++L   ++klF             +e++     l d + ++++ y d+egd++lvGd P
+  sp|O24408|IAA18_ARATH 145 KRQGGMFVKINMYGVPIGRKVDLSAHNSYEQLSFTVDKLFRgllaaqrdfpssIEDEkpitgLLDGNGEYTLTYEDNEGDKMLVGDVP 232
+                            3344579*********************************5444434444444444322222333678999***************** PP
+
+                matches 612 weeFvkmvkkikilskeevkkmk 634
+                            w+ Fv+ vk++++++++e+++  
+  sp|O24408|IAA18_ARATH 233 WQMFVSSVKRLRVIKTSEISSAL 255
+                            ***************99998765 PP
+
+>> sp|P49678|IAA2_ARATH  Auxin-responsive protein IAA2 OS=Arabidopsis thaliana OX=3702 GN=IAA2 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.8   0.0   7.9e-19   1.7e-16     494     629 ..      23     166 ..       4     173 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 59.8 bits;  conditional E-value: 7.9e-19
+               matches 494 tsesklkekkeaskekedketelsesdisse..kskqske...ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikele 577
+                            +e+  ke++e s  k+++++ ++e++ ++e  +  ++ +    +   +s++++++ +++kv ++g    r +dl+++k+y eL+k le
+  sp|P49678|IAA2_ARATH  23 RTEKI-KEEQEVSCVKSNNKRLFEETRDEEEstPPTKT-QivgWPPVRSSRKNNNSVSYVKVSMDGAPYLRKIDLKTYKNYPELLKALE 109
+                           44444.33333333333333333333333223222222.245446667777788889******************************** PP
+
+               matches 578 klFdle.gql.edp.rskwkiv..ytdsegdillvGddPweeFvkmvkkikilskee 629
+                           ++F++  g+  e+   +++  v  y d++gd +lvGd Pw+ F +  k+++i++ ++
+  sp|P49678|IAA2_ARATH 110 NMFKVMiGEYcEREgYKGSGFVptYEDKDGDWMLVGDVPWDMFSSSCKRLRIMKGSD 166
+                           ***964244413223444445444****************************98776 PP
+
+>> sp|Q8RYD3|Y3158_ARATH  B3 domain-containing protein At3g11580 OS=Arabidopsis thaliana OX=3702 GN=ARF32 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.0   0.3   1.3e-18   2.9e-16     131     255 ..      22     158 ..       4     200 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 59.0 bits;  conditional E-value: 1.3e-18
+                matches 131 ekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQe..........lvakDlhgneWkFrHiyRGqPrRHlLttGWs 208
+                              +  + F K LT SD+ +   + +p+++Ae+ +P  + +++  + +          l  +D  g+ WkFr  y    +  +Lt GWs
+  sp|Q8RYD3|Y3158_ARATH  22 IAQRESLFEKSLTPSDVGKLNRLVIPKQHAEKYFPLNNNNNNGGSGDdvattekgmlLSFEDESGKCWKFRYSYWNSSQSYVLTKGWS 109
+                            4567789****************************8877765443331111113333445899************************* PP
+
+                matches 209 vFvssKkLvaGDsvvFlrg..ekgeLrvGiRrakrqqsnlpssvissds 255
+                             +v  K+L aGD+v F r+  +   L++G Rr  + +s+ + sv+s++ 
+  sp|Q8RYD3|Y3158_ARATH 110 RYVKDKHLDAGDVVFFQRHrfDLHRLFIGWRRRGEASSSPAVSVVSQEA 158
+                            ****************987336789**************999**99885 PP
+
+>> sp|Q38829|IAA11_ARATH  Auxin-responsive protein IAA11 OS=Arabidopsis thaliana OX=3702 GN=IAA11 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.5   0.1   3.8e-18   8.2e-16     517     630 ..     105     238 ..      49     244 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 57.5 bits;  conditional E-value: 3.8e-18
+                matches 517 sesdis.se..kskqskessseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklF..........dlegqledp.r 590
+                            +++++s +e  + + s+ ++++ + + + ++  ++kv ++g+ +gr +dl++ k+y+ L + le++F          + +g++e+p +
+  sp|Q38829|IAA11_ARATH 105 NQAKASaTEdpNLEISQAVNKNRSDSTKMRNSMFVKVTMDGIPIGRKIDLNAHKCYESLSNTLEEMFlkpklgsrtlETDGHMETPvK 192
+                            1222221222344445554555556666666789*********************************777555554433455554321 PP
+
+                matches 591 ......skwkivytdsegdillvGddPweeFvkmvkkikilskeev 630
+                                  s+  + y d+egd +lvGd Pw  F+  v++++i++++e 
+  sp|Q38829|IAA11_ARATH 193 ilpdgsSGLVLTYEDKEGDWMLVGDVPWGMFIGSVRRLRIMKTSEA 238
+                            222221567788*****************************99886 PP
+
+>> sp|O24409|IAA19_ARATH  Auxin-responsive protein IAA19 OS=Arabidopsis thaliana OX=3702 GN=IAA19 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.3   0.0   4.6e-18   9.8e-16     505     630 ..      48     185 ..      14     192 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 57.3 bits;  conditional E-value: 4.6e-18
+                matches 505 a.......skekedketelsesdisse....kskqske.ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklF 580
+                            +       ++ ++ ++    +s    +    +  +s + ++s ++++ ++    ++kv ++g+   r +dl + ++yd+L   l+klF
+  sp|O24409|IAA19_ARATH  48 EsgvvssgGDAEKVNDSPAAKS----QvvgwPPVCSYRkKNSCKEASTTKVGLGYVKVSMDGVPYLRKMDLGSSQGYDDLAFALDKLF 131
+                            1344332222222222222233....3344455555553244455666667779********************************** PP
+
+                matches 581 dleg...qledp.rskwkivytdsegdillvGddPweeFvkmvkkikilskeev 630
+                            +++g    l+d  + ++  +y d++gd +l+Gd Pw  F++  k+++i+++++ 
+  sp|O24409|IAA19_ARATH 132 GFRGigvALKDGdNCEYVTIYEDKDGDWMLAGDVPWGMFLESCKRLRIMKRSDA 185
+                            *9984445776644466779*****************************99875 PP
+
+>> sp|P33078|IAA5_ARATH  Auxin-responsive protein IAA5 OS=Arabidopsis thaliana OX=3702 GN=IAA5 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.9   0.0   5.8e-18   1.2e-15     513     627 ..      38     158 ..       6     162 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 56.9 bits;  conditional E-value: 5.8e-18
+               matches 513 etelsesdissekskqske......ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwki 595
+                           ++  ++ + +  ++k+s+        s + +++ ++++ +++kv  +g a+ r +dl+ +k+y++L + l+ lF+   + +d+ ++++ 
+  sp|P33078|IAA5_ARATH  38 PEVEIDLKCE--PAKKSQVvgwppvCSYRRKNSLERTKSSYVKVSVDGAAFLRKIDLEMYKCYQDLASALQILFGCYINFDDTLKESEC 124
+                           3333333333..2222222334674366667777788889***********************************99999998555554 PP
+
+               matches 596 ..vytdsegdillvGddPweeFvkmvkkikilsk 627
+                             +y d++gd +l+Gd Pwe F+   k+++i+++
+  sp|P33078|IAA5_ARATH 125 vpIYEDKDGDWMLAGDVPWEMFLGSCKRLRIMKR 158
+                           137****************************986 PP
+
+>> sp|Q93WC4|IAA29_ARATH  Auxin-responsive protein IAA29 OS=Arabidopsis thaliana OX=3702 GN=IAA29 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.1     0.054        12     578     611 ..      62     100 ..      54     108 .. 0.77
+   2 !   49.7   0.1   9.2e-16     2e-13     531     627 ..     141     241 ..     113     246 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 4.2 bits;  conditional E-value: 0.054
+                matches 578 klFdlegq....ledp.rskwkivytdsegdillvGddP 611
+                            +lF l+gq     edp +s+++ivy d+e++  +vG  P
+  sp|Q93WC4|IAA29_ARATH  62 RLFALNGQpneeDEDPlESESSIVYDDEEENSEVVGWPP 100
+                            78888876221145678899****************777 PP
+
+  == domain 2  score: 49.7 bits;  conditional E-value: 9.2e-16
+                matches 531 e....ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdlegqledprskwkivytdsegdillvGddPwee 614
+                            +    ++s+++s+ ss++  ++kv+++g+a+ r vd++ ++sy+ L++ l ++F   +  ++   +++  ++ +egd ll Gd  w+ 
+  sp|Q93WC4|IAA29_ARATH 141 PttatVGSSSSSSISSRSSMYVKVKMDGVAIARKVDIKLFNSYESLTNSLITMFTEYEDCDREDTNYTFTFQGKEGDWLLRGDVTWKI 228
+                            22232466677778888899**********************************99888988899999******************** PP
+
+                matches 615 Fvkmvkkikilsk 627
+                            F + v++i i+ +
+  sp|Q93WC4|IAA29_ARATH 229 FAESVHRISIIRD 241
+                            **********875 PP
+
+>> sp|Q9ZSY8|IAA27_ARATH  Auxin-responsive protein IAA27 OS=Arabidopsis thaliana OX=3702 GN=IAA27 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.4   0.0   5.1e-09   1.1e-06     515     581 ..     149     221 ..       8     227 .. 0.63
+   2 !   26.3   0.0   1.1e-08   2.3e-06     591     631 ..     251     291 ..     240     304 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 27.4 bits;  conditional E-value: 5.1e-09
+                matches 515 elsesdissekskqske....ssseaqskqssstrtc..tkvqkqgsavgravdlsvlksydeLikeleklFd 581
+                               + +++s +s+qs++    s++e ++ +s+ ++ c  +kv ++g    r +dl+++ksy eL + lek+F 
+  sp|Q9ZSY8|IAA27_ARATH 149 PIRSFRKNSMASSQSQKpgnnSETEEAEAKSGPEQPClyVKVSMEGAPYLRKIDLKTYKSYLELSSALEKMFS 221
+                            2222233233444444445544455555555555544239********************************6 PP
+
+  == domain 2  score: 26.3 bits;  conditional E-value: 1.1e-08
+                matches 591 skwkivytdsegdillvGddPweeFvkmvkkikilskeevk 631
+                            s++ + y d+++d +lvGd Pwe F++  kk++i++++e  
+  sp|Q9ZSY8|IAA27_ARATH 251 SEYVVTYEDKDSDWMLVGDVPWEMFICSCKKLRIMKSSEAI 291
+                            667899******************************99975 PP
+
+>> sp|Q9C5X0|IAA34_ARATH  Auxin-responsive protein IAA34 OS=Arabidopsis thaliana OX=3702 GN=IAA34 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.2   0.0     4e-17   8.4e-15     537     629 ..      84     180 ..      47     182 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 54.2 bits;  conditional E-value: 4e-17
+                matches 537 qskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdleg....qledprskwkivytdsegdillvGddPweeFvkmvk 620
+                            +++  +++  ++kv ++g  vgr v + +  sy  L ++le++F+++     +l + +s+  +vy+d+eg    +Gd Pw+eF++ v 
+  sp|Q9C5X0|IAA34_ARATH  84 SNEGYRRKWGYVKVTMDGLVVGRKVCVLDHGSYSTLAHQLEDMFGMQSvsglRLFQMESEFCLVYRDEEGLWRNAGDVPWNEFIESVE 171
+                            45555667789***********************************97333345556999**************************** PP
+
+                matches 621 kikilskee 629
+                            +++i+ +++
+  sp|Q9C5X0|IAA34_ARATH 172 RLRITRRND 180
+                            ****98775 PP
+
+>> sp|Q8RYC6|IAA32_ARATH  Auxin-responsive protein IAA32 OS=Arabidopsis thaliana OX=3702 GN=IAA32 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   0.0     6e-17   1.3e-14     531     629 ..      83     186 ..      32     188 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 6e-17
+                matches 531 e.ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFdleg....qledprskwkivytdsegdillvGddPwe 613
+                              ++  +++ +s+ +  ++kv+ +g  vgr v l +  +y  L  +l+++F+++     +l +++s+ ++vy+d+eg    vGd Pw+
+  sp|Q8RYC6|IAA32_ARATH  83 LaQGYYNNEGESRGKYAYVKVNLDGLVVGRKVCLVDQGAYATLALQLNDMFGMQTvsglRLFQTESEFSLVYRDREGIWRNVGDVPWK 170
+                            22344556666777789************************************97333456679************************ PP
+
+                matches 614 eFvkmvkkikilskee 629
+                            eFv+ v +++i  +++
+  sp|Q8RYC6|IAA32_ARATH 171 EFVESVDRMRIARRND 186
+                            ***********98765 PP
+
+>> sp|Q38828|IAA10_ARATH  Auxin-responsive protein IAA10 OS=Arabidopsis thaliana OX=3702 GN=IAA10 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.7   0.3   7.5e-15   1.6e-12     495     627 ..     101     253 ..      14     257 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 46.7 bits;  conditional E-value: 7.5e-15
+                matches 495 sesklkekkeaskekedketelsesdisse..kskqskessseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklF 580
+                                +++  ++   k+ +++   +s i++e  ks +   ++ +a   +ss+t   +kv ++g+ +gr vdl++l sy  L k l+ +F
+  sp|Q38828|IAA10_ARATH 101 RTYRINSLVNQ--AKSLATEGGLSSGIQKEttKSVVVAAKNDDACFIKSSRTSMLVKVTMDGVIIGRKVDLNALDSYAALEKTLDLMF 186
+                            44443333333..222222223334443222133223334555666788888899********************************8 PP
+
+                matches 581 ................dleg....qledprskwkivytdsegdillvGddPweeFvkmvkkikilsk 627
+                                             +++    +l d +s++ i y+d++gd +lvGd Pw+ F+  v +++i+++
+  sp|Q38828|IAA10_ARATH 187 fqipspvtrsntqgykTIKEtctsKLLDGSSEYIITYQDKDGDWMLVGDVPWQMFLGSVTRLRIMKT 253
+                            6555555554444333344422224555678899******************************975 PP
+
+>> sp|O24407|IAA16_ARATH  Auxin-responsive protein IAA16 OS=Arabidopsis thaliana OX=3702 GN=IAA16 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.1   0.1   5.3e-15   1.1e-12     524     630 ..      93     221 ..      43     235 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 47.1 bits;  conditional E-value: 5.3e-15
+                matches 524 e..kskqske..ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklF...........dlegqledprskwkiv 596
+                               +++  k+  ss  ++s ++  t  ++kv ++g    r +dl+ +k+y++L + l+k+F           ++++ ++    ++k++
+  sp|O24407|IAA16_ARATH  93 GdaTEGNDKTsgSSGATSSASACATVAYVKVSMDGAPYLRKIDLKLYKTYQDLSNALSKMFssftignygpqGMKDFMN----ESKLI 176
+                            122222233333444555666667789*********************************9444433333332444333....33332 PP
+
+                matches 597 ...........ytdsegdillvGddPweeFvkmvkkikilskeev 630
+                                       y d++gd +lvGd Pwe Fv   k+i+i++ +e 
+  sp|O24407|IAA16_ARATH 177 dllngsdyvptYEDKDGDWMLVGDVPWEMFVDSCKRIRIMKGSEA 221
+                            22233333355*****************************98886 PP
+
+>> sp|Q9C966|IAA15_ARATH  Auxin-responsive protein IAA15 OS=Arabidopsis thaliana OX=3702 GN=IAA15 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.8   0.0   1.7e-15   3.6e-13     535     627 ..      76     173 ..      23     177 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 48.8 bits;  conditional E-value: 1.7e-15
+                matches 535 eaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFd....legqledp.rskwkivytdsegdillvGddPweeFvk 617
+                             +++ +++  r+++kv  +g a  r vdl  + +y +L++ le++F+    +    e   + +    y d++gd +lvGd Pw  Fv+
+  sp|Q9C966|IAA15_ARATH  76 PVATARKTVRRKYVKVALDGAAYLRKVDLGMYDCYGQLFTALENMFQgiitICRVTELErKGEFVATYEDKDGDLMLVGDVPWMMFVE 163
+                            45566777889***********************************754333333332314455567********************* PP
+
+                matches 618 mvkkikilsk 627
+                              k+++++++
+  sp|Q9C966|IAA15_ARATH 164 SCKRMRLMKT 173
+                            *****99876 PP
+
+>> sp|Q38827|IAA9_ARATH  Auxin-responsive protein IAA9 OS=Arabidopsis thaliana OX=3702 GN=IAA9 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.2   0.1   1.9e-07     4e-05     469     581 ..     117     252 ..       4     263 .. 0.58
+   2 !   25.4   0.1     2e-08   4.3e-06     582     627 ..     275     318 ..     267     336 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 22.2 bits;  conditional E-value: 1.9e-07
+               matches 469 n........smvkkeeekkkkktssirlFGvdltsesklkekkea.......skekedketelsesdisse.............kskqs 529
+                           +        +m +  e k++  t++  +F    +++s++k+   +       s    ++++++s  ++  +             k    
+  sp|Q38827|IAA9_ARATH 117 SgnkrgfsdTMDQFAEAKSSVYTEKNWMFPEAAATQSVTKKDVPQnipkgqsS----TTNNSSSPPAA--KaqivgwppvrsyrK---- 195
+                           12233333321222333444444445556555555555555544433321111....11111111112..123555565443322.... PP
+
+               matches 530 ke......ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFd 581
+                            +      ++s+ +  + +s   ++kv ++g    r vdl+++++y eL + lek+F 
+  sp|Q38827|IAA9_ARATH 196 -NtlattcKNSDEVDGRPGSGALFVKVSMDGAPYLRKVDLRSYTNYGELSSALEKMFT 252
+                           .1233333344566677788899**********************************6 PP
+
+  == domain 2  score: 25.4 bits;  conditional E-value: 2e-08
+               matches 582 legqledprskwkivytdsegdillvGddPweeFvkmvkkikilsk 627
+                           l++ l+   +++ + y d++gd +lvGd Pwe F+ + kk+ki++ 
+  sp|Q38827|IAA9_ARATH 275 LKDLLN--GKDYVLTYEDKDGDWMLVGDVPWEMFIDVCKKLKIMKG 318
+                           555555..5788999****************************975 PP
+
+>> sp|Q38832|IAA14_ARATH  Auxin-responsive protein IAA14 OS=Arabidopsis thaliana OX=3702 GN=IAA14 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.8   0.1   5.6e-14   1.2e-11     530     631 ..      94     214 ..      19     227 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 43.8 bits;  conditional E-value: 5.6e-14
+                matches 530 kes.sseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklF........dlegqledprskwkiv...........y 597
+                            ++s ++e + ++ + t  ++kv ++g    r vdl+ ++sy++L + l+k+F        + +g ++   +++k++           y
+  sp|Q38832|IAA14_ARATH  94 QKSgEAEEAMSSGGGTVAFVKVSMDGAPYLRKVDLKMYTSYKDLSDALAKMFssftmgsyGAQGMID-FMNESKVMdllnsseyvpsY 180
+                            223244555566677889*********************************9444333331233322.2333333222233333366* PP
+
+                matches 598 tdsegdillvGddPweeFvkmvkkikilskeevk 631
+                             d++gd +lvGd Pw+ Fv+  k+++i++ +e  
+  sp|Q38832|IAA14_ARATH 181 EDKDGDWMLVGDVPWPMFVESCKRLRIMKGSEAI 214
+                            ****************************988865 PP
+
+>> sp|Q38826|IAA8_ARATH  Auxin-responsive protein IAA8 OS=Arabidopsis thaliana OX=3702 GN=IAA8 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.7   0.0   5.5e-07   0.00012     533     581 ..     187     235 ..     114     241 .. 0.75
+   2 !   23.9   0.0   5.8e-08   1.2e-05     582     630 ..     258     304 ..     248     320 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 20.7 bits;  conditional E-value: 5.5e-07
+               matches 533 sseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFd 581
+                           +++ +  + +    ++kv ++g    r vdl++++sy++L + lek+F 
+  sp|Q38826|IAA8_ARATH 187 NTDEVDGKPGLGVLFVKVSMDGAPYLRKVDLRTYTSYQQLSSALEKMFS 235
+                           344455556666789*********************************6 PP
+
+  == domain 2  score: 23.9 bits;  conditional E-value: 5.8e-08
+               matches 582 legqledprskwkivytdsegdillvGddPweeFvkmvkkikilskeev 630
+                           l++ l+   s+  + y d++gd +lvGd Pwe F ++ +k+ki++ +++
+  sp|Q38826|IAA8_ARATH 258 LKDLLH--GSEFVLTYEDKDGDWMLVGDVPWEIFTETCQKLKIMKGSDS 304
+                           334444..6889999****************************987765 PP
+
+>> sp|Q38825|IAA7_ARATH  Auxin-responsive protein IAA7 OS=Arabidopsis thaliana OX=3702 GN=IAA7 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.2   0.1   8.3e-14   1.8e-11     542     632 ..     121     229 ..      58     242 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 43.2 bits;  conditional E-value: 8.3e-14
+               matches 542 sstrtctkvqkqgsavgravdlsvlksydeLikeleklF........d......l..egqledprskwkiv..ytdsegdillvGddPw 612
+                           +     +kv ++g    r vdl+ +ksy++L + l+k+F        +      +  e +l++  ++++ v  y d++gd +lvGd Pw
+  sp|Q38825|IAA7_ARATH 121 AAGAGLVKVSMDGAPYLRKVDLKMYKSYQDLSDALAKMFssftmgnyGaqgmidFmnESKLMNLLNSSEYVpsYEDKDGDWMLVGDVPW 209
+                           334578********************************94443333312222111222233333444444466**************** PP
+
+               matches 613 eeFvkmvkkikilskeevkk 632
+                           e Fv+  k+++i++ +e   
+  sp|Q38825|IAA7_ARATH 210 EMFVESCKRLRIMKGSEAVG 229
+                           *************9888655 PP
+
+>> sp|P93830|IAA17_ARATH  Auxin-responsive protein IAA17 OS=Arabidopsis thaliana OX=3702 GN=IAA17 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.5   0.1   6.9e-14   1.5e-11     534     630 ..      99     214 ..      25     228 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 43.5 bits;  conditional E-value: 6.9e-14
+                matches 534 seaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklFd.............l....egqledprskwkiv..ytdseg 602
+                            s ++s+   +   ++kv ++g    r +dl+ +ksydeL + l+++F              +    e +l+d  ++w  v  y d++g
+  sp|P93830|IAA17_ARATH  99 SCQKSSGGPEAAAFVKVSMDGAPYLRKIDLRMYKSYDELSNALSNMFSsftmgkhggeegmIdfmnERKLMDLVNSWDYVpsYEDKDG 186
+                            33344445567889********************************953333333332332122223456666889998888****** PP
+
+                matches 603 dillvGddPweeFvkmvkkikilskeev 630
+                            d +lvGd Pw+ Fv + k++++++ ++ 
+  sp|P93830|IAA17_ARATH 187 DWMLVGDVPWPMFVDTCKRLRLMKGSDA 214
+                            ********************99987665 PP
+
+>> sp|Q5CCK4|VAL2_ARATH  B3 domain-containing transcription repressor VAL2 OS=Arabidopsis thaliana OX=3702 GN=VAL2 PE=1 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.4   0.0   1.5e-13   3.1e-11     126     244 ..     273     391 ..     251     410 .. 0.84
+   2 ?   -1.7   0.4       3.1   6.6e+02     483     483 ..     630     630 ..     462     775 .. 0.41
+
+  Alignments for each domain:
+  == domain 1  score: 42.4 bits;  conditional E-value: 1.5e-13
+               matches 126 ag.eekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRGq.PrRHlLttGWsvFvs 212
+                           ++ + ++++    F K+L aSD+   G +  p+ +Ae  +Pp+ + + +p   l  +D+ g+eW F+  +      R     G    ++
+  sp|Q5CCK4|VAL2_ARATH 273 QYpHLSNSKIIPLFEKVLSASDAGRIGRLVLPKACAEAYFPPISLPEGLP---LKIQDIKGKEWVFQFRFWPNnNSRMYVLEGVTPCIQ 358
+                           333677888999*******************************9999999...569**********9888654156888889******* PP
+
+               matches 213 sKkLvaGDsvvFlrge.kgeLrvGiRrakrqqs 244
+                           s +L aGD+v F r e +g+L++G R+a++++ 
+  sp|Q5CCK4|VAL2_ARATH 359 SMQLQAGDTVTFSRTEpEGKLVMGYRKATNSTA 391
+                           **************99679*********98765 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 3.1
+               matches 483 t 483
+                            
+  sp|Q5CCK4|VAL2_ARATH 630 G 630
+                           0 PP
+
+>> sp|Q8W4L5|VAL1_ARATH  B3 domain-containing transcription repressor VAL1 OS=Arabidopsis thaliana OX=3702 GN=VAL1 PE=1 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.1   0.0   7.3e-13   1.5e-10     127     242 ..     284     398 ..     266     419 .. 0.84
+   2 ?    0.4   0.2      0.74   1.6e+02     434     434 ..     686     686 ..     517     778 .. 0.37
+
+  Alignments for each domain:
+  == domain 1  score: 40.1 bits;  conditional E-value: 7.3e-13
+               matches 127 geekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhgneWkFrHiyRGq.PrRHlLttGWsvFvssK 214
+                           + + + + v  F KtL aSD+   G +  p+ +Ae  +Pp+  s+  p   l  +D+ g eW+F+  y      R     G    ++s 
+  sp|Q8W4L5|VAL1_ARATH 284 SGNLNLNIVPLFEKTLSASDAGRIGRLVLPKACAEAYFPPISQSEGIP---LKIQDVRGREWTFQFRYWPNnNSRMYVLEGVTPCIQSM 369
+                           3566778999*******************************9999999...569***********999765156778889********* PP
+
+               matches 215 kLvaGDsvvFlrge.kgeLrvGiRrakrq 242
+                            L aGD+v F r +  g+L++G R+a++ 
+  sp|Q8W4L5|VAL1_ARATH 370 MLQAGDTVTFSRVDpGGKLIMGSRKAANA 398
+                           ************773689*******9876 PP
+
+  == domain 2  score: 0.4 bits;  conditional E-value: 0.74
+               matches 434 s 434
+                           +
+  sp|Q8W4L5|VAL1_ARATH 686 M 686
+                           1 PP
+
+>> sp|Q9C688|RAVL3_ARATH  AP2/ERF and B3 domain-containing transcription factor At1g51120 OS=Arabidopsis thaliana OX=370
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.1   0.0   2.8e-12     6e-10     133     224 ..     173     271 ..     154     278 .. 0.83
+   2 ?   -0.0   0.1      0.99   2.1e+02     459     493 ..     317     351 ..     274     352 .] 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 38.1 bits;  conditional E-value: 2.8e-12
+                matches 133 ekvesFcKtLTaSDtsthGGFsVprraAeevlPpL..dysqqpptQ.....elvakDlhgneWkFrHiyRGqPrRHlLttGWsvFvss 213
+                            + ++ F K LT SD+ +   + +p+++A + +P +  d s++  +      e+v  D    +WkFr  y    +  ++t GW+ Fv +
+  sp|Q9C688|RAVL3_ARATH 173 SCTQLFQKELTPSDVGKLNRLVIPKKYAVKYMPFIsdDQSEKETSEgvedvEVVFYDRAMRQWKFRYCYWRSSQSFVFTRGWNGFVKE 260
+                            46899****************************884334333333233333789999999**************************** PP
+
+                matches 214 KkLvaGDsvvF 224
+                            K+L + D++vF
+  sp|Q9C688|RAVL3_ARATH 261 KNLKEKDIIVF 271
+                            **********9 PP
+
+  == domain 2  score: -0.0 bits;  conditional E-value: 0.99
+                matches 459 svqspsksnvnsmvk.keeekkkkktssirlFGvdl 493
+                            s +++++++ ++ +k +ee+k+++k+  + lFGv +
+  sp|Q9C688|RAVL3_ARATH 317 SDEEMKTETLFT-SKvEEETKSEEKKGGFMLFGVRI 351
+                            222344444343.33367778888889999999987 PP
+
+>> sp|Q9C6P5|RAVL2_ARATH  AP2/ERF and B3 domain-containing transcription factor At1g50680 OS=Arabidopsis thaliana OX=370
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.0   3.9e-11   8.3e-09     131     224 ..     150     253 ..     134     259 .. 0.78
+   2 ?    2.2   0.1      0.21        45     457     494 ..     297     335 ..     257     337 .] 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 3.9e-11
+                matches 131 ekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpp.tQ.........elvakDlhgneWkFrHiyRGqPrRHlLttGWs 208
+                              + ++ F K LT SD+ +   + +p+++A + +P +   q               e+v  D    +WkFr  y    +  ++t GW+
+  sp|Q9C6P5|RAVL2_ARATH 150 CFSCTQLFQKELTPSDVGKLNRLVIPKKYAVKYMPFISADQSEKeEGeivgsvedvEVVFYDRAMRQWKFRYCYWKSSQSFVFTRGWN 237
+                            3456899****************************9988775431331111111224555566678********************** PP
+
+                matches 209 vFvssKkLvaGDsvvF 224
+                             Fv +K+L + D++ F
+  sp|Q9C6P5|RAVL2_ARATH 238 SFVKEKNLKEKDVIAF 253
+                            *************998 PP
+
+  == domain 2  score: 2.2 bits;  conditional E-value: 0.21
+                matches 457 sssvqspsksnvn.smvkkeeekkkkktssirlFGvdlt 494
+                            +ssvq ++++n   sm++ +e+k+++++  + lFGv ++
+  sp|Q9C6P5|RAVL2_ARATH 297 DSSVQVKKTENLVsSMLEDKETKSEENKGGFMLFGVRIE 335
+                            2233333333322377778999999999********986 PP
+
+>> sp|Q9FKM7|IAA33_ARATH  Auxin-responsive protein IAA33 OS=Arabidopsis thaliana OX=3702 GN=IAA33 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.3   0.0   2.6e-12   5.5e-10     516     632 ..      42     165 ..       4     171 .] 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 38.3 bits;  conditional E-value: 2.6e-12
+                matches 516 lsesdissekskqske.ssseaqskqssstrtctkvqkqgsavgravdlsvlksydeLikeleklF....dlegqledp..rskwkiv 596
+                            +++s++ss +++ s +  + +++ +  ss    + v  +g ++ + + l +  sy+ L + l ++F    d  + l+ +    +  i+
+  sp|Q9FKM7|IAA33_ARATH  42 HNNSNSSSGAAGRSFQgFGLNVEDDLVSSVVPPVTVVLEGRSICQRISLDKHGSYQSLASALRQMFvdgaDSTDDLDLSnaIPGHLIA 129
+                            2222222223333333346778888889999999********************************65544445454332256789** PP
+
+                matches 597 ytdsegdillvGddPweeFvkmvkkikilskeevkk 632
+                            y d e+d ll+Gd  w++Fv+++k+i+il  ++  +
+  sp|Q9FKM7|IAA33_ARATH 130 YEDMENDLLLAGDLTWKDFVRVAKRIRILPVKGNTR 165
+                            ****************************98665544 PP
+
+>> sp|Q9SB80|REM5_ARATH  B3 domain-containing protein REM5 OS=Arabidopsis thaliana OX=3702 GN=REM5 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.2   0.8   9.7e-05     0.021     201     225 ..      64      88 ..      55      97 .. 0.88
+   2 ?    1.0   0.0       0.5   1.1e+02     199     224 ..     205     230 ..     113     240 .. 0.72
+   3 ?    0.8   0.0      0.55   1.2e+02     284     317 ..     305     339 ..     249     346 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 9.7e-05
+               matches 201 HlLttGWsvFvssKkLvaGDsvvFl 225
+                           H Lt GW +Fv +  L  GD vvF 
+  sp|Q9SB80|REM5_ARATH  64 HKLTEGWKEFVEAHDLRVGDFVVFK 88 
+                           99**********************4 PP
+
+  == domain 2  score: 1.0 bits;  conditional E-value: 0.5
+               matches 199 rRHlLttGWsvFvssKkLvaGDsvvF 224
+                            R  +  GW    ++ kL  GDs  F
+  sp|Q9SB80|REM5_ARATH 205 GRVFIAGGWTSLCTANKLEVGDSCTF 230
+                           5777889***************9877 PP
+
+  == domain 3  score: 0.8 bits;  conditional E-value: 0.55
+               matches 284 sseFvv.slekylkavknkfsvGmRfkmrfEteds 317
+                           +s F+  +++k+ ++v+  +++  Rf+ ++Et++ 
+  sp|Q9SB80|REM5_ARATH 305 QSCFIFdHVAKVKQSVEDTLNSIRRFRAKLETKEH 339
+                           56677634789999999999999999999999875 PP
+
+>> sp|Q9LW31|FUS3_ARATH  B3 domain-containing transcription factor FUS3 OS=Arabidopsis thaliana OX=3702 GN=FUS3 PE=2 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.4   0.0   2.1e-05    0.0045     132     223 ..      86     176 ..      72     198 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 15.4 bits;  conditional E-value: 2.1e-05
+               matches 132 kekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlhg.neWkFrHiyRGq..PrRHlLt.tGWsvFvssKkL 216
+                           ++    F K L  SD+s    ++ p++aAe  lP+L+ ++  p+     +Dl g + W+F+  y      r  +L  tG   Fv++  L
+  sp|Q9LW31|FUS3_ARATH  86 RKLRFLFQKELKNSDVSSLRRMILPKKAAEAHLPALECKEGIPIR---MEDLDGfHVWTFKYRYWPNnnSRMYVLEnTG--DFVNAHGL 169
+                           555668*************************************75...79**99457****988543113444443134..67777777 PP
+
+               matches 217 vaGDsvv 223
+                             GD ++
+  sp|Q9LW31|FUS3_ARATH 170 QLGDFIM 176
+                           7777665 PP
+
+>> sp|Q01593|ABI3_ARATH  B3 domain-containing transcription factor ABI3 OS=Arabidopsis thaliana OX=3702 GN=ABI3 PE=1 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.0   3.7         8   1.7e+03     477     542 ..     406     492 ..     192     510 .. 0.42
+   2 !   14.8   0.0   3.2e-05    0.0069     126     228 ..     560     661 ..     543     714 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: -3.0 bits;  conditional E-value: 8
+               matches 477 ekkkkktssirlFGvdltsesklkekkea........................skekedketelsesdisse..kskqskessseaqsk 539
+                           +  ++ ts+++ FG +   +   +++ +                         +     k+++  + ++ s+   ++ ++++++++q++
+  sp|Q01593|ABI3_ARATH 406 QFPMPPTSQYNQFGDPTGFNGYNMNPYQYpyvpagqmrdqrllrlcssatkeaR-----KKRMARQRRFLSHhhRHNNNNNNNNNNQQN 489
+                           333333333333333333333322222223333333333333333222111100.....111111111111111111111112233333 PP
+
+               matches 540 qss 542
+                           q++
+  sp|Q01593|ABI3_ARATH 490 QTQ 492
+                           333 PP
+
+  == domain 2  score: 14.8 bits;  conditional E-value: 3.2e-05
+               matches 126 ageekekekvesFcKtLTaSDtsthGGFsVprraAeevlPpLdysqqpptQelvakDlh.gneWkFrHiyRGqPr.RHlLttGWsvFvs 212
+                           +g ++ek+      K+L +SD+ + G    p++ Ae+ lP L+         l  +D+     W+ r  +    + R  L      Fv 
+  sp|Q01593|ABI3_ARATH 560 QGWKPEKNLRFLLQKVLKQSDVGNLGRIVLPKKEAETHLPELEARDGI---SLAMEDIGtSRVWNMRYRFWPNNKsRMYLLENTGDFVK 645
+                           56788899999999****************************876655...58889996146799998886554324444444458999 PP
+
+               matches 213 sKkLvaGDsvvFlrge 228
+                           +  L +GD +v   + 
+  sp|Q01593|ABI3_ARATH 646 TNGLQEGDFIVIYSDV 661
+                           9999999998876554 PP
+
+>> sp|Q8RYD1|REM16_ARATH  B3 domain-containing protein REM16 OS=Arabidopsis thaliana OX=3702 GN=REM16 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.4   0.0       1.3   2.7e+02     205     225 ..      81     101 ..      75     214 .. 0.87
+   2 ?   11.4   0.0   0.00034     0.072     183     224 ..     260     301 ..     234     325 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -0.4 bits;  conditional E-value: 1.3
+                matches 205 tGWsvFvssKkLvaGDsvvFl 225
+                             GW +Fv    L + D +vF 
+  sp|Q8RYD1|REM16_ARATH  81 FGWDKFVKDHSLEENDLLVFK 101
+                            599999999999999999885 PP
+
+  == domain 2  score: 11.4 bits;  conditional E-value: 0.00034
+                matches 183 lhgneWkFrHiyRGqPrRHlLttGWsvFvssKkLvaGDsvvF 224
+                            + +++W+ + +  G      + tGW +Fv+  +L +GD+ vF
+  sp|Q8RYD1|REM16_ARATH 260 VDQTKWEMKFNIFGARGSGGISTGWKKFVQDNNLREGDVCVF 301
+                            5566666666666666666689*******************9 PP
+
+>> sp|O81778|REM9_ARATH  B3 domain-containing protein REM9 OS=Arabidopsis thaliana OX=3702 GN=REM9 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.2   0.00015     0.032     201     225 ..      64      88 ..      61      97 .. 0.87
+   2 ?   -1.1   0.2       2.2   4.6e+02     119     157 ..     130     167 ..     109     178 .. 0.63
+   3 ?    3.4   0.1     0.091        19     203     224 ..     206     227 ..     205     234 .. 0.90
+   4 ?   -0.4   0.0       1.3   2.7e+02     590     618 ..     270     299 ..     265     302 .. 0.81
+   5 ?   -0.9   0.8       1.8   3.8e+02     370     438 ..     323     391 ..     318     457 .. 0.44
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00015
+               matches 201 HlLttGWsvFvssKkLvaGDsvvFl 225
+                           H Lt GW +Fv +  L  GD vvF 
+  sp|O81778|REM9_ARATH  64 HRLTEGWKEFVEAHDLRIGDFVVFR 88 
+                           99*********************93 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 2.2
+               matches 119 ktekeldageekekekvesFcKtLTaSDtsthGGFsVpr 157
+                           + e++++++++k+++  + F+   T S +s     sVpr
+  sp|O81778|REM9_ARATH 130 EGEENVQKESDKSSSDLNCFSQSVTHSNISRD-AVSVPR 167
+                           22222334566666677777777777777654.456666 PP
+
+  == domain 3  score: 3.4 bits;  conditional E-value: 0.091
+               matches 203 LttGWsvFvssKkLvaGDsvvF 224
+                           L  GW +F ++ kL  GDs  F
+  sp|O81778|REM9_ARATH 206 LVGGWTTFCTENKLDVGDSCTF 227
+                           667***************9887 PP
+
+  == domain 4  score: -0.4 bits;  conditional E-value: 1.3
+               matches 590 rskwkivy.tdsegdillvGddPweeFvkm 618
+                           r +w+++  +ds g++ ++G + w++F+ +
+  sp|O81778|REM9_ARATH 270 RAEWSMMLkVDSRGAVYIIGGNDWKSFCAA 299
+                           66777654379*****************75 PP
+
+  == domain 5  score: -0.9 bits;  conditional E-value: 1.8
+               matches 370 vsasniskssll...sknkrlrevqesgsssskelkessllpslllqgqeisqlsvasniadsskelsyqda 438
+                           ++ +++ ++s++    ++kr r +++s+ ++++    ++++ s++  + ei+++   s   ++ +++  +++
+  sp|O81778|REM9_ARATH 323 TTCFQMEQPSFKaedGRHKRARVQNRSQETDKGA---ETSRASTMGPKLEITEKGEPSRASTMRPKVEIREK 391
+                           5566666666665555677777777777666544...22232333223333322222221122222222222 PP
+
+>> sp|Q9FLV7|Y5405_ARATH  B3 domain-containing protein At5g24050 OS=Arabidopsis thaliana OX=3702 GN=At5g24050 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.3   0.2    0.0015      0.32     596     640 ..       4      48 ..       1      75 [. 0.76
+   2 ?   -0.8   1.4       1.8   3.8e+02     469     506 ..     106     169 ..      48     231 .. 0.47
+   3 ?    0.4   0.0      0.75   1.6e+02     203     222 ..     303     322 ..     301     325 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 9.3 bits;  conditional E-value: 0.0015
+                matches 596 vytdsegdillvGddPweeFvkmvkkikilskeevkkmkkkkkla 640
+                            +y d++++    G d w++F+  v    +l +ee ++ ++k  + 
+  sp|Q9FLV7|Y5405_ARATH   4 IYHDDDDHLTASGKDLWSNFCVLVDAAVMLYEEEEEEQRRKIVSE 48 
+                            79**********************976666665555544443333 PP
+
+  == domain 2  score: -0.8 bits;  conditional E-value: 1.8
+                matches 469 n..........smvkkeeekkkkktssirlFGvdltsesklkekkea................s 506
+                                       s +k+ ++++++  ss+ lFG + ++ +k+++k                   s
+  sp|Q9FLV7|Y5405_ARATH 106 GlssscfiaanSETKTLQNPSSEPCSSLGLFGHKTAEYQKTETKDPPnpnfpctmslclmentS 169
+                            0222222332222223445555555666677776666665444433344444444444332221 PP
+
+  == domain 3  score: 0.4 bits;  conditional E-value: 0.75
+                matches 203 LttGWsvFvssKkLvaGDsv 222
+                            L  GW+  v + +L +GD +
+  sp|Q9FLV7|Y5405_ARATH 303 LICGWNDIVEANRLKEGDNI 322
+                            668***************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (670 nodes)
+Target sequences:                      15719  (7141285 residues searched)
+Passed MSV filter:                      1238  (0.0787582); expected 314.4 (0.02)
+Passed bias filter:                      449  (0.0285642); expected 314.4 (0.02)
+Passed Vit filter:                       133  (0.0084611); expected 15.7 (0.001)
+Passed Fwd filter:                        74  (0.00470768); expected 0.2 (1e-05)
+Initial search space (Z):              15719  [actual number of targets]
+Domain search space  (domZ):              74  [number of targets reported over threshold]
+# CPU time: 1.05u 0.03s 00:00:01.08 Elapsed: 00:00:00.55
+# Mc/sec: 8676.68
+//
+[ok]

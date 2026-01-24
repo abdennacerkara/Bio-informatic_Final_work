@@ -1,0 +1,208 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprot_Atha.fasta
+           15,719 sequences; 7,141,285 total letters
+
+
+
+Query= AT1G30330.2 [Arabidopsis thaliana]  ARF6 (AUXIN RESPONSE FACTOR 6)
+
+Length=936
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+sp|Q9ZTX8|ARFF_ARATH Auxin response factor 6 OS=Arabidopsis thali...  1915    0.0   
+sp|Q9FGV1|ARFH_ARATH Auxin response factor 8 OS=Arabidopsis thali...  850     0.0   
+sp|Q8RYC8|ARFS_ARATH Auxin response factor 19 OS=Arabidopsis thal...  534     3e-174
+sp|P93022|ARFG_ARATH Auxin response factor 7 OS=Arabidopsis thali...  524     1e-169
+sp|P93024|ARFE_ARATH Auxin response factor 5 OS=Arabidopsis thali...  485     2e-157
+sp|Q94JM3|ARFB_ARATH Auxin response factor 2 OS=Arabidopsis thali...  407     3e-128
+sp|Q8L7G0|ARFA_ARATH Auxin response factor 1 OS=Arabidopsis thali...  393     3e-125
+sp|Q9ZTX9|ARFD_ARATH Auxin response factor 4 OS=Arabidopsis thali...  382     2e-119
+sp|Q9C5W9|ARFR_ARATH Auxin response factor 18 OS=Arabidopsis thal...  361     9e-114
+sp|Q9ZPY6|ARFK_ARATH Auxin response factor 11 OS=Arabidopsis thal...  359     5e-113
+sp|O23661|ARFC_ARATH Auxin response factor 3 OS=Arabidopsis thali...  343     4e-107
+sp|Q9XED8|ARFI_ARATH Auxin response factor 9 OS=Arabidopsis thali...  340     2e-105
+sp|Q9C8N9|ARFU_ARATH Putative auxin response factor 21 OS=Arabido...  300     9e-91 
+sp|Q9LQE8|ARFN_ARATH Putative auxin response factor 14 OS=Arabido...  296     1e-89 
+sp|Q9XID4|ARFL_ARATH Auxin response factor 12 OS=Arabidopsis thal...  294     1e-88 
+sp|Q9LQE3|ARFO_ARATH Putative auxin response factor 15 OS=Arabido...  286     6e-86 
+sp|Q9C7I9|ARFT_ARATH Auxin response factor 20 OS=Arabidopsis thal...  283     7e-85 
+sp|Q9C8N7|ARFV_ARATH Auxin response factor 22 OS=Arabidopsis thal...  279     5e-83 
+sp|Q9FX25|ARFM_ARATH Auxin response factor 13 OS=Arabidopsis thal...  277     2e-82 
+sp|Q9SKN5|ARFJ_ARATH Auxin response factor 10 OS=Arabidopsis thal...  274     2e-80 
+sp|Q93YR9|ARFP_ARATH Auxin response factor 16 OS=Arabidopsis thal...  268     2e-78 
+sp|Q84WU6|ARFQ_ARATH Auxin response factor 17 OS=Arabidopsis thal...  209     5e-58 
+sp|Q9LP07|ARFW_ARATH Putative auxin response factor 23 OS=Arabido...  170     3e-48 
+sp|Q9M268|NGA2_ARATH B3 domain-containing transcription factor NG...  62.4    2e-10 
+sp|Q9MAN1|NGA3_ARATH B3 domain-containing transcription factor NG...  61.2    6e-10 
+sp|Q38831|IAA13_ARATH Auxin-responsive protein IAA13 OS=Arabidops...  57.8    3e-09 
+sp|O82799|NGA1_ARATH B3 domain-containing transcription factor NG...  58.5    3e-09 
+sp|O82595|NGA4_ARATH B3 domain-containing transcription factor NG...  57.0    1e-08 
+sp|Q9LS06|RAVL4_ARATH AP2/ERF and B3 domain-containing transcript...  57.0    1e-08 
+sp|Q8GYJ2|Y2608_ARATH B3 domain-containing protein At2g36080 OS=A...  55.5    2e-08 
+sp|Q8RYD3|Y3158_ARATH B3 domain-containing protein At3g11580 OS=A...  55.8    2e-08 
+sp|Q8H174|IAA31_ARATH Auxin-responsive protein IAA31 OS=Arabidops...  52.4    6e-08 
+sp|Q9ZWM9|RAV1_ARATH AP2/ERF and B3 domain-containing transcripti...  53.5    2e-07 
+sp|Q9FNI3|Y5625_ARATH B3 domain-containing protein At5g06250 OS=A...  52.8    2e-07 
+sp|Q38830|IAA12_ARATH Auxin-responsive protein IAA12 OS=Arabidops...  52.4    2e-07 
+sp|P33077|IAA4_ARATH Auxin-responsive protein IAA4 OS=Arabidopsis...  50.1    5e-07 
+sp|Q38829|IAA11_ARATH Auxin-responsive protein IAA11 OS=Arabidops...  51.2    5e-07 
+sp|P93830|IAA17_ARATH Auxin-responsive protein IAA17 OS=Arabidops...  50.8    6e-07 
+sp|Q8W4L5|VAL1_ARATH B3 domain-containing transcription repressor...  52.0    8e-07 
+sp|Q9C6M5|RAVL1_ARATH AP2/ERF and B3 domain-containing transcript...  51.2    8e-07 
+sp|P82280|RAV2_ARATH AP2/ERF and B3 domain-containing transcripti...  50.8    1e-06 
+sp|Q5CCK4|VAL2_ARATH B3 domain-containing transcription repressor...  49.7    4e-06 
+sp|Q8LAL2|IAA26_ARATH Auxin-responsive protein IAA26 OS=Arabidops...  48.5    5e-06 
+sp|Q9M1R4|IAA30_ARATH Auxin-responsive protein IAA30 OS=Arabidops...  46.6    6e-06 
+sp|O65420|VAL3_ARATH B3 domain-containing transcription factor VA...  48.5    9e-06 
+sp|Q9XFM0|IAA28_ARATH Auxin-responsive protein IAA28 OS=Arabidops...  45.8    1e-05 
+sp|Q38832|IAA14_ARATH Auxin-responsive protein IAA14 OS=Arabidops...  46.2    2e-05 
+sp|Q38822|IAA3_ARATH Auxin-responsive protein IAA3 OS=Arabidopsis...  45.1    3e-05 
+sp|P33078|IAA5_ARATH Auxin-responsive protein IAA5 OS=Arabidopsis...  44.3    4e-05 
+sp|Q38826|IAA8_ARATH Auxin-responsive protein IAA8 OS=Arabidopsis...  45.8    4e-05 
+sp|Q9C688|RAVL3_ARATH AP2/ERF and B3 domain-containing transcript...  45.4    6e-05 
+sp|Q38827|IAA9_ARATH Auxin-responsive protein IAA9 OS=Arabidopsis...  45.4    6e-05 
+sp|Q9ZSY8|IAA27_ARATH Auxin-responsive protein IAA27 OS=Arabidops...  45.1    7e-05 
+sp|Q38825|IAA7_ARATH Auxin-responsive protein IAA7 OS=Arabidopsis...  44.7    7e-05 
+sp|Q9C6P5|RAVL2_ARATH AP2/ERF and B3 domain-containing transcript...  45.1    8e-05 
+sp|P49678|IAA2_ARATH Auxin-responsive protein IAA2 OS=Arabidopsis...  43.1    1e-04 
+sp|O24407|IAA16_ARATH Auxin-responsive protein IAA16 OS=Arabidops...  43.5    2e-04 
+sp|O24410|IAA20_ARATH Auxin-responsive protein IAA20 OS=Arabidops...  42.0    2e-04 
+sp|O24408|IAA18_ARATH Auxin-responsive protein IAA18 OS=Arabidops...  42.7    3e-04 
+sp|O24409|IAA19_ARATH Auxin-responsive protein IAA19 OS=Arabidops...  41.6    4e-04 
+sp|P49677|IAA1_ARATH Auxin-responsive protein IAA1 OS=Arabidopsis...  40.8    5e-04 
+sp|Q93WC4|IAA29_ARATH Auxin-responsive protein IAA29 OS=Arabidops...  41.6    6e-04 
+sp|Q9FKM7|IAA33_ARATH Auxin-responsive protein IAA33 OS=Arabidops...  38.5    0.004 
+sp|Q8RYC6|IAA32_ARATH Auxin-responsive protein IAA32 OS=Arabidops...  38.1    0.006 
+sp|Q38824|IAA6_ARATH Auxin-responsive protein IAA6 OS=Arabidopsis...  38.1    0.006 
+sp|Q38828|IAA10_ARATH Auxin-responsive protein IAA10 OS=Arabidops...  37.7    0.014 
+sp|Q9C5X0|IAA34_ARATH Auxin-responsive protein IAA34 OS=Arabidops...  36.6    0.019 
+sp|Q9C966|IAA15_ARATH Auxin-responsive protein IAA15 OS=Arabidops...  35.8    0.034 
+sp|P92530|M940_ARATH Uncharacterized mitochondrial protein AtMg00...  34.7    0.062 
+sp|Q8GWU1|Y1898_ARATH B3 domain-containing protein At1g08985 OS=A...  31.2    0.42  
+sp|Q9LW31|FUS3_ARATH B3 domain-containing transcription factor FU...  32.7    0.51  
+sp|Q9FX77|Y1664_ARATH B3 domain-containing protein At1g16640 OS=A...  31.2    0.78  
+sp|Q9MA32|Y1593_ARATH B3 domain-containing protein At1g05930 OS=A...  31.6    1.1   
+sp|Q9SB80|REM5_ARATH B3 domain-containing protein REM5 OS=Arabido...  30.8    2.5   
+sp|Q9FY89|VP202_ARATH Vacuolar protein sorting-associated protein...  30.0    3.1   
+sp|Q9SJ07|Y2192_ARATH Putative B3 domain-containing protein At2g2...  30.0    3.3   
+sp|O81778|REM9_ARATH B3 domain-containing protein REM9 OS=Arabido...  30.0    4.2   
+sp|Q5PNU3|AMSH3_ARATH AMSH-like ubiquitin thioesterase 3 OS=Arabi...  30.0    4.2   
+sp|Q9S772|GLT3_ARATH Germin-like protein subfamily T member 3 OS=...  29.3    4.9   
+sp|Q8VYW1|PAPS4_ARATH Nuclear poly(A) polymerase 4 OS=Arabidopsis...  30.0    5.3   
+sp|P48007|PIST_ARATH Floral homeotic protein PISTILLATA OS=Arabid...  29.3    5.5   
+sp|Q8S8E8|REML1_ARATH B3 domain-containing protein REM-like 1 OS=...  29.6    7.0   
+sp|Q9XIK5|Y1045_ARATH B3 domain-containing protein At1g10455 OS=A...  28.1    9.7   
+
+
+>sp|Q9ZTX8|ARFF_ARATH Auxin response factor 6 OS=Arabidopsis thaliana 
+OX=3702 GN=ARF6 PE=1 SV=2
+Length=935
+
+ Score = 1915 bits (4962),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 935/935 (100%), Positives = 935/935 (100%), Gaps = 0/935 (0%)
+
+Query  1    MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+            MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN
+Sbjct  1    MRLSSAGFNPQPHEVTGEKRVLNSELWHACAGPLVSLPPVGSRVVYFPQGHSEQVAASTN  60
+
+Query  61   KEVDAHIPNYPSLHPQLICQLHNVTMHADVETDEVYAQMTLQPLNAQEQKDPYLPAELGV  120
+            KEVDAHIPNYPSLHPQLICQLHNVTMHADVETDEVYAQMTLQPLNAQEQKDPYLPAELGV
+Sbjct  61   KEVDAHIPNYPSLHPQLICQLHNVTMHADVETDEVYAQMTLQPLNAQEQKDPYLPAELGV  120
+
+Query  121  PSRQPTNYFCKTLTASDTSTHGGFSVPRRAAEKVFPPLDYSQQPPAQELMARDLHDNEWK  180
+            PSRQPTNYFCKTLTASDTSTHGGFSVPRRAAEKVFPPLDYSQQPPAQELMARDLHDNEWK
+Sbjct  121  PSRQPTNYFCKTLTASDTSTHGGFSVPRRAAEKVFPPLDYSQQPPAQELMARDLHDNEWK  180
+
+Query  181  FRHIFRGQPKRHLLTTGWSVFVSAKRLVAGDSVLFIWNDKNQLLLGIRRANRPQTVMPSS  240
+            FRHIFRGQPKRHLLTTGWSVFVSAKRLVAGDSVLFIWNDKNQLLLGIRRANRPQTVMPSS
+Sbjct  181  FRHIFRGQPKRHLLTTGWSVFVSAKRLVAGDSVLFIWNDKNQLLLGIRRANRPQTVMPSS  240
+
+Query  241  VLSSDSMHLGLLAAAAHAAATNSRFTIFYNPRASPSEFVIPLAKYVKAVYHTRVSVGMRF  300
+            VLSSDSMHLGLLAAAAHAAATNSRFTIFYNPRASPSEFVIPLAKYVKAVYHTRVSVGMRF
+Sbjct  241  VLSSDSMHLGLLAAAAHAAATNSRFTIFYNPRASPSEFVIPLAKYVKAVYHTRVSVGMRF  300
+
+Query  301  RMLFETEESSVRRYMGTITGICDLDPTRWANSHWRSVKVGWDESTAGERQPRVSLWEIEP  360
+            RMLFETEESSVRRYMGTITGICDLDPTRWANSHWRSVKVGWDESTAGERQPRVSLWEIEP
+Sbjct  301  RMLFETEESSVRRYMGTITGICDLDPTRWANSHWRSVKVGWDESTAGERQPRVSLWEIEP  360
+
+Query  361  LTTFPMYPSPFPLRLKRPWPPGLPSFHGLKEDDMGMSMSSPLMWDRGLQSLNFQGMGVNP  420
+            LTTFPMYPSPFPLRLKRPWPPGLPSFHGLKEDDMGMSMSSPLMWDRGLQSLNFQGMGVNP
+Sbjct  361  LTTFPMYPSPFPLRLKRPWPPGLPSFHGLKEDDMGMSMSSPLMWDRGLQSLNFQGMGVNP  420
+
+Query  421  WMQPRLDTSGLLGMQNDVYQAMAAAALQDMRGIDPAKAAASLLQFQNSPGFSMQSPSLVQ  480
+            WMQPRLDTSGLLGMQNDVYQAMAAAALQDMRGIDPAKAAASLLQFQNSPGFSMQSPSLVQ
+Sbjct  421  WMQPRLDTSGLLGMQNDVYQAMAAAALQDMRGIDPAKAAASLLQFQNSPGFSMQSPSLVQ  480
+
+Query  481  PQMLQQQLSQQQQQLSQQQQQQQQLSQQQQQQLSQQQQQQLSQQQQQQLSQQQQQQAYLG  540
+            PQMLQQQLSQQQQQLSQQQQQQQQLSQQQQQQLSQQQQQQLSQQQQQQLSQQQQQQAYLG
+Sbjct  481  PQMLQQQLSQQQQQLSQQQQQQQQLSQQQQQQLSQQQQQQLSQQQQQQLSQQQQQQAYLG  540
+
+Query  541  VPETHQPQSQAQSQSNNHLSQQQQQVVDNHNPSASSAAVVSAMSQFGSASQPNTSPLQSM  600
+            VPETHQPQSQAQSQSNNHLSQQQQQVVDNHNPSASSAAVVSAMSQFGSASQPNTSPLQSM
+Sbjct  541  VPETHQPQSQAQSQSNNHLSQQQQQVVDNHNPSASSAAVVSAMSQFGSASQPNTSPLQSM  600
+
+Query  601  TSLCHQQSFSDTNGGNNPISPLHTLLSNFSQDESSQLLHLTRTNSAMTSSGWPSKRPAVD  660
+            TSLCHQQSFSDTNGGNNPISPLHTLLSNFSQDESSQLLHLTRTNSAMTSSGWPSKRPAVD
+Sbjct  601  TSLCHQQSFSDTNGGNNPISPLHTLLSNFSQDESSQLLHLTRTNSAMTSSGWPSKRPAVD  660
+
+Query  661  SSFQHSGAGNNNTQSVLEQLGQSHTSNVPPNAVSLPPFPGGRECSIEQEGSASDPHSHLL  720
+            SSFQHSGAGNNNTQSVLEQLGQSHTSNVPPNAVSLPPFPGGRECSIEQEGSASDPHSHLL
+Sbjct  661  SSFQHSGAGNNNTQSVLEQLGQSHTSNVPPNAVSLPPFPGGRECSIEQEGSASDPHSHLL  720
+
+Query  721  FGVNIDSSSLLMPNGMSNLRSIGIEGGDSTTLPFTSSNFNNDFSGNLAMTTPSSCIDESG  780
+            FGVNIDSSSLLMPNGMSNLRSIGIEGGDSTTLPFTSSNFNNDFSGNLAMTTPSSCIDESG
+Sbjct  721  FGVNIDSSSLLMPNGMSNLRSIGIEGGDSTTLPFTSSNFNNDFSGNLAMTTPSSCIDESG  780
+
+Query  781  FLQSSENLGSENPQSNTFVKVYKSGSFGRSLDISKFSSYHELRSELARMFGLEGQLEDPV  840
+            FLQSSENLGSENPQSNTFVKVYKSGSFGRSLDISKFSSYHELRSELARMFGLEGQLEDPV
+Sbjct  781  FLQSSENLGSENPQSNTFVKVYKSGSFGRSLDISKFSSYHELRSELARMFGLEGQLEDPV  840
+
+Query  841  RSGWQLVFVDRENDVLLLGDDPWPEFVSSVWCIKILSPQEVQQMGKRGLELLNSAPSSNN  900
+            RSGWQLVFVDRENDVLLLGDDPWPEFVSSVWCIKILSPQEVQQMGKRGLELLNSAPSSNN
+Sbjct  841  RSGWQLVFVDRENDVLLLGDDPWPEFVSSVWCIKILSPQEVQQMGKRGLELLNSAPSSNN  900
+
+Query  901  VDKLPSNGNCDDFGNRSDPRNLGNGIASVGGSFNY  935
+            VDKLPSNGNCDDFGNRSDPRNLGNGIASVGGSFNY
+Sbjct  901  VDKLPSNGNCDDFGNRSDPRNLGNGIASVGGSFNY  935
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.128    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4562846490
+
+
+  Database: uniprot_Atha.fasta
+    Posted date:  Jan 15, 2026  3:49 PM
+  Number of letters in database: 7,141,285
+  Number of sequences in database:  15,719
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
