@@ -1,4 +1,5 @@
 #Session_1: Annotation_of_coding_sequences
+# This report is done by the students: Iness HIDOURI & Abdennacer KARA
 ##Exercice_1: How many sequences have been formatted and how does this affect the E-value of BLAST searches?
 We have used and run the following command:
 ```bash
