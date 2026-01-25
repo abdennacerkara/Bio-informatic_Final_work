@@ -1,4 +1,5 @@
 #Session_5_report
+# This report is done by the students: Iness HIDOURI & Abdennacer KARA
 ##Exercice 1: Quality control
 Using **FastQC**, we examined the sequencing quality of sample `SAMEA2569438`. 
 * **1.1 Paired-end files:** Since the data is derived from **paired-end sequencing**, there are two files (`_1` and `_2`). The forward and reverse reads of the identical DNA fragments are contained in separate files.
