@@ -28,22 +28,29 @@ Hub isoforms were identified for each module based on intramodular connectivity 
 
 **5.1 How many samples and isoforms are included in `TPM_counts_Drought_W_dataset.csv`?**  
 The dataset contains expression data for 9,940 isoforms across 39 RNA-seq samples corresponding to the watered (W) condition. Each row represents a transcript isoform, while each column corresponds to a biological sample.
+![Quality Control Analysis of Samples and Transcripts](fig1.png)
 
 **5.2 How many samples are discarded after outlier analysis?**  
 No samples were discarded after outlier analysis. All 39 samples passed the quality control criteria and were included in the co-expression network analysis.
 
 **5.3 What power value was selected for calculating adjacency?**  
 A soft-thresholding power of β = 6 was selected. At this value, the scale-free topology fit index (R²) reached 0.879, exceeding the commonly accepted threshold of 0.8. This choice ensured an appropriate balance between scale-free topology approximation and network connectivity.
+![Scale-Free Topology Parameter Evaluation](fig2.png)
+![Network Topology Analysis Plots](fig3.png)
+![Analysis of network topology for the selection of the soft-thresholding power in WGCNA construction](fig4.png)
 
 **5.4 How many co-expression modules were identified before and after module merging?**  
 Dynamic tree cutting initially identified 40 co-expression modules (excluding the grey module of unassigned transcripts). After merging modules with highly correlated eigengenes using a cut height of 0.25, the final number of modules was reduced to 36.
+![Network topology analysis for soft-threshold selection and subsequent module identification through hierarchical clustering](fig5.png)
 
 **5.5 What is the hub isoform of the cyan module?**  
 The hub isoform of each module was identified based on intramodular connectivity. The hub isoform of the cyan module was:  
 `Bradi1g00700.3`
+![Weighted gene co-expression network analysis (WGCNA) for module identification and hub gene prioritization](fig6.png)
 
 **5.6 Which module shows the highest positive correlation with the blwgrd (below-ground biomass) trait?**  
 The violet module (`MEviolet`) showed the strongest positive association with the blwgrd trait, with a Pearson correlation coefficient of r = 0.64, indicating a strong relationship between this module and below-ground biomass under watered conditions.
+![WGCNA-based identification of co-expression modules and hub genes significantly associated with plant physiological traits](fig7.png)
 
 ## 6. Conclusions
 This analysis successfully identified transcript co-expression modules in watered RNA-seq samples and revealed meaningful associations between specific modules and phenotypic traits. The results highlight candidate modules and hub isoforms potentially involved in biomass-related processes and provide a foundation for further functional and comparative transcriptomic analyses.
